@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762773595716,
+  "lastUpdate": 1762774164208,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -175521,6 +175521,60 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 1961.56,
             "range": "1961.95",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "3da9970aa5774cc181d41bbc743e1344edefb5cc",
+          "message": "Also push elasticAPM-data to new repo and pin ubuntu 24.04",
+          "timestamp": "2025-11-10T10:35:42+01:00",
+          "tree_id": "3fe3ba92dd88ae4fb0022252443601ef3d6f6a89",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/3da9970aa5774cc181d41bbc743e1344edefb5cc"
+        },
+        "date": 1762774164178,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 28.5414,
+            "range": "28.583",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 952.777,
+            "range": "953.723",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 4946.58,
+            "range": "4951.97",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 5108.46,
+            "range": "5111.38",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2153.11,
+            "range": "2155.36",
             "unit": "ns"
           }
         ]
