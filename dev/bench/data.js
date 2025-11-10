@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762770947122,
+  "lastUpdate": 1762771649408,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -70153,6 +70153,54 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2249.09,
             "range": "2250.69",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "3da9970aa5774cc181d41bbc743e1344edefb5cc",
+          "message": "Also push elasticAPM-data to new repo and pin ubuntu 24.04",
+          "timestamp": "2025-11-10T10:35:42+01:00",
+          "tree_id": "3fe3ba92dd88ae4fb0022252443601ef3d6f6a89",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/3da9970aa5774cc181d41bbc743e1344edefb5cc"
+        },
+        "date": 1762771649376,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.6315,
+            "range": "44.6315",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 1521.04,
+            "range": "1522.93",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 2576.71,
+            "range": "2577.48",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2256.64,
+            "range": "2257.12",
             "unit": "ns"
           }
         ]
