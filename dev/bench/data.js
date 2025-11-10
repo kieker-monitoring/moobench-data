@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761659456709,
+  "lastUpdate": 1762770697920,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -70021,6 +70021,54 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2368,
             "range": "2368.69",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "8ecb63750b7fd722beb5d24c6e1d2a5a2c2dc6e1",
+          "message": "Also push Otel-data to new repo and pin ubuntu 24.04",
+          "timestamp": "2025-11-10T10:31:04+01:00",
+          "tree_id": "ca03d20d5cb362768a2a5aff9f69874ad151942e",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/8ecb63750b7fd722beb5d24c6e1d2a5a2c2dc6e1"
+        },
+        "date": 1762770697888,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.6617,
+            "range": "44.6618",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 1480.04,
+            "range": "1480.81",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 2517.64,
+            "range": "2517.86",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2305.78,
+            "range": "2307.9",
             "unit": "ns"
           }
         ]
