@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762771829952,
-  "repoUrl": "https://github.com/kieker-monitoring/moobench-push-test",
+  "lastUpdate": 1762773595716,
+  "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
       {
@@ -175467,6 +175467,60 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 1978.92,
             "range": "1979.37",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "0a3cf022e015c0ae59a80f5a028fc9307225ac4a",
+          "message": "Also push inspectIT-data to new repo and pin ubuntu 24.04",
+          "timestamp": "2025-11-10T10:32:36+01:00",
+          "tree_id": "40ed46f5c150d6c32de95b787c91c0bc3a168938",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/0a3cf022e015c0ae59a80f5a028fc9307225ac4a"
+        },
+        "date": 1762773595685,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.675,
+            "range": "44.6751",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 795.516,
+            "range": "798.112",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 4867.8,
+            "range": "4868.96",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 5088.84,
+            "range": "5092.21",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 1961.56,
+            "range": "1961.95",
             "unit": "ns"
           }
         ]
