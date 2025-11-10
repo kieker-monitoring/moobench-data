@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762803092840,
+  "lastUpdate": 1762803128030,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -70475,6 +70475,54 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2253.38,
             "range": "2254.29",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "da3c9648e1bce94ab0eaf0d72ae8c1aaa014a692",
+          "message": "Also update pinpoint-java",
+          "timestamp": "2025-11-10T19:29:03+01:00",
+          "tree_id": "2988ee2ccefefc403f322ee36ee081ab84be1286",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/da3c9648e1bce94ab0eaf0d72ae8c1aaa014a692"
+        },
+        "date": 1762803127997,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.6597,
+            "range": "44.6598",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 1483.9,
+            "range": "1485.45",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 2541.31,
+            "range": "2542.4",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2224.21,
+            "range": "2225.45",
             "unit": "ns"
           }
         ]
