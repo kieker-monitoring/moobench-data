@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762771649408,
-  "repoUrl": "https://github.com/kieker-monitoring/moobench",
+  "lastUpdate": 1762771829952,
+  "repoUrl": "https://github.com/kieker-monitoring/moobench-push-test",
   "entries": {
     "Kieker-java": [
       {
@@ -36619,6 +36619,42 @@ window.BENCHMARK_DATA = {
             "name": "Binary file",
             "value": 2499.03,
             "range": "2506.46",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "0c8b8f194a56b6a176b073720927802fd4460328",
+          "message": "Remove cron for moobench-push-test",
+          "timestamp": "2025-11-10T11:46:48+01:00",
+          "tree_id": "fe053a5367eaf49107a81e6b515dfa563958f43a",
+          "url": "https://github.com/kieker-monitoring/moobench-push-test/commit/0c8b8f194a56b6a176b073720927802fd4460328"
+        },
+        "date": 1762771829923,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 55.5938,
+            "range": "55.5939",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary file",
+            "value": 2823.69,
+            "range": "2837.39",
             "unit": "ns"
           }
         ]
