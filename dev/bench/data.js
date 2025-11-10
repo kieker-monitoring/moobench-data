@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762774164208,
+  "lastUpdate": 1762783024311,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -36655,6 +36655,52 @@ window.BENCHMARK_DATA = {
             "name": "Binary file",
             "value": 2823.69,
             "range": "2837.39",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "3da9970aa5774cc181d41bbc743e1344edefb5cc",
+          "message": "Also push elasticAPM-data to new repo and pin ubuntu 24.04",
+          "timestamp": "2025-11-10T09:35:42Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/3da9970aa5774cc181d41bbc743e1344edefb5cc"
+        },
+        "date": 1762783024279,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.6625,
+            "range": "44.6625",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 48.8114,
+            "range": "48.8115",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 464.288,
+            "range": "464.327",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary file",
+            "value": 997.75,
+            "range": "998.019",
             "unit": "ns"
           }
         ]
