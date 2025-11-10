@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762770697920,
-  "repoUrl": "https://github.com/kieker-monitoring/moobench",
+  "lastUpdate": 1762770702688,
+  "repoUrl": "https://github.com/kieker-monitoring/moobench-push-test",
   "entries": {
     "Kieker-java": [
       {
@@ -36583,6 +36583,42 @@ window.BENCHMARK_DATA = {
             "name": "Binary file",
             "value": 1306.99,
             "range": "1307.42",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "0b523097abf360936b2d65e068ff1ffd6f7e074e",
+          "message": "Add Otel workflow for testing",
+          "timestamp": "2025-11-10T11:27:57+01:00",
+          "tree_id": "4d71294b27bc3e5320bed84c593fe8f404187026",
+          "url": "https://github.com/kieker-monitoring/moobench-push-test/commit/0b523097abf360936b2d65e068ff1ffd6f7e074e"
+        },
+        "date": 1762770702659,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 55.748,
+            "range": "55.7579",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary file",
+            "value": 2499.03,
+            "range": "2506.46",
             "unit": "ns"
           }
         ]
