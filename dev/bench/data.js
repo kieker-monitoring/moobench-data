@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762770702688,
-  "repoUrl": "https://github.com/kieker-monitoring/moobench-push-test",
+  "lastUpdate": 1762770947122,
+  "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
       {
@@ -70105,6 +70105,54 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2305.78,
             "range": "2307.9",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "0a3cf022e015c0ae59a80f5a028fc9307225ac4a",
+          "message": "Also push inspectIT-data to new repo and pin ubuntu 24.04",
+          "timestamp": "2025-11-10T10:32:36+01:00",
+          "tree_id": "40ed46f5c150d6c32de95b787c91c0bc3a168938",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/0a3cf022e015c0ae59a80f5a028fc9307225ac4a"
+        },
+        "date": 1762770947090,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.6714,
+            "range": "44.6714",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 1504.99,
+            "range": "1507.32",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 2523.89,
+            "range": "2524.48",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2249.09,
+            "range": "2250.69",
             "unit": "ns"
           }
         ]
