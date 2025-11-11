@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762854431964,
+  "lastUpdate": 1762854620115,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -70903,6 +70903,54 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2250.47,
             "range": "2251.55",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "fe6dd19c63d5782c64ad83e7a065de6c53723475",
+          "message": "Update to gradle wrapper 9.2.0",
+          "timestamp": "2025-11-11T09:50:14+01:00",
+          "tree_id": "f8764c492322134a7424b9f4a93accf1d8bf5306",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/fe6dd19c63d5782c64ad83e7a065de6c53723475"
+        },
+        "date": 1762854620084,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.6315,
+            "range": "44.6315",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 1497.08,
+            "range": "1498.45",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 2568.04,
+            "range": "2568.83",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2228.79,
+            "range": "2229.93",
             "unit": "ns"
           }
         ]
