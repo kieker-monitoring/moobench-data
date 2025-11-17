@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763330615530,
+  "lastUpdate": 1763353374533,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -195605,6 +195605,46 @@ window.BENCHMARK_DATA = {
             "name": "Disabled Profiling",
             "value": 10134,
             "range": "10135.2",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "51f12df252acccb3f1d5c6a86c7c85b0af9d49b2",
+          "message": "Reintegrate scouter",
+          "timestamp": "2025-11-16T19:57:03Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/51f12df252acccb3f1d5c6a86c7c85b0af9d49b2"
+        },
+        "date": 1763353374502,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.6614,
+            "range": "44.6614",
+            "unit": "ns"
+          },
+          {
+            "name": "Instrumentation and Profiling",
+            "value": 11864.3,
+            "range": "11866.1",
+            "unit": "ns"
+          },
+          {
+            "name": "Disabled Profiling",
+            "value": 10325.9,
+            "range": "10327.2",
             "unit": "ns"
           }
         ]
