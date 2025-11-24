@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763997356076,
+  "lastUpdate": 1763997632926,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -72675,6 +72675,54 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2282.46,
             "range": "2283.67",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "08b43976749f58b19bb516d439ef6b7420d58868",
+          "message": "Update to gradlew 9.2.1",
+          "timestamp": "2025-11-24T15:20:11+01:00",
+          "tree_id": "7280377ef84d3490caa4b7213c70750015ddd4b3",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/08b43976749f58b19bb516d439ef6b7420d58868"
+        },
+        "date": 1763997632893,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.652,
+            "range": "44.6521",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 1573.22,
+            "range": "1574.21",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 2550.82,
+            "range": "2552.8",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2306.87,
+            "range": "2307.63",
             "unit": "ns"
           }
         ]
