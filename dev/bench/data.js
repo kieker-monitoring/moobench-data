@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763996720428,
+  "lastUpdate": 1763997057892,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -72627,6 +72627,54 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2435.62,
             "range": "2436.11",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "175e234be5a21008c9a7d10d3720ecf36ad33114",
+          "message": "Add zipkin+cassandra option",
+          "timestamp": "2025-11-24T14:37:55+01:00",
+          "tree_id": "e26326a67146370647e9ceb2550359741b519ad6",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/175e234be5a21008c9a7d10d3720ecf36ad33114"
+        },
+        "date": 1763997057857,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.6575,
+            "range": "44.6576",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 1592.9,
+            "range": "1594.46",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 2591.19,
+            "range": "2593.1",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2282.46,
+            "range": "2283.67",
             "unit": "ns"
           }
         ]
