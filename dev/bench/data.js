@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763981138574,
+  "lastUpdate": 1763981656086,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -154699,6 +154699,54 @@ window.BENCHMARK_DATA = {
             "name": "Writing without sanitizing fields",
             "value": 3151.97,
             "range": "3216.41",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "9e2653ea7ee12552ffa2b5b66471be23d92bf407",
+          "message": "Also push Skywalking-java to the new repo",
+          "timestamp": "2025-11-24T10:57:07+01:00",
+          "tree_id": "0ace3d3e048d2d98a2b0bf49de1d9a4f0588f990",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/9e2653ea7ee12552ffa2b5b66471be23d92bf407"
+        },
+        "date": 1763981656053,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.6379,
+            "range": "44.6379",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 144.317,
+            "range": "144.42",
+            "unit": "ns"
+          },
+          {
+            "name": "Regular Writing",
+            "value": 3586.33,
+            "range": "3671.34",
+            "unit": "ns"
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 3419.32,
+            "range": "3528.9",
             "unit": "ns"
           }
         ]
