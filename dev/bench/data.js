@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763998802422,
+  "lastUpdate": 1763998906329,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -197197,6 +197197,54 @@ window.BENCHMARK_DATA = {
             "name": "Pinpoint Sampling",
             "value": 2052.23,
             "range": "2064",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "175e234be5a21008c9a7d10d3720ecf36ad33114",
+          "message": "Add zipkin+cassandra option",
+          "timestamp": "2025-11-24T14:37:55+01:00",
+          "tree_id": "e26326a67146370647e9ceb2550359741b519ad6",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/175e234be5a21008c9a7d10d3720ecf36ad33114"
+        },
+        "date": 1763998906297,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.6494,
+            "range": "44.6495",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Deactivated",
+            "value": 46.9361,
+            "range": "47.1896",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Basic",
+            "value": 4309.16,
+            "range": "4352.08",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Sampling",
+            "value": 2354.7,
+            "range": "2427.55",
             "unit": "ns"
           }
         ]
