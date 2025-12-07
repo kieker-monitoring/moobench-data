@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1765083139017,
+  "lastUpdate": 1765086004148,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -183509,6 +183509,58 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 1952.87,
             "range": "1954.58",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "a0996b23c15a3a0c1487a3409e3e780b19f87e8e",
+          "message": "Fix check",
+          "timestamp": "2025-11-24T14:59:30Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/a0996b23c15a3a0c1487a3409e3e780b19f87e8e"
+        },
+        "date": 1765086004116,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.6548,
+            "range": "44.6548",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 829.961,
+            "range": "830.314",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 4843.74,
+            "range": "4845.95",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 5114.75,
+            "range": "5116.1",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 1947.16,
+            "range": "1947.97",
             "unit": "ns"
           }
         ]
