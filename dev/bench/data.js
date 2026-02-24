@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771911400044,
+  "lastUpdate": 1771912054431,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -165403,6 +165403,52 @@ window.BENCHMARK_DATA = {
             "name": "Writing without sanitizing fields",
             "value": 4153.95,
             "range": "4222.51",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "4c699ccb82fd58f10ef37e1aea069f461a4eff5d",
+          "message": "Merge pull request #43 from shinhyungyang/upstream\n\nPass the current user id as a build argument to Dockerfile",
+          "timestamp": "2026-02-23T14:12:02Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/4c699ccb82fd58f10ef37e1aea069f461a4eff5d"
+        },
+        "date": 1771912054398,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 28.4364,
+            "range": "28.4963",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 154.737,
+            "range": "154.755",
+            "unit": "ns"
+          },
+          {
+            "name": "Regular Writing",
+            "value": 4297.17,
+            "range": "4368.85",
+            "unit": "ns"
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 4202.68,
+            "range": "4274.04",
             "unit": "ns"
           }
         ]
