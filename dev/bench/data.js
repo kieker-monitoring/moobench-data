@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771931350742,
+  "lastUpdate": 1771931504440,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -165497,6 +165497,54 @@ window.BENCHMARK_DATA = {
             "name": "Writing without sanitizing fields",
             "value": 4202.68,
             "range": "4274.04",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "df6dc6194becba2349e716836b17f411997d6758",
+          "message": "Merge pull request #44 from Marcel-Ha/update-skywalking-10-3\n\nSkywalking: Update versions",
+          "timestamp": "2026-02-24T11:15:33+01:00",
+          "tree_id": "92513d82485abe53b3849db41085c66219c89d93",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/df6dc6194becba2349e716836b17f411997d6758"
+        },
+        "date": 1771931504406,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 28.853,
+            "range": "28.9575",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 152.329,
+            "range": "153.017",
+            "unit": "ns"
+          },
+          {
+            "name": "Regular Writing",
+            "value": 4270.82,
+            "range": "4362.46",
+            "unit": "ns"
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 4189.23,
+            "range": "4271.44",
             "unit": "ns"
           }
         ]
