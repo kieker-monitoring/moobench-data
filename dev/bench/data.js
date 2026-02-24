@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771952437409,
+  "lastUpdate": 1771952566445,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -165641,6 +165641,54 @@ window.BENCHMARK_DATA = {
             "name": "Writing without sanitizing fields",
             "value": 4189.23,
             "range": "4271.44",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "5e5b31920538b8f411517ab1891458ca1c310bbe",
+          "message": "Specify formatting",
+          "timestamp": "2026-02-24T17:05:33+01:00",
+          "tree_id": "3b55b70a0d371b911d0b790161cdd4d57ca1d943",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/5e5b31920538b8f411517ab1891458ca1c310bbe"
+        },
+        "date": 1771952566410,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.6212,
+            "range": "44.6213",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 145.074,
+            "range": "145.113",
+            "unit": "ns"
+          },
+          {
+            "name": "Regular Writing",
+            "value": 3567.3,
+            "range": "3662.32",
+            "unit": "ns"
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 3343.68,
+            "range": "3423.83",
             "unit": "ns"
           }
         ]
