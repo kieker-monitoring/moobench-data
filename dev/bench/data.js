@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1772254472721,
+  "lastUpdate": 1772254870486,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -41615,6 +41615,52 @@ window.BENCHMARK_DATA = {
             "name": "Binary file",
             "value": 1076.5,
             "range": "1076.89",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "97dbb904129d36a4a5726df06c0f6b805684a7b8",
+          "message": "Adapt analysis scripts formatting",
+          "timestamp": "2026-02-24T16:19:55Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/97dbb904129d36a4a5726df06c0f6b805684a7b8"
+        },
+        "date": 1772254870451,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.6948,
+            "range": "44.695",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 48.9322,
+            "range": "48.9325",
+            "unit": "ns"
+          },
+          {
+            "name": "No collection",
+            "value": 467.622,
+            "range": "467.709",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary file",
+            "value": 1058.7,
+            "range": "1059.49",
             "unit": "ns"
           }
         ]
