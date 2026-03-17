@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773769887064,
+  "lastUpdate": 1773770172376,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -42587,6 +42587,54 @@ window.BENCHMARK_DATA = {
             "name": "Binary file",
             "value": 1080.39,
             "range": "1081.53",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "41b0a89280dc9f002d24e08d9c23564ced968c68",
+          "message": "Merge pull request #42 from FeritBaturAltinn/clean-submission\n\nsupport opentelemetry python",
+          "timestamp": "2026-03-17T18:08:06+01:00",
+          "tree_id": "7b6825eb31896beea6e78947df292ad541dc7e90",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/41b0a89280dc9f002d24e08d9c23564ced968c68"
+        },
+        "date": 1773770172339,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.6974,
+            "range": "44.6975",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 48.8622,
+            "range": "48.8624",
+            "unit": "ns"
+          },
+          {
+            "name": "No collection",
+            "value": 463.899,
+            "range": "463.91",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary file",
+            "value": 1060.23,
+            "range": "1061.78",
             "unit": "ns"
           }
         ]
