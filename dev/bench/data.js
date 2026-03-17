@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773770743025,
+  "lastUpdate": 1773775040514,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -218265,6 +218265,54 @@ window.BENCHMARK_DATA = {
             "name": "Pinpoint Sampling",
             "value": 2331.54,
             "range": "2367.66",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "41b0a89280dc9f002d24e08d9c23564ced968c68",
+          "message": "Merge pull request #42 from FeritBaturAltinn/clean-submission\n\nsupport opentelemetry python",
+          "timestamp": "2026-03-17T18:08:06+01:00",
+          "tree_id": "7b6825eb31896beea6e78947df292ad541dc7e90",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/41b0a89280dc9f002d24e08d9c23564ced968c68"
+        },
+        "date": 1773775040477,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 47.7756,
+            "range": "47.776",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Deactivated",
+            "value": 47.984,
+            "range": "47.9844",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Basic",
+            "value": 5050.72,
+            "range": "5097.4",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Sampling",
+            "value": 2843.22,
+            "range": "2891.86",
             "unit": "ns"
           }
         ]
