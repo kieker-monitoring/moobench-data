@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773775040514,
+  "lastUpdate": 1773811982223,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -225269,6 +225269,70 @@ window.BENCHMARK_DATA = {
             "name": "Binary TCP - B",
             "value": 368.231,
             "range": "368.301",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "41b0a89280dc9f002d24e08d9c23564ced968c68",
+          "message": "Merge pull request #42 from FeritBaturAltinn/clean-submission\n\nsupport opentelemetry python",
+          "timestamp": "2026-03-17T17:08:06Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/41b0a89280dc9f002d24e08d9c23564ced968c68"
+        },
+        "date": 1773811982187,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 368.047,
+            "range": "368.109",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe - A",
+            "value": 362.688,
+            "range": "362.773",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe - B",
+            "value": 365.914,
+            "range": "365.953",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging - A",
+            "value": 366.161,
+            "range": "366.259",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging - B",
+            "value": 366.815,
+            "range": "366.972",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary TCP - A",
+            "value": 364.733,
+            "range": "364.79",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary TCP - B",
+            "value": 367.087,
+            "range": "367.185",
             "unit": "ns"
           }
         ]
