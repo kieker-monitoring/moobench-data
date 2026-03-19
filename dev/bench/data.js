@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773934547323,
+  "lastUpdate": 1773935446983,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -168667,6 +168667,54 @@ window.BENCHMARK_DATA = {
             "name": "Writing without sanitizing fields",
             "value": 3408.29,
             "range": "3504.03",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "7dd1733daf33e02d2adc772a84e43501f9ba8a14",
+          "message": "Fix pinpint formatting",
+          "timestamp": "2026-03-19T15:29:55+01:00",
+          "tree_id": "332999c08f58432d851779691266014a3a65d9c7",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/7dd1733daf33e02d2adc772a84e43501f9ba8a14"
+        },
+        "date": 1773935446950,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 28.5161,
+            "range": "28.5739",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 151.094,
+            "range": "151.3",
+            "unit": "ns"
+          },
+          {
+            "name": "Regular Writing",
+            "value": 4101.85,
+            "range": "4199.41",
+            "unit": "ns"
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 4055.59,
+            "range": "4146.74",
             "unit": "ns"
           }
         ]
