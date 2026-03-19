@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773933525496,
+  "lastUpdate": 1773933780600,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -168427,6 +168427,54 @@ window.BENCHMARK_DATA = {
             "name": "Writing without sanitizing fields",
             "value": 3472.64,
             "range": "3537.44",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ef440b8e02f02b0fb583d8a07ff43f1ce6e01243",
+          "message": "Merge pull request #46 from LatifGuliyev/fix/macos-receiver-port-check\n\nfix(Kieker-java): add macOS fallback for receiver port check",
+          "timestamp": "2026-03-19T15:26:29+01:00",
+          "tree_id": "4f6aa4c40b7e09d6d251504618ebe3188e319497",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/ef440b8e02f02b0fb583d8a07ff43f1ce6e01243"
+        },
+        "date": 1773933780563,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 45.0461,
+            "range": "45.0544",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 142.465,
+            "range": "143.277",
+            "unit": "ns"
+          },
+          {
+            "name": "Regular Writing",
+            "value": 3759.51,
+            "range": "3792.31",
+            "unit": "ns"
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 3403.64,
+            "range": "3496.76",
             "unit": "ns"
           }
         ]
