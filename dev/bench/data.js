@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773938152155,
+  "lastUpdate": 1773938337827,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -219021,6 +219021,54 @@ window.BENCHMARK_DATA = {
             "name": "Pinpoint Sampling",
             "value": 2927.83,
             "range": "2990.11",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "5c6e00ef3303cff3ebb6b8e2af9e7b5a645eba14",
+          "message": "Fix shfmt for OpenTelemetry-java",
+          "timestamp": "2026-03-19T15:28:54+01:00",
+          "tree_id": "59b063b985f8239e8a2b3dd06b3da5594e2fe67d",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/5c6e00ef3303cff3ebb6b8e2af9e7b5a645eba14"
+        },
+        "date": 1773938337791,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.6589,
+            "range": "44.6589",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Deactivated",
+            "value": 49.9029,
+            "range": "50.571",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Basic",
+            "value": 5315.81,
+            "range": "5341.47",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Sampling",
+            "value": 2993.41,
+            "range": "3100.21",
             "unit": "ns"
           }
         ]
