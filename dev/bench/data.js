@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773984270339,
+  "lastUpdate": 1773984677255,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -42919,6 +42919,52 @@ window.BENCHMARK_DATA = {
             "name": "Binary file",
             "value": 1037.2,
             "range": "1037.54",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "7dd1733daf33e02d2adc772a84e43501f9ba8a14",
+          "message": "Fix pinpint formatting",
+          "timestamp": "2026-03-19T14:29:55Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/7dd1733daf33e02d2adc772a84e43501f9ba8a14"
+        },
+        "date": 1773984677218,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.6704,
+            "range": "44.6705",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 48.8128,
+            "range": "48.813",
+            "unit": "ns"
+          },
+          {
+            "name": "No collection",
+            "value": 463.424,
+            "range": "463.433",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary file",
+            "value": 1063.85,
+            "range": "1064.53",
             "unit": "ns"
           }
         ]
