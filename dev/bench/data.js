@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773984677255,
+  "lastUpdate": 1773985342696,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -168761,6 +168761,52 @@ window.BENCHMARK_DATA = {
             "name": "Writing without sanitizing fields",
             "value": 4055.59,
             "range": "4146.74",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "7dd1733daf33e02d2adc772a84e43501f9ba8a14",
+          "message": "Fix pinpint formatting",
+          "timestamp": "2026-03-19T14:29:55Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/7dd1733daf33e02d2adc772a84e43501f9ba8a14"
+        },
+        "date": 1773985342660,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.7212,
+            "range": "44.7214",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 144.335,
+            "range": "144.428",
+            "unit": "ns"
+          },
+          {
+            "name": "Regular Writing",
+            "value": 3334.38,
+            "range": "3430.2",
+            "unit": "ns"
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 3211.58,
+            "range": "3286.75",
             "unit": "ns"
           }
         ]
