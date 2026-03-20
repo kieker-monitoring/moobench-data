@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774000595763,
+  "lastUpdate": 1774000642407,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -169095,6 +169095,54 @@ window.BENCHMARK_DATA = {
             "name": "Writing without sanitizing fields",
             "value": 3327.63,
             "range": "3402.06",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "80ce428832dcba67ccd482b5f2546d05b0d03115",
+          "message": "Formatting analyseRAM, Kieker-python, OpenTelemetry-python",
+          "timestamp": "2026-03-20T09:54:15+01:00",
+          "tree_id": "6b124f9eb9580e590578292d9dba693969903181",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/80ce428832dcba67ccd482b5f2546d05b0d03115"
+        },
+        "date": 1774000642368,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.6927,
+            "range": "44.6927",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 130.005,
+            "range": "131.258",
+            "unit": "ns"
+          },
+          {
+            "name": "Regular Writing",
+            "value": 2985.77,
+            "range": "3037.46",
+            "unit": "ns"
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 3181.42,
+            "range": "3232.75",
             "unit": "ns"
           }
         ]
