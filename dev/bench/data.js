@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774004467985,
+  "lastUpdate": 1774004485241,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -219829,6 +219829,54 @@ window.BENCHMARK_DATA = {
             "name": "Pinpoint Sampling",
             "value": 3165.55,
             "range": "3219.58",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "80ce428832dcba67ccd482b5f2546d05b0d03115",
+          "message": "Formatting analyseRAM, Kieker-python, OpenTelemetry-python",
+          "timestamp": "2026-03-20T09:54:15+01:00",
+          "tree_id": "6b124f9eb9580e590578292d9dba693969903181",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/80ce428832dcba67ccd482b5f2546d05b0d03115"
+        },
+        "date": 1774004485204,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.6991,
+            "range": "44.6992",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Deactivated",
+            "value": 48.7125,
+            "range": "49.4429",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Basic",
+            "value": 5042.51,
+            "range": "5064.78",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Sampling",
+            "value": 2991.22,
+            "range": "3064.92",
             "unit": "ns"
           }
         ]
