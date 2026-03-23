@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774244388010,
+  "lastUpdate": 1774244830881,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -43297,6 +43297,52 @@ window.BENCHMARK_DATA = {
             "name": "Binary file",
             "value": 1083.07,
             "range": "1085.26",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "ad0ace031d7e02411aeb455f8a39afadab95da97",
+          "message": "Update to gradlew 9.4.1",
+          "timestamp": "2026-03-21T11:14:19Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/ad0ace031d7e02411aeb455f8a39afadab95da97"
+        },
+        "date": 1774244830841,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.6714,
+            "range": "44.6715",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 49.0739,
+            "range": "49.0811",
+            "unit": "ns"
+          },
+          {
+            "name": "No collection",
+            "value": 465.12,
+            "range": "465.146",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary file",
+            "value": 1064.64,
+            "range": "1064.88",
             "unit": "ns"
           }
         ]
