@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774676963676,
+  "lastUpdate": 1774679811719,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -199751,6 +199751,58 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 1987.49,
             "range": "1988.8",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "ad0ace031d7e02411aeb455f8a39afadab95da97",
+          "message": "Update to gradlew 9.4.1",
+          "timestamp": "2026-03-21T11:14:19Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/ad0ace031d7e02411aeb455f8a39afadab95da97"
+        },
+        "date": 1774679811679,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 45.0139,
+            "range": "45.0154",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 815.705,
+            "range": "817.214",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 4926.7,
+            "range": "4927.34",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 5080.1,
+            "range": "5080.51",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2031.5,
+            "range": "2035.15",
             "unit": "ns"
           }
         ]
