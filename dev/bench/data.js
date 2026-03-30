@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774907779852,
+  "lastUpdate": 1774907955944,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -171143,6 +171143,54 @@ window.BENCHMARK_DATA = {
             "name": "Writing without sanitizing fields",
             "value": 3372.01,
             "range": "3497.13",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "316212fb2094016f1291f07d1aa59a0340827885",
+          "message": "Add sleep to skywalking",
+          "timestamp": "2026-03-30T23:00:06+02:00",
+          "tree_id": "c9fffa878ab7cc68c2d2a2dd39a87464cadbdce6",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/316212fb2094016f1291f07d1aa59a0340827885"
+        },
+        "date": 1774907955907,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.8942,
+            "range": "44.8944",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 145.812,
+            "range": "145.902",
+            "unit": "ns"
+          },
+          {
+            "name": "Regular Writing",
+            "value": 3374.64,
+            "range": "3454.56",
+            "unit": "ns"
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 3614.73,
+            "range": "3697.73",
             "unit": "ns"
           }
         ]
