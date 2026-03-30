@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774910648382,
+  "lastUpdate": 1774911507138,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -200865,6 +200865,60 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 1963.79,
             "range": "1965.2",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "316212fb2094016f1291f07d1aa59a0340827885",
+          "message": "Add sleep to skywalking",
+          "timestamp": "2026-03-30T23:00:06+02:00",
+          "tree_id": "c9fffa878ab7cc68c2d2a2dd39a87464cadbdce6",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/316212fb2094016f1291f07d1aa59a0340827885"
+        },
+        "date": 1774911507101,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.92,
+            "range": "44.9201",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 800.693,
+            "range": "803.279",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 4877.18,
+            "range": "4878.08",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 5107.89,
+            "range": "5110.74",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 1968.61,
+            "range": "1969.75",
             "unit": "ns"
           }
         ]
