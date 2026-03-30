@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774870628807,
+  "lastUpdate": 1774870961318,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -43665,6 +43665,54 @@ window.BENCHMARK_DATA = {
             "name": "Binary file",
             "value": 1005.31,
             "range": "1006.21",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "8f8c5107c96992e6707abd7bf8b3ed2a5a60130f",
+          "message": "Add script to get standard deviations",
+          "timestamp": "2026-03-30T12:54:45+02:00",
+          "tree_id": "ad2cff05afdfd31ef91f24ac794dc0437a642b25",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/8f8c5107c96992e6707abd7bf8b3ed2a5a60130f"
+        },
+        "date": 1774870961275,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9235,
+            "range": "44.9237",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 49.2271,
+            "range": "49.2274",
+            "unit": "ns"
+          },
+          {
+            "name": "No collection",
+            "value": 474.19,
+            "range": "474.282",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary file",
+            "value": 1023.17,
+            "range": "1024.13",
             "unit": "ns"
           }
         ]
