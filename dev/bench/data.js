@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774908439728,
+  "lastUpdate": 1774908583973,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -171335,6 +171335,54 @@ window.BENCHMARK_DATA = {
             "name": "Writing without sanitizing fields",
             "value": 3614.73,
             "range": "3697.73",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "a14fce3ff747aa73b6faf27f82cce7fd30eff6be",
+          "message": "Update banyandb to 0.10.0",
+          "timestamp": "2026-03-30T23:05:47+02:00",
+          "tree_id": "b8405b0f45a82bbb8deaf39908dd6353d235dbdc",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/a14fce3ff747aa73b6faf27f82cce7fd30eff6be"
+        },
+        "date": 1774908583936,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.933,
+            "range": "44.9332",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 145.297,
+            "range": "145.37",
+            "unit": "ns"
+          },
+          {
+            "name": "Regular Writing",
+            "value": 3030.65,
+            "range": "3111.97",
+            "unit": "ns"
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 3241.3,
+            "range": "3321.39",
             "unit": "ns"
           }
         ]
