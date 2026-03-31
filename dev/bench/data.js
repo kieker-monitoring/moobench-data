@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774936199192,
+  "lastUpdate": 1774936933634,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -82259,6 +82259,52 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2395.82,
             "range": "2396.74",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "a14fce3ff747aa73b6faf27f82cce7fd30eff6be",
+          "message": "Update banyandb to 0.10.0",
+          "timestamp": "2026-03-30T21:05:40Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/a14fce3ff747aa73b6faf27f82cce7fd30eff6be"
+        },
+        "date": 1774936933604,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.8779,
+            "range": "44.878",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 1595.37,
+            "range": "1596.77",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 2716.56,
+            "range": "2717.76",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2383.08,
+            "range": "2383.63",
             "unit": "ns"
           }
         ]
