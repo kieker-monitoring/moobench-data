@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774969750912,
+  "lastUpdate": 1774970030496,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -224439,6 +224439,54 @@ window.BENCHMARK_DATA = {
             "name": "Pinpoint Sampling",
             "value": 3184.62,
             "range": "3360.93",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "6a28d9ac8ca912b44f7e5316fe60d55a9b480e23",
+          "message": "Update to jcommander 1.85",
+          "timestamp": "2026-03-31T15:05:00+02:00",
+          "tree_id": "288587a120aab473d4b46deaa49f78f4cdec8659",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/6a28d9ac8ca912b44f7e5316fe60d55a9b480e23"
+        },
+        "date": 1774970030460,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9286,
+            "range": "44.9287",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Deactivated",
+            "value": 45.136,
+            "range": "45.1363",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Basic",
+            "value": 5030.2,
+            "range": "5125.28",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Sampling",
+            "value": 3056.05,
+            "range": "3137.66",
             "unit": "ns"
           }
         ]
