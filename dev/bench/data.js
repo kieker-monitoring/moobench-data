@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774966162354,
+  "lastUpdate": 1774966549818,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -82497,6 +82497,54 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2391.09,
             "range": "2391.82",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "6a28d9ac8ca912b44f7e5316fe60d55a9b480e23",
+          "message": "Update to jcommander 1.85",
+          "timestamp": "2026-03-31T15:05:00+02:00",
+          "tree_id": "288587a120aab473d4b46deaa49f78f4cdec8659",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/6a28d9ac8ca912b44f7e5316fe60d55a9b480e23"
+        },
+        "date": 1774966549782,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 47.9011,
+            "range": "47.9011",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 1537.19,
+            "range": "1537.47",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 2539.12,
+            "range": "2540.14",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2284.23,
+            "range": "2286.51",
             "unit": "ns"
           }
         ]
