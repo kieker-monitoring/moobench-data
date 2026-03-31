@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774935966026,
+  "lastUpdate": 1774936199192,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -43857,6 +43857,52 @@ window.BENCHMARK_DATA = {
             "name": "Binary file",
             "value": 1032.12,
             "range": "1032.59",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "a14fce3ff747aa73b6faf27f82cce7fd30eff6be",
+          "message": "Update banyandb to 0.10.0",
+          "timestamp": "2026-03-30T21:05:40Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/a14fce3ff747aa73b6faf27f82cce7fd30eff6be"
+        },
+        "date": 1774936199166,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 28.919,
+            "range": "28.975",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 39.0965,
+            "range": "39.1078",
+            "unit": "ns"
+          },
+          {
+            "name": "No collection",
+            "value": 439.934,
+            "range": "439.961",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary file",
+            "value": 1204.88,
+            "range": "1207.79",
             "unit": "ns"
           }
         ]
