@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775024142813,
+  "lastUpdate": 1775024453092,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -172045,6 +172045,52 @@ window.BENCHMARK_DATA = {
             "name": "Writing without sanitizing fields",
             "value": 3518.12,
             "range": "3616.71",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "b7b1ce0756585cd395a9b740d009356f360faef6",
+          "message": "Update to jcommander 3.0",
+          "timestamp": "2026-03-31T13:05:38Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/b7b1ce0756585cd395a9b740d009356f360faef6"
+        },
+        "date": 1775024453062,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 45.0691,
+            "range": "45.0744",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 143.931,
+            "range": "143.959",
+            "unit": "ns"
+          },
+          {
+            "name": "Regular Writing",
+            "value": 3623.73,
+            "range": "3723.54",
+            "unit": "ns"
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 3334.59,
+            "range": "3392.39",
             "unit": "ns"
           }
         ]
