@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775082033603,
+  "lastUpdate": 1775083891305,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -202781,6 +202781,60 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2002.14,
             "range": "2004.18",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "072f0a40c4f41dc048f2aface15ad2b317ceff8f",
+          "message": "Revert \"Update to pinpoint 3.0.4\"\n\nThis reverts commit 995899a2cb5aefd9d45e5d0be2ccf0a1790e771d.",
+          "timestamp": "2026-04-01T22:39:40+02:00",
+          "tree_id": "d20752060f5ceb557f9b5ab85b28301b37b1999c",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/072f0a40c4f41dc048f2aface15ad2b317ceff8f"
+        },
+        "date": 1775083891269,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 43.3652,
+            "range": "43.3929",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 749.823,
+            "range": "750.969",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 4689.39,
+            "range": "4690.09",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 4973.6,
+            "range": "4975.59",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 1887.41,
+            "range": "1888.42",
             "unit": "ns"
           }
         ]
