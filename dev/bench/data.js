@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775024453092,
+  "lastUpdate": 1775027327988,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -201895,6 +201895,58 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2020.7,
             "range": "2022.16",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "b7b1ce0756585cd395a9b740d009356f360faef6",
+          "message": "Update to jcommander 3.0",
+          "timestamp": "2026-03-31T13:05:38Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/b7b1ce0756585cd395a9b740d009356f360faef6"
+        },
+        "date": 1775027327957,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 45.0599,
+            "range": "45.0639",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 794.672,
+            "range": "796.465",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 4936.53,
+            "range": "4937.12",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 5200.84,
+            "range": "5201.32",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2000.85,
+            "range": "2001.67",
             "unit": "ns"
           }
         ]
