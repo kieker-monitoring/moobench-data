@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775079078676,
+  "lastUpdate": 1775079147279,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -234497,6 +234497,72 @@ window.BENCHMARK_DATA = {
             "name": "Binary TCP - B",
             "value": 364.33,
             "range": "364.353",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "0467717c23fdb42830a5f363cb8d474ff7b43043",
+          "message": "Remove unused versions",
+          "timestamp": "2026-04-01T22:31:31+02:00",
+          "tree_id": "a6fae8d30b87e9907105dc54593ab7e6a379a52e",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/0467717c23fdb42830a5f363cb8d474ff7b43043"
+        },
+        "date": 1775079147244,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 361.792,
+            "range": "361.819",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe - A",
+            "value": 363.27,
+            "range": "363.298",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe - B",
+            "value": 363.177,
+            "range": "363.23",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging - A",
+            "value": 375.488,
+            "range": "380.667",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging - B",
+            "value": 361.256,
+            "range": "361.263",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary TCP - A",
+            "value": 367.69,
+            "range": "367.765",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary TCP - B",
+            "value": 366.563,
+            "range": "366.657",
             "unit": "ns"
           }
         ]
