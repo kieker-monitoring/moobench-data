@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775078563023,
+  "lastUpdate": 1775078869826,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -172331,6 +172331,54 @@ window.BENCHMARK_DATA = {
             "name": "Writing without sanitizing fields",
             "value": 3327.28,
             "range": "3460.75",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "995899a2cb5aefd9d45e5d0be2ccf0a1790e771d",
+          "message": "Update to pinpoint 3.0.4",
+          "timestamp": "2026-04-01T22:30:51+02:00",
+          "tree_id": "e6c75314910cfc0d7aadff159011221507e4c796",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/995899a2cb5aefd9d45e5d0be2ccf0a1790e771d"
+        },
+        "date": 1775078869790,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9225,
+            "range": "44.9226",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 126.52,
+            "range": "129.187",
+            "unit": "ns"
+          },
+          {
+            "name": "Regular Writing",
+            "value": 3384.94,
+            "range": "3464.01",
+            "unit": "ns"
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 3420.69,
+            "range": "3502.86",
             "unit": "ns"
           }
         ]
