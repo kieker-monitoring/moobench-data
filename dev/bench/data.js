@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775080326943,
+  "lastUpdate": 1775080344332,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -83069,6 +83069,54 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2556.27,
             "range": "2557.91",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "072f0a40c4f41dc048f2aface15ad2b317ceff8f",
+          "message": "Revert \"Update to pinpoint 3.0.4\"\n\nThis reverts commit 995899a2cb5aefd9d45e5d0be2ccf0a1790e771d.",
+          "timestamp": "2026-04-01T22:39:40+02:00",
+          "tree_id": "d20752060f5ceb557f9b5ab85b28301b37b1999c",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/072f0a40c4f41dc048f2aface15ad2b317ceff8f"
+        },
+        "date": 1775080344293,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9924,
+            "range": "44.9942",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 1607.77,
+            "range": "1609.38",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 2748.34,
+            "range": "2749.73",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2387.42,
+            "range": "2388.25",
             "unit": "ns"
           }
         ]
