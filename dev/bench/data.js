@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775112476733,
+  "lastUpdate": 1775113961224,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -226047,6 +226047,52 @@ window.BENCHMARK_DATA = {
             "name": "Pinpoint Sampling",
             "value": 3506.83,
             "range": "3573.52",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "2997b7622c9845ab2b271d47a6fe58ed412a02ad",
+          "message": "Update kafka to 7.7.8",
+          "timestamp": "2026-04-01T20:40:14Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/2997b7622c9845ab2b271d47a6fe58ed412a02ad"
+        },
+        "date": 1775113961197,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 29.413,
+            "range": "29.4783",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Deactivated",
+            "value": 33.678,
+            "range": "34.8047",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Basic",
+            "value": 4907.75,
+            "range": "4957.94",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Sampling",
+            "value": 2914.6,
+            "range": "3031.75",
             "unit": "ns"
           }
         ]
