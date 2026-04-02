@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775108816427,
+  "lastUpdate": 1775109319856,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -83163,6 +83163,52 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2387.42,
             "range": "2388.25",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "2997b7622c9845ab2b271d47a6fe58ed412a02ad",
+          "message": "Update kafka to 7.7.8",
+          "timestamp": "2026-04-01T20:40:14Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/2997b7622c9845ab2b271d47a6fe58ed412a02ad"
+        },
+        "date": 1775109319825,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9522,
+            "range": "44.9524",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 1619.61,
+            "range": "1621.02",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 2683.9,
+            "range": "2684.41",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2418.93,
+            "range": "2419.58",
             "unit": "ns"
           }
         ]
