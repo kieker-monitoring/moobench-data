@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775136154169,
+  "lastUpdate": 1775138578805,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -204159,6 +204159,60 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2026.47,
             "range": "2029.11",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "3091ef87e43ab822f82b1f561a8828fa0f4d1703",
+          "message": "Add codemeta.json",
+          "timestamp": "2026-04-02T14:17:39+02:00",
+          "tree_id": "34e3e2e784d4d0a883d230df960ca54d9208ccad",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/3091ef87e43ab822f82b1f561a8828fa0f4d1703"
+        },
+        "date": 1775138578770,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 45.5018,
+            "range": "45.5534",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 798.621,
+            "range": "800.09",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 4956.21,
+            "range": "4957.34",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 5176.16,
+            "range": "5177.56",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2002.17,
+            "range": "2003.33",
             "unit": "ns"
           }
         ]
