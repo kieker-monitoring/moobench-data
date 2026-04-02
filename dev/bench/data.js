@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775109319856,
+  "lastUpdate": 1775109496695,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -172855,6 +172855,52 @@ window.BENCHMARK_DATA = {
             "name": "Writing without sanitizing fields",
             "value": 3489.05,
             "range": "3609.24",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "2997b7622c9845ab2b271d47a6fe58ed412a02ad",
+          "message": "Update kafka to 7.7.8",
+          "timestamp": "2026-04-01T20:40:14Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/2997b7622c9845ab2b271d47a6fe58ed412a02ad"
+        },
+        "date": 1775109496666,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.877,
+            "range": "44.8772",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 142.762,
+            "range": "142.855",
+            "unit": "ns"
+          },
+          {
+            "name": "Regular Writing",
+            "value": 2845.7,
+            "range": "2916.72",
+            "unit": "ns"
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 3430.72,
+            "range": "3543.81",
             "unit": "ns"
           }
         ]
