@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775648630974,
+  "lastUpdate": 1775650267308,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -229475,6 +229475,54 @@ window.BENCHMARK_DATA = {
             "name": "Pinpoint Sampling",
             "value": 3348.03,
             "range": "3457.19",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "11eceec9bd1a29893aaf21340ce5c515562bf512",
+          "message": "Fix README: List all fully supported frameworks, fix formatting of\nenumerations",
+          "timestamp": "2026-04-08T11:58:24+02:00",
+          "tree_id": "78f215ff71eb04022f26fdb174dd951ce30f7881",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/11eceec9bd1a29893aaf21340ce5c515562bf512"
+        },
+        "date": 1775650267271,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 47.8904,
+            "range": "47.8906",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Deactivated",
+            "value": 48.3363,
+            "range": "48.3453",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Basic",
+            "value": 5027.31,
+            "range": "5138.24",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Sampling",
+            "value": 3006.24,
+            "range": "3023.31",
             "unit": "ns"
           }
         ]
