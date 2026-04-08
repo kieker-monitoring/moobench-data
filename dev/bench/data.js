@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775640608887,
+  "lastUpdate": 1775643290582,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -205597,6 +205597,60 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2003.64,
             "range": "2004.46",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "068ed698808ce7253198585fb8ac4ad53f7f9490",
+          "message": "Fix Ubuntu version in README",
+          "timestamp": "2026-04-08T10:29:29+02:00",
+          "tree_id": "8d2cb0543295d40027fc68e2075384cefb278203",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/068ed698808ce7253198585fb8ac4ad53f7f9490"
+        },
+        "date": 1775643290546,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 45.0381,
+            "range": "45.04",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 803.698,
+            "range": "805.348",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 4992.28,
+            "range": "4994.88",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 5181.89,
+            "range": "5183.65",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2008.84,
+            "range": "2009.99",
             "unit": "ns"
           }
         ]
