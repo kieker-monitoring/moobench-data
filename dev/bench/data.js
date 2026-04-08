@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775645692126,
+  "lastUpdate": 1775645729898,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -174831,6 +174831,54 @@ window.BENCHMARK_DATA = {
             "name": "Writing without sanitizing fields",
             "value": 3288.06,
             "range": "3373.36",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "11eceec9bd1a29893aaf21340ce5c515562bf512",
+          "message": "Fix README: List all fully supported frameworks, fix formatting of\nenumerations",
+          "timestamp": "2026-04-08T11:58:24+02:00",
+          "tree_id": "78f215ff71eb04022f26fdb174dd951ce30f7881",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/11eceec9bd1a29893aaf21340ce5c515562bf512"
+        },
+        "date": 1775645729861,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 47.8954,
+            "range": "47.8955",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 146.904,
+            "range": "147.007",
+            "unit": "ns"
+          },
+          {
+            "name": "Regular Writing",
+            "value": 3436.43,
+            "range": "3511.16",
+            "unit": "ns"
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 3284.19,
+            "range": "3393.86",
             "unit": "ns"
           }
         ]
