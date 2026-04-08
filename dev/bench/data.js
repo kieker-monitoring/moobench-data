@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775639887282,
+  "lastUpdate": 1775640328104,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -174687,6 +174687,54 @@ window.BENCHMARK_DATA = {
             "name": "Writing without sanitizing fields",
             "value": 3219.04,
             "range": "3301.28",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "068ed698808ce7253198585fb8ac4ad53f7f9490",
+          "message": "Fix Ubuntu version in README",
+          "timestamp": "2026-04-08T10:29:29+02:00",
+          "tree_id": "8d2cb0543295d40027fc68e2075384cefb278203",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/068ed698808ce7253198585fb8ac4ad53f7f9490"
+        },
+        "date": 1775640328065,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 47.8995,
+            "range": "47.8996",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 143.371,
+            "range": "143.763",
+            "unit": "ns"
+          },
+          {
+            "name": "Regular Writing",
+            "value": 3117.27,
+            "range": "3207.35",
+            "unit": "ns"
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 3288.06,
+            "range": "3373.36",
             "unit": "ns"
           }
         ]
