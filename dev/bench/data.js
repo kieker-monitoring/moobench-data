@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775746279525,
+  "lastUpdate": 1775747939901,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -45133,6 +45133,54 @@ window.BENCHMARK_DATA = {
             "name": "Binary file",
             "value": 1014.34,
             "range": "1015.02",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "677a2ca29ffbb03f6ab34f7af59f0c9c528a7b98",
+          "message": "Downgrade skywalking-java to Banyandb 0.9.0",
+          "timestamp": "2026-04-09T16:27:52+02:00",
+          "tree_id": "e3f59d7c9834257070c4c76bf62d60c97d0a8da0",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/677a2ca29ffbb03f6ab34f7af59f0c9c528a7b98"
+        },
+        "date": 1775747939865,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9569,
+            "range": "44.9571",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 49.4243,
+            "range": "49.4273",
+            "unit": "ns"
+          },
+          {
+            "name": "No collection",
+            "value": 469.158,
+            "range": "469.181",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary file",
+            "value": 1011.59,
+            "range": "1012.33",
             "unit": "ns"
           }
         ]
