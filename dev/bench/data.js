@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775749239086,
+  "lastUpdate": 1775749340360,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -230101,6 +230101,54 @@ window.BENCHMARK_DATA = {
             "name": "Pinpoint Sampling",
             "value": 3003.59,
             "range": "3038.01",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "02c5646576f85997f2e2559c9b15cd5e045b07cf",
+          "message": "Add Kieker variant for CLOCK_REALTIME timer",
+          "timestamp": "2026-04-09T15:32:40+02:00",
+          "tree_id": "08d9b143b4074f168b466587d23af54f039b6394",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/02c5646576f85997f2e2559c9b15cd5e045b07cf"
+        },
+        "date": 1775749340324,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 29.1786,
+            "range": "29.2277",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Deactivated",
+            "value": 31.5124,
+            "range": "31.6127",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Basic",
+            "value": 4698.94,
+            "range": "4739.37",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Sampling",
+            "value": 2894.96,
+            "range": "2971.46",
             "unit": "ns"
           }
         ]
