@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775751880736,
+  "lastUpdate": 1775752494491,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -230203,6 +230203,54 @@ window.BENCHMARK_DATA = {
             "name": "Pinpoint Sampling",
             "value": 2894.96,
             "range": "2971.46",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "677a2ca29ffbb03f6ab34f7af59f0c9c528a7b98",
+          "message": "Downgrade skywalking-java to Banyandb 0.9.0",
+          "timestamp": "2026-04-09T16:27:52+02:00",
+          "tree_id": "e3f59d7c9834257070c4c76bf62d60c97d0a8da0",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/677a2ca29ffbb03f6ab34f7af59f0c9c528a7b98"
+        },
+        "date": 1775752494453,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 47.9134,
+            "range": "47.9135",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Deactivated",
+            "value": 49.2162,
+            "range": "49.319",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Basic",
+            "value": 4844.42,
+            "range": "4895.4",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Sampling",
+            "value": 3095.35,
+            "range": "3205.53",
             "unit": "ns"
           }
         ]
