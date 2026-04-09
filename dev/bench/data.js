@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775714750726,
+  "lastUpdate": 1775717657510,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -205987,6 +205987,58 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2006.72,
             "range": "2008.18",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "11eceec9bd1a29893aaf21340ce5c515562bf512",
+          "message": "Fix README: List all fully supported frameworks, fix formatting of\nenumerations",
+          "timestamp": "2026-04-08T09:58:24Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/11eceec9bd1a29893aaf21340ce5c515562bf512"
+        },
+        "date": 1775717657480,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9059,
+            "range": "44.906",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 807.663,
+            "range": "808.753",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 4886.41,
+            "range": "4888.18",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 5173.43,
+            "range": "5175.09",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2008.55,
+            "range": "2009.92",
             "unit": "ns"
           }
         ]
