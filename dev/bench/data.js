@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775745117548,
+  "lastUpdate": 1775746279525,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -45085,6 +45085,54 @@ window.BENCHMARK_DATA = {
             "name": "Binary file",
             "value": 1213.02,
             "range": "1213.8",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "02c5646576f85997f2e2559c9b15cd5e045b07cf",
+          "message": "Add Kieker variant for CLOCK_REALTIME timer",
+          "timestamp": "2026-04-09T15:32:40+02:00",
+          "tree_id": "08d9b143b4074f168b466587d23af54f039b6394",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/02c5646576f85997f2e2559c9b15cd5e045b07cf"
+        },
+        "date": 1775746279488,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9301,
+            "range": "44.9303",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 49.4465,
+            "range": "49.4512",
+            "unit": "ns"
+          },
+          {
+            "name": "No collection",
+            "value": 468.48,
+            "range": "468.491",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary file",
+            "value": 1014.34,
+            "range": "1015.02",
             "unit": "ns"
           }
         ]
