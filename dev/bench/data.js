@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775744101634,
+  "lastUpdate": 1775744962550,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -175065,6 +175065,54 @@ window.BENCHMARK_DATA = {
             "name": "Writing without sanitizing fields",
             "value": 3245.93,
             "range": "3313.95",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "02c5646576f85997f2e2559c9b15cd5e045b07cf",
+          "message": "Add Kieker variant for CLOCK_REALTIME timer",
+          "timestamp": "2026-04-09T15:32:40+02:00",
+          "tree_id": "08d9b143b4074f168b466587d23af54f039b6394",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/02c5646576f85997f2e2559c9b15cd5e045b07cf"
+        },
+        "date": 1775744962511,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9078,
+            "range": "44.908",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 144.719,
+            "range": "144.738",
+            "unit": "ns"
+          },
+          {
+            "name": "Regular Writing",
+            "value": 3737.42,
+            "range": "3828.31",
+            "unit": "ns"
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 3550.53,
+            "range": "3673.06",
             "unit": "ns"
           }
         ]
