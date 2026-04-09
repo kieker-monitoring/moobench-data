@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775749598973,
+  "lastUpdate": 1775751880736,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -206381,6 +206381,60 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 1964.96,
             "range": "1965.59",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "677a2ca29ffbb03f6ab34f7af59f0c9c528a7b98",
+          "message": "Downgrade skywalking-java to Banyandb 0.9.0",
+          "timestamp": "2026-04-09T16:27:52+02:00",
+          "tree_id": "e3f59d7c9834257070c4c76bf62d60c97d0a8da0",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/677a2ca29ffbb03f6ab34f7af59f0c9c528a7b98"
+        },
+        "date": 1775751880700,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 47.8887,
+            "range": "47.8887",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 813.192,
+            "range": "814.081",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 4754.78,
+            "range": "4756.15",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 4945.23,
+            "range": "4946.89",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 1805.11,
+            "range": "1986.18",
             "unit": "ns"
           }
         ]
