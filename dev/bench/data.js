@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775748274842,
+  "lastUpdate": 1775748517937,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -84765,6 +84765,54 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2579.25,
             "range": "2582.27",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "677a2ca29ffbb03f6ab34f7af59f0c9c528a7b98",
+          "message": "Downgrade skywalking-java to Banyandb 0.9.0",
+          "timestamp": "2026-04-09T16:27:52+02:00",
+          "tree_id": "e3f59d7c9834257070c4c76bf62d60c97d0a8da0",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/677a2ca29ffbb03f6ab34f7af59f0c9c528a7b98"
+        },
+        "date": 1775748517900,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 45.0781,
+            "range": "45.0802",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 1623.14,
+            "range": "1624.56",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 2745.37,
+            "range": "2746.92",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2397.39,
+            "range": "2399.18",
             "unit": "ns"
           }
         ]
