@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775898908491,
+  "lastUpdate": 1775901648218,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -207157,6 +207157,60 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 1999.36,
             "range": "2000.03",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "de4cbbbf8315a131c81a7c7951ac30e65789e936",
+          "message": "Remove no longer maintained SPASSmeter framework",
+          "timestamp": "2026-04-11T10:15:02+02:00",
+          "tree_id": "ba01bf6c43f7294ce0a0b3910f2fb27c8e365e94",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/de4cbbbf8315a131c81a7c7951ac30e65789e936"
+        },
+        "date": 1775901648180,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 47.8606,
+            "range": "47.8606",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 789.595,
+            "range": "791.574",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 4759.12,
+            "range": "4763.55",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 4949.9,
+            "range": "4953",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2015.64,
+            "range": "2016.43",
             "unit": "ns"
           }
         ]
