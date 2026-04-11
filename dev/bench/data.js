@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775897867269,
+  "lastUpdate": 1775898176735,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -45321,6 +45321,54 @@ window.BENCHMARK_DATA = {
             "name": "Binary file",
             "value": 1001.58,
             "range": "1002.12",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "de4cbbbf8315a131c81a7c7951ac30e65789e936",
+          "message": "Remove no longer maintained SPASSmeter framework",
+          "timestamp": "2026-04-11T10:15:02+02:00",
+          "tree_id": "ba01bf6c43f7294ce0a0b3910f2fb27c8e365e94",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/de4cbbbf8315a131c81a7c7951ac30e65789e936"
+        },
+        "date": 1775898176694,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9429,
+            "range": "44.9431",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 49.2136,
+            "range": "49.2138",
+            "unit": "ns"
+          },
+          {
+            "name": "No collection",
+            "value": 469.387,
+            "range": "469.453",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary file",
+            "value": 1003.08,
+            "range": "1005.83",
             "unit": "ns"
           }
         ]
