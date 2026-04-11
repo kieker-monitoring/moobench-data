@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775898176735,
+  "lastUpdate": 1775898696307,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -175821,6 +175821,54 @@ window.BENCHMARK_DATA = {
             "name": "Writing without sanitizing fields",
             "value": 3297.37,
             "range": "3383.26",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "de4cbbbf8315a131c81a7c7951ac30e65789e936",
+          "message": "Remove no longer maintained SPASSmeter framework",
+          "timestamp": "2026-04-11T10:15:02+02:00",
+          "tree_id": "ba01bf6c43f7294ce0a0b3910f2fb27c8e365e94",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/de4cbbbf8315a131c81a7c7951ac30e65789e936"
+        },
+        "date": 1775898696270,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.866,
+            "range": "44.866",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 142.246,
+            "range": "142.29",
+            "unit": "ns"
+          },
+          {
+            "name": "Regular Writing",
+            "value": 3413.01,
+            "range": "3461.72",
+            "unit": "ns"
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 3487.53,
+            "range": "3581.97",
             "unit": "ns"
           }
         ]
