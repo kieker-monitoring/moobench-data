@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775974046171,
+  "lastUpdate": 1775974454119,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -85235,6 +85235,52 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2232.07,
             "range": "2233.18",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "de4cbbbf8315a131c81a7c7951ac30e65789e936",
+          "message": "Remove no longer maintained SPASSmeter framework",
+          "timestamp": "2026-04-11T08:15:02Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/de4cbbbf8315a131c81a7c7951ac30e65789e936"
+        },
+        "date": 1775974454087,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9593,
+            "range": "44.9596",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 1614.59,
+            "range": "1617.06",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 2733.49,
+            "range": "2735.6",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2404.27,
+            "range": "2404.97",
             "unit": "ns"
           }
         ]
