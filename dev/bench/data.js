@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776065217916,
+  "lastUpdate": 1776066607070,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -231687,6 +231687,52 @@ window.BENCHMARK_DATA = {
             "name": "Pinpoint Sampling",
             "value": 2963.56,
             "range": "3044.07",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "de4cbbbf8315a131c81a7c7951ac30e65789e936",
+          "message": "Remove no longer maintained SPASSmeter framework",
+          "timestamp": "2026-04-11T08:15:02Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/de4cbbbf8315a131c81a7c7951ac30e65789e936"
+        },
+        "date": 1776066607041,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 28.9593,
+            "range": "29.0069",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Deactivated",
+            "value": 31.8327,
+            "range": "32.2375",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Basic",
+            "value": 4635.88,
+            "range": "4683.53",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Sampling",
+            "value": 2775.89,
+            "range": "2814.23",
             "unit": "ns"
           }
         ]
