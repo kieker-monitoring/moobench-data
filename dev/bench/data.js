@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776241247711,
+  "lastUpdate": 1776241455916,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -85651,6 +85651,54 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2224.26,
             "range": "2224.88",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "76a6acd186b5a545dae4bfee7e71017fdd573149",
+          "message": "Update to pinot 1.5",
+          "timestamp": "2026-04-15T09:23:42+02:00",
+          "tree_id": "47afe7393ceb53bf6352ae2a2b5b784b760b15d4",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/76a6acd186b5a545dae4bfee7e71017fdd573149"
+        },
+        "date": 1776241455878,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9434,
+            "range": "44.9435",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 1589.81,
+            "range": "1590.99",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 2703.91,
+            "range": "2707.85",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2345.98,
+            "range": "2346.51",
             "unit": "ns"
           }
         ]
