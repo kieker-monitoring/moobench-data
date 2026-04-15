@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776246919446,
+  "lastUpdate": 1776248219042,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -208603,6 +208603,60 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2017.63,
             "range": "2019.11",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "9d8b5f4ab2dd99d537f4ce8039ed80c4f1993f9b",
+          "message": "Revert \"Update to pinpoint 3.0.5\"\n\nThis reverts commit e187d69de1015c18cfa4326be2a7906d4dcb8f40.",
+          "timestamp": "2026-04-15T10:23:21+02:00",
+          "tree_id": "47afe7393ceb53bf6352ae2a2b5b784b760b15d4",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/9d8b5f4ab2dd99d537f4ce8039ed80c4f1993f9b"
+        },
+        "date": 1776248219003,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 47.9131,
+            "range": "47.9131",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 822.688,
+            "range": "826.051",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 4735.41,
+            "range": "4736.57",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 4920.74,
+            "range": "4921.93",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2014.93,
+            "range": "2015.82",
             "unit": "ns"
           }
         ]
