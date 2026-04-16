@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776320855809,
+  "lastUpdate": 1776323738018,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -208795,6 +208795,58 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2014.93,
             "range": "2015.82",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "9d8b5f4ab2dd99d537f4ce8039ed80c4f1993f9b",
+          "message": "Revert \"Update to pinpoint 3.0.5\"\n\nThis reverts commit e187d69de1015c18cfa4326be2a7906d4dcb8f40.",
+          "timestamp": "2026-04-15T08:23:21Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/9d8b5f4ab2dd99d537f4ce8039ed80c4f1993f9b"
+        },
+        "date": 1776323737986,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 47.9193,
+            "range": "47.9194",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 815.559,
+            "range": "815.722",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 4733.57,
+            "range": "4734.65",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 4962.83,
+            "range": "4964.45",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 1838.66,
+            "range": "2023.36",
             "unit": "ns"
           }
         ]
