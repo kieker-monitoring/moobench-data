@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776578588500,
+  "lastUpdate": 1776579159545,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -45929,6 +45929,52 @@ window.BENCHMARK_DATA = {
             "name": "Binary file",
             "value": 985.737,
             "range": "985.939",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "babdb0e5daea26c65044fe5fcb8724d0bbe00186",
+          "message": "Split prerequisites and have clearer benchmark execution description",
+          "timestamp": "2026-04-16T18:26:55Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/babdb0e5daea26c65044fe5fcb8724d0bbe00186"
+        },
+        "date": 1776579159513,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9193,
+            "range": "44.9195",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 48.6906,
+            "range": "48.6908",
+            "unit": "ns"
+          },
+          {
+            "name": "No collection",
+            "value": 462.3,
+            "range": "462.341",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary file",
+            "value": 985.83,
+            "range": "986.445",
             "unit": "ns"
           }
         ]
