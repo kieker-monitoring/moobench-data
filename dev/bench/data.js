@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776615425667,
+  "lastUpdate": 1776616049496,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -179513,6 +179513,54 @@ window.BENCHMARK_DATA = {
             "name": "Writing without sanitizing fields",
             "value": 3555.89,
             "range": "3642.69",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "2a844831c17db73c42f3ad8ccf61ad3ebf576e74",
+          "message": "Remove execution check Kieker-java and OpenTelemetry-java, since their\ncontents have been moved to testCorrectness.yaml",
+          "timestamp": "2026-04-19T17:13:25+02:00",
+          "tree_id": "32f85530371e35039ddc303fab0e50ddc89305d0",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/2a844831c17db73c42f3ad8ccf61ad3ebf576e74"
+        },
+        "date": 1776616049459,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 37.1511,
+            "range": "37.1511",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 99.6333,
+            "range": "100.199",
+            "unit": "ns"
+          },
+          {
+            "name": "Regular Writing",
+            "value": 2756.59,
+            "range": "2778.73",
+            "unit": "ns"
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 2568.76,
+            "range": "2580.77",
             "unit": "ns"
           }
         ]
