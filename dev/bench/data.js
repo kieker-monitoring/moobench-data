@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776602427556,
+  "lastUpdate": 1776602512905,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -46263,6 +46263,54 @@ window.BENCHMARK_DATA = {
             "name": "Binary file",
             "value": 981.961,
             "range": "982.516",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "cd8497dd24e8147a4a9dd6f48b55ae2427cff526",
+          "message": "Add zipkin trace creation test",
+          "timestamp": "2026-04-19T13:12:02+02:00",
+          "tree_id": "b39d07fa6f5f35a05b7174554e915c2ca8757514",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/cd8497dd24e8147a4a9dd6f48b55ae2427cff526"
+        },
+        "date": 1776602512869,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9233,
+            "range": "44.9234",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 48.7899,
+            "range": "48.7904",
+            "unit": "ns"
+          },
+          {
+            "name": "No collection",
+            "value": 465.322,
+            "range": "465.351",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary file",
+            "value": 986.13,
+            "range": "987.749",
             "unit": "ns"
           }
         ]
