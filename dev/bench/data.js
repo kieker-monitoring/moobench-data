@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776599300785,
+  "lastUpdate": 1776599466991,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -178313,6 +178313,54 @@ window.BENCHMARK_DATA = {
             "name": "Writing without sanitizing fields",
             "value": 3566.91,
             "range": "3625.42",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "f0ada92243937f1cad6ca35d3864a78eec853b74",
+          "message": "Rename workflow and fix syntax",
+          "timestamp": "2026-04-19T12:08:22+02:00",
+          "tree_id": "50766f7e020eeb9064e2aca4d08fd3ee1709fee6",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/f0ada92243937f1cad6ca35d3864a78eec853b74"
+        },
+        "date": 1776599466954,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 47.8913,
+            "range": "47.8914",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 147.615,
+            "range": "147.678",
+            "unit": "ns"
+          },
+          {
+            "name": "Regular Writing",
+            "value": 3442.53,
+            "range": "3495.97",
+            "unit": "ns"
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 3384.3,
+            "range": "3433.31",
             "unit": "ns"
           }
         ]
