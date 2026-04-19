@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776619042626,
+  "lastUpdate": 1776619555808,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -237523,6 +237523,54 @@ window.BENCHMARK_DATA = {
             "name": "Pinpoint Sampling",
             "value": 2978.65,
             "range": "3008.44",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "30d4a04a9c640c19906993f22c47dd028157505e",
+          "message": "Remove unnecessary workflow - compilation check is done with tests",
+          "timestamp": "2026-04-19T17:12:33+02:00",
+          "tree_id": "20de70e868724aad5f05387e69e601b32920054c",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/30d4a04a9c640c19906993f22c47dd028157505e"
+        },
+        "date": 1776619555771,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9087,
+            "range": "44.9087",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Deactivated",
+            "value": 45.8881,
+            "range": "45.9516",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Basic",
+            "value": 5134.22,
+            "range": "5177.62",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Sampling",
+            "value": 3386.32,
+            "range": "3404.25",
             "unit": "ns"
           }
         ]
