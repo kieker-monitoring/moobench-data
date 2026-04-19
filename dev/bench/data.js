@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776597714376,
+  "lastUpdate": 1776597780376,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -86643,6 +86643,54 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2488.54,
             "range": "2490.47",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "f0ada92243937f1cad6ca35d3864a78eec853b74",
+          "message": "Rename workflow and fix syntax",
+          "timestamp": "2026-04-19T12:08:22+02:00",
+          "tree_id": "50766f7e020eeb9064e2aca4d08fd3ee1709fee6",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/f0ada92243937f1cad6ca35d3864a78eec853b74"
+        },
+        "date": 1776597780339,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9133,
+            "range": "44.9134",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 1613.48,
+            "range": "1614.27",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 2806.12,
+            "range": "2810.36",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2412.25,
+            "range": "2413.04",
             "unit": "ns"
           }
         ]
