@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776615315482,
+  "lastUpdate": 1776615425667,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -87555,6 +87555,54 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2249.41,
             "range": "2250.43",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "2a844831c17db73c42f3ad8ccf61ad3ebf576e74",
+          "message": "Remove execution check Kieker-java and OpenTelemetry-java, since their\ncontents have been moved to testCorrectness.yaml",
+          "timestamp": "2026-04-19T17:13:25+02:00",
+          "tree_id": "32f85530371e35039ddc303fab0e50ddc89305d0",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/2a844831c17db73c42f3ad8ccf61ad3ebf576e74"
+        },
+        "date": 1776615425630,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 47.9174,
+            "range": "47.9175",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 1540.09,
+            "range": "1540.33",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 2536.8,
+            "range": "2538.03",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2279.07,
+            "range": "2281.24",
             "unit": "ns"
           }
         ]
