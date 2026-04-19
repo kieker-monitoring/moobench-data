@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776615127836,
+  "lastUpdate": 1776615221140,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -179321,6 +179321,54 @@ window.BENCHMARK_DATA = {
             "name": "Writing without sanitizing fields",
             "value": 3671.42,
             "range": "3732.38",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "30d4a04a9c640c19906993f22c47dd028157505e",
+          "message": "Remove unnecessary workflow - compilation check is done with tests",
+          "timestamp": "2026-04-19T17:12:33+02:00",
+          "tree_id": "20de70e868724aad5f05387e69e601b32920054c",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/30d4a04a9c640c19906993f22c47dd028157505e"
+        },
+        "date": 1776615221102,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9105,
+            "range": "44.9106",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 144.21,
+            "range": "144.252",
+            "unit": "ns"
+          },
+          {
+            "name": "Regular Writing",
+            "value": 2898.9,
+            "range": "2948.87",
+            "unit": "ns"
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 3555.89,
+            "range": "3642.69",
             "unit": "ns"
           }
         ]
