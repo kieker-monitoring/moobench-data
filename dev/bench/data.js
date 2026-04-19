@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776606764454,
+  "lastUpdate": 1776607250067,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -236059,6 +236059,54 @@ window.BENCHMARK_DATA = {
             "name": "Pinpoint Sampling",
             "value": 3563.02,
             "range": "3587.02",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "cd8497dd24e8147a4a9dd6f48b55ae2427cff526",
+          "message": "Add zipkin trace creation test",
+          "timestamp": "2026-04-19T13:12:02+02:00",
+          "tree_id": "b39d07fa6f5f35a05b7174554e915c2ca8757514",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/cd8497dd24e8147a4a9dd6f48b55ae2427cff526"
+        },
+        "date": 1776607250029,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 45.0271,
+            "range": "45.029",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Deactivated",
+            "value": 47.3755,
+            "range": "47.9155",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Basic",
+            "value": 5125.03,
+            "range": "5166.6",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Sampling",
+            "value": 3445.57,
+            "range": "3473.16",
             "unit": "ns"
           }
         ]
