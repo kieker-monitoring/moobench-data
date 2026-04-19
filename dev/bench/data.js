@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776602403856,
+  "lastUpdate": 1776602427556,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -178553,6 +178553,54 @@ window.BENCHMARK_DATA = {
             "name": "Writing without sanitizing fields",
             "value": 3446.84,
             "range": "3529.78",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "cd8497dd24e8147a4a9dd6f48b55ae2427cff526",
+          "message": "Add zipkin trace creation test",
+          "timestamp": "2026-04-19T13:12:02+02:00",
+          "tree_id": "b39d07fa6f5f35a05b7174554e915c2ca8757514",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/cd8497dd24e8147a4a9dd6f48b55ae2427cff526"
+        },
+        "date": 1776602427517,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.8748,
+            "range": "44.8749",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 136.538,
+            "range": "138.24",
+            "unit": "ns"
+          },
+          {
+            "name": "Regular Writing",
+            "value": 3212.39,
+            "range": "3307.89",
+            "unit": "ns"
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 3584.91,
+            "range": "3660.49",
             "unit": "ns"
           }
         ]
