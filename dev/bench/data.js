@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776596638917,
+  "lastUpdate": 1776596787559,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -86499,6 +86499,54 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2548.43,
             "range": "2552.42",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "c461ae70868c6ccfb9b4353bef28d56c6aca7f44",
+          "message": "Add correctness tests instead of GH actions for every framework",
+          "timestamp": "2026-04-19T12:02:11+02:00",
+          "tree_id": "a878728095a09ab2d9d65ea4f0ae14e36844660e",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/c461ae70868c6ccfb9b4353bef28d56c6aca7f44"
+        },
+        "date": 1776596787519,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.8665,
+            "range": "44.8665",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 1614.65,
+            "range": "1616.55",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 2719.43,
+            "range": "2721.02",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2383.22,
+            "range": "2384.58",
             "unit": "ns"
           }
         ]
