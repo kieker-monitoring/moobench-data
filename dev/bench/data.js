@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776596070244,
+  "lastUpdate": 1776596351625,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -177881,6 +177881,54 @@ window.BENCHMARK_DATA = {
             "name": "Writing without sanitizing fields",
             "value": 2861.88,
             "range": "2877.86",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "c461ae70868c6ccfb9b4353bef28d56c6aca7f44",
+          "message": "Add correctness tests instead of GH actions for every framework",
+          "timestamp": "2026-04-19T12:02:11+02:00",
+          "tree_id": "a878728095a09ab2d9d65ea4f0ae14e36844660e",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/c461ae70868c6ccfb9b4353bef28d56c6aca7f44"
+        },
+        "date": 1776596351596,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 37.1459,
+            "range": "37.146",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 93.8256,
+            "range": "94.4772",
+            "unit": "ns"
+          },
+          {
+            "name": "Regular Writing",
+            "value": 2755.53,
+            "range": "2759.08",
+            "unit": "ns"
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 2823.8,
+            "range": "2829.76",
             "unit": "ns"
           }
         ]
