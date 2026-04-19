@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776615291339,
+  "lastUpdate": 1776615315482,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -46551,6 +46551,54 @@ window.BENCHMARK_DATA = {
             "name": "Binary file",
             "value": 999.089,
             "range": "999.79",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "2a844831c17db73c42f3ad8ccf61ad3ebf576e74",
+          "message": "Remove execution check Kieker-java and OpenTelemetry-java, since their\ncontents have been moved to testCorrectness.yaml",
+          "timestamp": "2026-04-19T17:13:25+02:00",
+          "tree_id": "32f85530371e35039ddc303fab0e50ddc89305d0",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/2a844831c17db73c42f3ad8ccf61ad3ebf576e74"
+        },
+        "date": 1776615315446,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.8621,
+            "range": "44.8622",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 48.7422,
+            "range": "48.7424",
+            "unit": "ns"
+          },
+          {
+            "name": "No collection",
+            "value": 467.778,
+            "range": "468.344",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary file",
+            "value": 987.634,
+            "range": "987.966",
             "unit": "ns"
           }
         ]
