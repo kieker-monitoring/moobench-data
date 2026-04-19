@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776618018971,
+  "lastUpdate": 1776618465826,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -212375,6 +212375,60 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 1534.34,
             "range": "1534.71",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "2a844831c17db73c42f3ad8ccf61ad3ebf576e74",
+          "message": "Remove execution check Kieker-java and OpenTelemetry-java, since their\ncontents have been moved to testCorrectness.yaml",
+          "timestamp": "2026-04-19T17:13:25+02:00",
+          "tree_id": "32f85530371e35039ddc303fab0e50ddc89305d0",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/2a844831c17db73c42f3ad8ccf61ad3ebf576e74"
+        },
+        "date": 1776618465787,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 45.0197,
+            "range": "45.0199",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 814.436,
+            "range": "815.245",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 4994,
+            "range": "4995.73",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 4808.96,
+            "range": "5309.84",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2019.01,
+            "range": "2020.45",
             "unit": "ns"
           }
         ]
