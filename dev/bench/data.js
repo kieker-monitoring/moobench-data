@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776595893246,
+  "lastUpdate": 1776596070244,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -46023,6 +46023,54 @@ window.BENCHMARK_DATA = {
             "name": "Binary file",
             "value": 1194.89,
             "range": "1197.52",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "c461ae70868c6ccfb9b4353bef28d56c6aca7f44",
+          "message": "Add correctness tests instead of GH actions for every framework",
+          "timestamp": "2026-04-19T12:02:11+02:00",
+          "tree_id": "a878728095a09ab2d9d65ea4f0ae14e36844660e",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/c461ae70868c6ccfb9b4353bef28d56c6aca7f44"
+        },
+        "date": 1776596070208,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9147,
+            "range": "44.9148",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 49.0639,
+            "range": "49.0829",
+            "unit": "ns"
+          },
+          {
+            "name": "No collection",
+            "value": 463.345,
+            "range": "463.382",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary file",
+            "value": 994.146,
+            "range": "995.672",
             "unit": "ns"
           }
         ]
