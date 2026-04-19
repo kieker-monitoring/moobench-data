@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776615221140,
+  "lastUpdate": 1776615291339,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -87459,6 +87459,54 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2384.94,
             "range": "2385.42",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "30d4a04a9c640c19906993f22c47dd028157505e",
+          "message": "Remove unnecessary workflow - compilation check is done with tests",
+          "timestamp": "2026-04-19T17:12:33+02:00",
+          "tree_id": "20de70e868724aad5f05387e69e601b32920054c",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/30d4a04a9c640c19906993f22c47dd028157505e"
+        },
+        "date": 1776615291302,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 47.8932,
+            "range": "47.8933",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 1528.49,
+            "range": "1528.82",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 2530.66,
+            "range": "2532.89",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2249.41,
+            "range": "2250.43",
             "unit": "ns"
           }
         ]
