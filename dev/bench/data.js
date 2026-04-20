@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776700004619,
+  "lastUpdate": 1776700186843,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -46885,6 +46885,54 @@ window.BENCHMARK_DATA = {
             "name": "Binary file",
             "value": 996.026,
             "range": "996.773",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shinhyung.yang@email.uni-kiel.de",
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "5a51fe7b2ee4fa721483f75b1936e769832be3eb",
+          "message": "Added re_try counts for retrieving spans",
+          "timestamp": "2026-04-20T17:04:33+02:00",
+          "tree_id": "e4514f7333a6dbe1e65165a74d8b615eb8ffc1bf",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/5a51fe7b2ee4fa721483f75b1936e769832be3eb"
+        },
+        "date": 1776700186807,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 28.6861,
+            "range": "28.6908",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 37.9678,
+            "range": "38.0103",
+            "unit": "ns"
+          },
+          {
+            "name": "No collection",
+            "value": 432.6,
+            "range": "432.613",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary file",
+            "value": 1231.93,
+            "range": "1236.14",
             "unit": "ns"
           }
         ]
