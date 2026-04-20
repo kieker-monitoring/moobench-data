@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776704557179,
+  "lastUpdate": 1776705328247,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -239135,6 +239135,54 @@ window.BENCHMARK_DATA = {
             "name": "Pinpoint Sampling",
             "value": 3173.51,
             "range": "3251.16",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shinhyung.yang@email.uni-kiel.de",
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "5a51fe7b2ee4fa721483f75b1936e769832be3eb",
+          "message": "Added re_try counts for retrieving spans",
+          "timestamp": "2026-04-20T17:04:33+02:00",
+          "tree_id": "e4514f7333a6dbe1e65165a74d8b615eb8ffc1bf",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/5a51fe7b2ee4fa721483f75b1936e769832be3eb"
+        },
+        "date": 1776705328209,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9389,
+            "range": "44.9392",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Deactivated",
+            "value": 45.9686,
+            "range": "46.0222",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Basic",
+            "value": 5351.98,
+            "range": "5376.6",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Sampling",
+            "value": 3160.18,
+            "range": "3237.36",
             "unit": "ns"
           }
         ]
