@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776705328247,
+  "lastUpdate": 1776707330723,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -213803,6 +213803,60 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2215.93,
             "range": "2218.97",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shinhyung.yang@email.uni-kiel.de",
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "cf8db99cfd3a507c4cbf6798f50ea6d8c4aecdab",
+          "message": "Shutdown zipkin process before exiting",
+          "timestamp": "2026-04-20T18:03:24+02:00",
+          "tree_id": "3917c63feeca0cbd7e136baa57bfd8cb9e71b77b",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/cf8db99cfd3a507c4cbf6798f50ea6d8c4aecdab"
+        },
+        "date": 1776707330685,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 47.9347,
+            "range": "47.9348",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 800.463,
+            "range": "802.042",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 4736.3,
+            "range": "4737.59",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 4974.5,
+            "range": "4978.52",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2052.12,
+            "range": "2053.84",
             "unit": "ns"
           }
         ]
