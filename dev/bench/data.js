@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776700864297,
+  "lastUpdate": 1776701117832,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -88223,6 +88223,54 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2228.74,
             "range": "2230.35",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shinhyung.yang@email.uni-kiel.de",
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "5a51fe7b2ee4fa721483f75b1936e769832be3eb",
+          "message": "Added re_try counts for retrieving spans",
+          "timestamp": "2026-04-20T17:04:33+02:00",
+          "tree_id": "e4514f7333a6dbe1e65165a74d8b615eb8ffc1bf",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/5a51fe7b2ee4fa721483f75b1936e769832be3eb"
+        },
+        "date": 1776701117794,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.8827,
+            "range": "44.8828",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 1618.68,
+            "range": "1620.89",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 2771.27,
+            "range": "2772.79",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2404.47,
+            "range": "2405.42",
             "unit": "ns"
           }
         ]
