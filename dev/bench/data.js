@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776777510918,
+  "lastUpdate": 1776777528637,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -181561,6 +181561,54 @@ window.BENCHMARK_DATA = {
             "name": "Writing without sanitizing fields",
             "value": 2438.61,
             "range": "2462.59",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "703fadf74763eed5478be3fac9b72eaa4a3e32b9",
+          "message": "Increase timeout to 2 hours, since testing multiple frameworks takes\nlonger",
+          "timestamp": "2026-04-21T13:09:58+02:00",
+          "tree_id": "bb771e09874e8cfb94a199dfcfad0ea6ecdedca5",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/703fadf74763eed5478be3fac9b72eaa4a3e32b9"
+        },
+        "date": 1776777528598,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 47.8853,
+            "range": "47.8853",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 143.587,
+            "range": "144.175",
+            "unit": "ns"
+          },
+          {
+            "name": "Regular Writing",
+            "value": 3347.02,
+            "range": "3442.91",
+            "unit": "ns"
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 3384.84,
+            "range": "3462.76",
             "unit": "ns"
           }
         ]
