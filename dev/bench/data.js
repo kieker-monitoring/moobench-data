@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776751348574,
+  "lastUpdate": 1776751833093,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -46981,6 +46981,52 @@ window.BENCHMARK_DATA = {
             "name": "Binary file",
             "value": 1148.77,
             "range": "1150.38",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang",
+            "email": "shinhyung.yang@email.uni-kiel.de"
+          },
+          "committer": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "cf8db99cfd3a507c4cbf6798f50ea6d8c4aecdab",
+          "message": "Shutdown zipkin process before exiting",
+          "timestamp": "2026-04-20T15:48:50Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/cf8db99cfd3a507c4cbf6798f50ea6d8c4aecdab"
+        },
+        "date": 1776751833059,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9422,
+            "range": "44.9423",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 48.8821,
+            "range": "48.8869",
+            "unit": "ns"
+          },
+          {
+            "name": "No collection",
+            "value": 464.512,
+            "range": "464.564",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary file",
+            "value": 983.008,
+            "range": "983.321",
             "unit": "ns"
           }
         ]
