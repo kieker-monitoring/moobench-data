@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776781049277,
+  "lastUpdate": 1776781072374,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -240769,6 +240769,54 @@ window.BENCHMARK_DATA = {
             "name": "Pinpoint Sampling",
             "value": 3449.4,
             "range": "3543.58",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "703fadf74763eed5478be3fac9b72eaa4a3e32b9",
+          "message": "Increase timeout to 2 hours, since testing multiple frameworks takes\nlonger",
+          "timestamp": "2026-04-21T13:09:58+02:00",
+          "tree_id": "bb771e09874e8cfb94a199dfcfad0ea6ecdedca5",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/703fadf74763eed5478be3fac9b72eaa4a3e32b9"
+        },
+        "date": 1776781072337,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 45.0668,
+            "range": "45.067",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Deactivated",
+            "value": 48.1225,
+            "range": "48.7862",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Basic",
+            "value": 5063.68,
+            "range": "5197.83",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Sampling",
+            "value": 3265.61,
+            "range": "3318",
             "unit": "ns"
           }
         ]
