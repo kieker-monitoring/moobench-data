@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776775789286,
+  "lastUpdate": 1776775983776,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -47315,6 +47315,54 @@ window.BENCHMARK_DATA = {
             "name": "Binary file",
             "value": 870.418,
             "range": "871.291",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "703fadf74763eed5478be3fac9b72eaa4a3e32b9",
+          "message": "Increase timeout to 2 hours, since testing multiple frameworks takes\nlonger",
+          "timestamp": "2026-04-21T13:09:58+02:00",
+          "tree_id": "bb771e09874e8cfb94a199dfcfad0ea6ecdedca5",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/703fadf74763eed5478be3fac9b72eaa4a3e32b9"
+        },
+        "date": 1776775983739,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9418,
+            "range": "44.9422",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 48.6999,
+            "range": "48.7001",
+            "unit": "ns"
+          },
+          {
+            "name": "No collection",
+            "value": 463.159,
+            "range": "463.222",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary file",
+            "value": 999.539,
+            "range": "1000.9",
             "unit": "ns"
           }
         ]
