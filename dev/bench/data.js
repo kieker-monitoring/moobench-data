@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776752219391,
+  "lastUpdate": 1776752614941,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -180891,6 +180891,52 @@ window.BENCHMARK_DATA = {
             "name": "Writing without sanitizing fields",
             "value": 3484.5,
             "range": "3591.53",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang",
+            "email": "shinhyung.yang@email.uni-kiel.de"
+          },
+          "committer": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "cf8db99cfd3a507c4cbf6798f50ea6d8c4aecdab",
+          "message": "Shutdown zipkin process before exiting",
+          "timestamp": "2026-04-20T15:48:50Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/cf8db99cfd3a507c4cbf6798f50ea6d8c4aecdab"
+        },
+        "date": 1776752614909,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.8761,
+            "range": "44.8762",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 142.187,
+            "range": "143.993",
+            "unit": "ns"
+          },
+          {
+            "name": "Regular Writing",
+            "value": 3618.47,
+            "range": "3710.14",
+            "unit": "ns"
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 3370.14,
+            "range": "3462.97",
             "unit": "ns"
           }
         ]
