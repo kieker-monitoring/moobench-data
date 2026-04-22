@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776838140040,
+  "lastUpdate": 1776838543128,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -89321,6 +89321,52 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2370,
             "range": "2371.3",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "82f6fcc8334c9513bbb9d378b3a5e287d2c2e56e",
+          "message": "Fix OpenTelemetry environment variable",
+          "timestamp": "2026-04-21T16:41:42Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/82f6fcc8334c9513bbb9d378b3a5e287d2c2e56e"
+        },
+        "date": 1776838543093,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9675,
+            "range": "44.9676",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 1599.44,
+            "range": "1600.39",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 2732.68,
+            "range": "2735.38",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2423.46,
+            "range": "2423.87",
             "unit": "ns"
           }
         ]
