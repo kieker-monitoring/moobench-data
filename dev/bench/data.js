@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777184009172,
+  "lastUpdate": 1777184535207,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -47979,6 +47979,52 @@ window.BENCHMARK_DATA = {
             "name": "Binary file",
             "value": 1007.53,
             "range": "1009.14",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "82f6fcc8334c9513bbb9d378b3a5e287d2c2e56e",
+          "message": "Fix OpenTelemetry environment variable",
+          "timestamp": "2026-04-21T16:41:42Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/82f6fcc8334c9513bbb9d378b3a5e287d2c2e56e"
+        },
+        "date": 1777184535172,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9767,
+            "range": "44.9769",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 48.7691,
+            "range": "48.7693",
+            "unit": "ns"
+          },
+          {
+            "name": "No collection",
+            "value": 463.265,
+            "range": "463.292",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary file",
+            "value": 989.872,
+            "range": "990.719",
             "unit": "ns"
           }
         ]
