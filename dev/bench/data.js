@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777397175342,
+  "lastUpdate": 1777397513882,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -48261,6 +48261,54 @@ window.BENCHMARK_DATA = {
             "name": "Binary file",
             "value": 1147.34,
             "range": "1147.91",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "fecd160aa1b18e59c906a29f3ccfbba01f1f831b",
+          "message": "Remove inspectIT test, since its already in testCorrectness",
+          "timestamp": "2026-04-28T18:43:15+02:00",
+          "tree_id": "43db06c619059c9b6ab783482c217d178cfb81cc",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/fecd160aa1b18e59c906a29f3ccfbba01f1f831b"
+        },
+        "date": 1777397513844,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9691,
+            "range": "44.9697",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 48.6927,
+            "range": "48.6928",
+            "unit": "ns"
+          },
+          {
+            "name": "No collection",
+            "value": 463.535,
+            "range": "463.592",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary file",
+            "value": 995.836,
+            "range": "995.977",
             "unit": "ns"
           }
         ]
