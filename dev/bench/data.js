@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777372856866,
+  "lastUpdate": 1777373349782,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -244313,6 +244313,54 @@ window.BENCHMARK_DATA = {
             "name": "Pinpoint Sampling",
             "value": 3015.17,
             "range": "3075.17",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "188520764+Marcel-Ha@users.noreply.github.com",
+            "name": "Marcel Hansson",
+            "username": "Marcel-Ha"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "437516b39f99ca4bf0662892a6cde4aea8ac035c",
+          "message": "Add basic bats test for Skywalking",
+          "timestamp": "2026-04-28T10:33:23+02:00",
+          "tree_id": "dfef54fe28e10276f6bbd722515ca2138383053d",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/437516b39f99ca4bf0662892a6cde4aea8ac035c"
+        },
+        "date": 1777373349742,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 45.0276,
+            "range": "45.0277",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Deactivated",
+            "value": 45.2265,
+            "range": "45.2284",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Basic",
+            "value": 5003.19,
+            "range": "5076.77",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Sampling",
+            "value": 3247.29,
+            "range": "3320.95",
             "unit": "ns"
           }
         ]
