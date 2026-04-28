@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777367847020,
+  "lastUpdate": 1777368501410,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -183627,6 +183627,54 @@ window.BENCHMARK_DATA = {
             "name": "Writing without sanitizing fields",
             "value": 4622.43,
             "range": "4661.18",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "188520764+Marcel-Ha@users.noreply.github.com",
+            "name": "Marcel Hansson",
+            "username": "Marcel-Ha"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "dbfee784b050595bdc49d04fb5a3b8861f6fee01",
+          "message": "Add basic test for scouter",
+          "timestamp": "2026-04-28T10:32:31+02:00",
+          "tree_id": "ebc83226d81132ab27563bcfbf84e76937c69868",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/dbfee784b050595bdc49d04fb5a3b8861f6fee01"
+        },
+        "date": 1777368501375,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 30.1599,
+            "range": "30.295",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 154.599,
+            "range": "154.687",
+            "unit": "ns"
+          },
+          {
+            "name": "Regular Writing",
+            "value": 4135.22,
+            "range": "4234.3",
+            "unit": "ns"
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 3966.83,
+            "range": "4063.97",
             "unit": "ns"
           }
         ]
