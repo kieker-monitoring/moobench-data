@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777372201467,
+  "lastUpdate": 1777372558427,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -90159,6 +90159,54 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2247.71,
             "range": "2248.33",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shinhyung.yang@email.uni-kiel.de",
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "cbef601fed97fab4908ae65ed4f614524433aeb5",
+          "message": "Skywalking APM 10.3.0 will fail due to Java25",
+          "timestamp": "2026-04-28T11:33:07+02:00",
+          "tree_id": "bdc451b40e642103fabe82539d0f68c83c584b17",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/cbef601fed97fab4908ae65ed4f614524433aeb5"
+        },
+        "date": 1777372558389,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 45.1332,
+            "range": "45.1389",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 1611.25,
+            "range": "1612.53",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 2690.6,
+            "range": "2691.95",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2440.74,
+            "range": "2442.8",
             "unit": "ns"
           }
         ]
