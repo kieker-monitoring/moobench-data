@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777368729516,
+  "lastUpdate": 1777368761990,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -90015,6 +90015,54 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2254.44,
             "range": "2255.78",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "188520764+Marcel-Ha@users.noreply.github.com",
+            "name": "Marcel Hansson",
+            "username": "Marcel-Ha"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "dbfee784b050595bdc49d04fb5a3b8861f6fee01",
+          "message": "Add basic test for scouter",
+          "timestamp": "2026-04-28T10:32:31+02:00",
+          "tree_id": "ebc83226d81132ab27563bcfbf84e76937c69868",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/dbfee784b050595bdc49d04fb5a3b8861f6fee01"
+        },
+        "date": 1777368761950,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 47.8933,
+            "range": "47.8934",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 1516.84,
+            "range": "1517.84",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 2518.4,
+            "range": "2519",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2249.89,
+            "range": "2250.18",
             "unit": "ns"
           }
         ]
