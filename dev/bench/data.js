@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777367772086,
+  "lastUpdate": 1777367847020,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -48117,6 +48117,54 @@ window.BENCHMARK_DATA = {
             "name": "Binary file",
             "value": 991.008,
             "range": "991.521",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "188520764+Marcel-Ha@users.noreply.github.com",
+            "name": "Marcel Hansson",
+            "username": "Marcel-Ha"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "dbfee784b050595bdc49d04fb5a3b8861f6fee01",
+          "message": "Add basic test for scouter",
+          "timestamp": "2026-04-28T10:32:31+02:00",
+          "tree_id": "ebc83226d81132ab27563bcfbf84e76937c69868",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/dbfee784b050595bdc49d04fb5a3b8861f6fee01"
+        },
+        "date": 1777367846982,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 29.2057,
+            "range": "29.2868",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 38.3466,
+            "range": "38.3847",
+            "unit": "ns"
+          },
+          {
+            "name": "No collection",
+            "value": 430.428,
+            "range": "430.46",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary file",
+            "value": 1171.93,
+            "range": "1172.69",
             "unit": "ns"
           }
         ]
