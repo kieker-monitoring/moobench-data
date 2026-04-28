@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777373349782,
+  "lastUpdate": 1777375092234,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -217701,6 +217701,60 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 1559.6,
             "range": "1560.29",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shinhyung.yang@email.uni-kiel.de",
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "cbef601fed97fab4908ae65ed4f614524433aeb5",
+          "message": "Skywalking APM 10.3.0 will fail due to Java25",
+          "timestamp": "2026-04-28T11:33:07+02:00",
+          "tree_id": "bdc451b40e642103fabe82539d0f68c83c584b17",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/cbef601fed97fab4908ae65ed4f614524433aeb5"
+        },
+        "date": 1777375092195,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 45.1285,
+            "range": "45.1309",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 825.424,
+            "range": "826.583",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 5015.51,
+            "range": "5016.22",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 5246.63,
+            "range": "5247.93",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2003.15,
+            "range": "2007.99",
             "unit": "ns"
           }
         ]
