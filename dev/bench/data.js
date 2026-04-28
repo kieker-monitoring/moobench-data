@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777369001821,
+  "lastUpdate": 1777369245846,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -183819,6 +183819,54 @@ window.BENCHMARK_DATA = {
             "name": "Writing without sanitizing fields",
             "value": 3966.83,
             "range": "4063.97",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "188520764+Marcel-Ha@users.noreply.github.com",
+            "name": "Marcel Hansson",
+            "username": "Marcel-Ha"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "437516b39f99ca4bf0662892a6cde4aea8ac035c",
+          "message": "Add basic bats test for Skywalking",
+          "timestamp": "2026-04-28T10:33:23+02:00",
+          "tree_id": "dfef54fe28e10276f6bbd722515ca2138383053d",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/437516b39f99ca4bf0662892a6cde4aea8ac035c"
+        },
+        "date": 1777369245807,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9816,
+            "range": "44.9819",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 143.192,
+            "range": "144.619",
+            "unit": "ns"
+          },
+          {
+            "name": "Regular Writing",
+            "value": 3271.1,
+            "range": "3352.1",
+            "unit": "ns"
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 3178.56,
+            "range": "3246.76",
             "unit": "ns"
           }
         ]
