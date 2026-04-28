@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777371364539,
+  "lastUpdate": 1777371653863,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -217503,6 +217503,60 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2196.26,
             "range": "2198.69",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "188520764+Marcel-Ha@users.noreply.github.com",
+            "name": "Marcel Hansson",
+            "username": "Marcel-Ha"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "437516b39f99ca4bf0662892a6cde4aea8ac035c",
+          "message": "Add basic bats test for Skywalking",
+          "timestamp": "2026-04-28T10:33:23+02:00",
+          "tree_id": "dfef54fe28e10276f6bbd722515ca2138383053d",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/437516b39f99ca4bf0662892a6cde4aea8ac035c"
+        },
+        "date": 1777371653834,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 37.2098,
+            "range": "37.2104",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 630.237,
+            "range": "631.19",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 3572.22,
+            "range": "3573.02",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 3730.32,
+            "range": "3732.4",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 1559.6,
+            "range": "1560.29",
             "unit": "ns"
           }
         ]
