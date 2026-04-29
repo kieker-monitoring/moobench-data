@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777448514890,
+  "lastUpdate": 1777450302665,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -245145,6 +245145,52 @@ window.BENCHMARK_DATA = {
             "name": "Pinpoint Sampling",
             "value": 3312.54,
             "range": "3418.83",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "fcc8a44399fd0dd223a20ded84c43ee108482340",
+          "message": "Add Scouter-java and Skywalking-java to the unit tests",
+          "timestamp": "2026-04-28T16:44:25Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/fcc8a44399fd0dd223a20ded84c43ee108482340"
+        },
+        "date": 1777450302633,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 29.5372,
+            "range": "29.6412",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Deactivated",
+            "value": 31.3189,
+            "range": "31.858",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Basic",
+            "value": 4643.02,
+            "range": "4670.57",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Sampling",
+            "value": 2807.51,
+            "range": "2842.88",
             "unit": "ns"
           }
         ]
