@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777444853042,
+  "lastUpdate": 1777445431909,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -184391,6 +184391,52 @@ window.BENCHMARK_DATA = {
             "name": "Writing without sanitizing fields",
             "value": 3240.17,
             "range": "3352.32",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "fcc8a44399fd0dd223a20ded84c43ee108482340",
+          "message": "Add Scouter-java and Skywalking-java to the unit tests",
+          "timestamp": "2026-04-28T16:44:25Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/fcc8a44399fd0dd223a20ded84c43ee108482340"
+        },
+        "date": 1777445431877,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 29.1763,
+            "range": "29.2329",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 153.14,
+            "range": "153.518",
+            "unit": "ns"
+          },
+          {
+            "name": "Regular Writing",
+            "value": 4187.67,
+            "range": "4285.58",
+            "unit": "ns"
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 4089.16,
+            "range": "4183.99",
             "unit": "ns"
           }
         ]
