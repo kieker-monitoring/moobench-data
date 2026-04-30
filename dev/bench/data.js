@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777531324225,
+  "lastUpdate": 1777531595192,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -90537,6 +90537,52 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 1711.2,
             "range": "1712.19",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "fcc8a44399fd0dd223a20ded84c43ee108482340",
+          "message": "Add Scouter-java and Skywalking-java to the unit tests",
+          "timestamp": "2026-04-28T16:44:25Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/fcc8a44399fd0dd223a20ded84c43ee108482340"
+        },
+        "date": 1777531595160,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 28.9577,
+            "range": "29.0166",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 1721.93,
+            "range": "1722.44",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 2915.09,
+            "range": "2916.21",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2503.78,
+            "range": "2504.26",
             "unit": "ns"
           }
         ]
