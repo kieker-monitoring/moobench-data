@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777532513088,
+  "lastUpdate": 1777534463612,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -48449,6 +48449,54 @@ window.BENCHMARK_DATA = {
             "name": "Binary file",
             "value": 979.469,
             "range": "980.261",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "c0ddce11ddcff16e2dff7ca190ef094e9ec2025d",
+          "message": "Remove outdated execute workflows for Scouter and Skywalking",
+          "timestamp": "2026-04-30T08:48:52+02:00",
+          "tree_id": "578728c590bf9720b07ca22879424700338fedd0",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/c0ddce11ddcff16e2dff7ca190ef094e9ec2025d"
+        },
+        "date": 1777534463574,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 29.1798,
+            "range": "29.2627",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 38.6482,
+            "range": "38.6901",
+            "unit": "ns"
+          },
+          {
+            "name": "No collection",
+            "value": 433.155,
+            "range": "433.194",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary file",
+            "value": 1266.22,
+            "range": "1267.48",
             "unit": "ns"
           }
         ]
