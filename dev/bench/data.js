@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777537652830,
+  "lastUpdate": 1777538046788,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -218867,6 +218867,60 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 1990.94,
             "range": "1991.59",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "c0ddce11ddcff16e2dff7ca190ef094e9ec2025d",
+          "message": "Remove outdated execute workflows for Scouter and Skywalking",
+          "timestamp": "2026-04-30T08:48:52+02:00",
+          "tree_id": "578728c590bf9720b07ca22879424700338fedd0",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/c0ddce11ddcff16e2dff7ca190ef094e9ec2025d"
+        },
+        "date": 1777538046750,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9287,
+            "range": "44.9288",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 822.373,
+            "range": "824.062",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 4972.37,
+            "range": "4972.88",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 5162.7,
+            "range": "5163.62",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2011.45,
+            "range": "2013.58",
             "unit": "ns"
           }
         ]
