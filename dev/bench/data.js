@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777535366835,
+  "lastUpdate": 1777535493347,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -184671,6 +184671,54 @@ window.BENCHMARK_DATA = {
             "name": "Writing without sanitizing fields",
             "value": 4373.96,
             "range": "4429.56",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "c0ddce11ddcff16e2dff7ca190ef094e9ec2025d",
+          "message": "Remove outdated execute workflows for Scouter and Skywalking",
+          "timestamp": "2026-04-30T08:48:52+02:00",
+          "tree_id": "578728c590bf9720b07ca22879424700338fedd0",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/c0ddce11ddcff16e2dff7ca190ef094e9ec2025d"
+        },
+        "date": 1777535493306,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 45.5331,
+            "range": "45.5835",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 135.367,
+            "range": "136.607",
+            "unit": "ns"
+          },
+          {
+            "name": "Regular Writing",
+            "value": 3581.31,
+            "range": "3689.03",
+            "unit": "ns"
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 3054.67,
+            "range": "3099",
             "unit": "ns"
           }
         ]
