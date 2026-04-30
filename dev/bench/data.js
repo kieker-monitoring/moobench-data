@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777539297714,
+  "lastUpdate": 1777539587276,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -245967,6 +245967,54 @@ window.BENCHMARK_DATA = {
             "name": "Pinpoint Sampling",
             "value": 3263.43,
             "range": "3349.53",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "c0ddce11ddcff16e2dff7ca190ef094e9ec2025d",
+          "message": "Remove outdated execute workflows for Scouter and Skywalking",
+          "timestamp": "2026-04-30T08:48:52+02:00",
+          "tree_id": "578728c590bf9720b07ca22879424700338fedd0",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/c0ddce11ddcff16e2dff7ca190ef094e9ec2025d"
+        },
+        "date": 1777539587237,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 47.9814,
+            "range": "47.9824",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Deactivated",
+            "value": 49.2925,
+            "range": "49.3905",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Basic",
+            "value": 4840.86,
+            "range": "4861.14",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Sampling",
+            "value": 2802.89,
+            "range": "2842.79",
             "unit": "ns"
           }
         ]
