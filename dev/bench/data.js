@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1778604895984,
+  "lastUpdate": 1778605623238,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -92361,6 +92361,54 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2514.17,
             "range": "2514.68",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shinhyung.yang@email.uni-kiel.de",
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "f9b9d33003247a4250ddbb44c0b18fb21bacab17",
+          "message": "Fixed Jenkins benchmarking commands",
+          "timestamp": "2026-05-12T18:01:34+02:00",
+          "tree_id": "384448dadc51d4dcedcb08dd7daee72676242704",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/f9b9d33003247a4250ddbb44c0b18fb21bacab17"
+        },
+        "date": 1778605623202,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9516,
+            "range": "44.9517",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 1660.04,
+            "range": "1669.74",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 2747.64,
+            "range": "2749.37",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2405.95,
+            "range": "2407.27",
             "unit": "ns"
           }
         ]
