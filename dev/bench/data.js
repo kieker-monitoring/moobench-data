@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1779006846094,
+  "lastUpdate": 1779088710265,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -253573,6 +253573,46 @@ window.BENCHMARK_DATA = {
             "name": "Disabled Profiling",
             "value": 12520,
             "range": "12525.3",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang",
+            "email": "shinhyung.yang@email.uni-kiel.de"
+          },
+          "committer": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "f9b9d33003247a4250ddbb44c0b18fb21bacab17",
+          "message": "Fixed Jenkins benchmarking commands",
+          "timestamp": "2026-04-29T10:23:03Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/f9b9d33003247a4250ddbb44c0b18fb21bacab17"
+        },
+        "date": 1779088710230,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 47.9221,
+            "range": "47.9221",
+            "unit": "ns"
+          },
+          {
+            "name": "Instrumentation and Profiling",
+            "value": 11247.9,
+            "range": "11250.4",
+            "unit": "ns"
+          },
+          {
+            "name": "Disabled Profiling",
+            "value": 9932.23,
+            "range": "9934.47",
             "unit": "ns"
           }
         ]
