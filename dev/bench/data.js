@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1779434621595,
+  "lastUpdate": 1779435238104,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -49753,6 +49753,52 @@ window.BENCHMARK_DATA = {
             "name": "Binary file",
             "value": 974.801,
             "range": "975.503",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang",
+            "email": "shinhyung.yang@email.uni-kiel.de"
+          },
+          "committer": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "f9b9d33003247a4250ddbb44c0b18fb21bacab17",
+          "message": "Fixed Jenkins benchmarking commands",
+          "timestamp": "2026-04-29T10:23:03Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/f9b9d33003247a4250ddbb44c0b18fb21bacab17"
+        },
+        "date": 1779435238069,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 47.9007,
+            "range": "47.9007",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 51.6953,
+            "range": "51.6959",
+            "unit": "ns"
+          },
+          {
+            "name": "No collection",
+            "value": 492.982,
+            "range": "492.997",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary file",
+            "value": 1137.82,
+            "range": "1138.47",
             "unit": "ns"
           }
         ]
