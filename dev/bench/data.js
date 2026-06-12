@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1781295595636,
+  "lastUpdate": 1781295972462,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -50765,6 +50765,54 @@ window.BENCHMARK_DATA = {
             "name": "Binary file",
             "value": 968.336,
             "range": "968.675",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "53c9f2049ebe0b29c68841abbd544b201be707d4",
+          "message": "Pinpoint does not work with Java 25 yet, so remove Java 25 for now",
+          "timestamp": "2026-06-12T21:36:59+02:00",
+          "tree_id": "409269d59be3154b597fdcf6a3fbd2a7070ae006",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/53c9f2049ebe0b29c68841abbd544b201be707d4"
+        },
+        "date": 1781295972424,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 47.92,
+            "range": "47.92",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 51.6796,
+            "range": "51.6799",
+            "unit": "ns"
+          },
+          {
+            "name": "No collection",
+            "value": 492.424,
+            "range": "492.437",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary file",
+            "value": 1134.65,
+            "range": "1135.14",
             "unit": "ns"
           }
         ]
