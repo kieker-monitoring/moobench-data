@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1781300361591,
+  "lastUpdate": 1781300521277,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -192315,6 +192315,54 @@ window.BENCHMARK_DATA = {
             "name": "Writing without sanitizing fields",
             "value": 3226.33,
             "range": "3301.54",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "01b37698a0e06424e71ab22db249cacd82c6ec3d",
+          "message": "Update to logback-classic 1.5.34",
+          "timestamp": "2026-06-12T22:43:58+02:00",
+          "tree_id": "879d23dd014a4e588b84ad18b6f1dad3eef38d93",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/01b37698a0e06424e71ab22db249cacd82c6ec3d"
+        },
+        "date": 1781300521238,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 47.8788,
+            "range": "47.8788",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 147.901,
+            "range": "147.939",
+            "unit": "ns"
+          },
+          {
+            "name": "Regular Writing",
+            "value": 3444.03,
+            "range": "3507.64",
+            "unit": "ns"
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 3323.56,
+            "range": "3408.87",
             "unit": "ns"
           }
         ]
