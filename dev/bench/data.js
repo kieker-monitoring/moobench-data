@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1781296429066,
+  "lastUpdate": 1781296684608,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -95263,6 +95263,54 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2418.2,
             "range": "2419.15",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "53c9f2049ebe0b29c68841abbd544b201be707d4",
+          "message": "Pinpoint does not work with Java 25 yet, so remove Java 25 for now",
+          "timestamp": "2026-06-12T21:36:59+02:00",
+          "tree_id": "409269d59be3154b597fdcf6a3fbd2a7070ae006",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/53c9f2049ebe0b29c68841abbd544b201be707d4"
+        },
+        "date": 1781296684570,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9946,
+            "range": "44.9949",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 1637.05,
+            "range": "1637.43",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 2778.05,
+            "range": "2779.9",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2424.45,
+            "range": "2425.48",
             "unit": "ns"
           }
         ]
