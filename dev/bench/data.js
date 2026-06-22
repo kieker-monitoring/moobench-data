@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782122961647,
+  "lastUpdate": 1782123025894,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -265947,6 +265947,52 @@ window.BENCHMARK_DATA = {
             "name": "Skywalking no data collection",
             "value": 31.6889,
             "range": "31.7945",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "01b37698a0e06424e71ab22db249cacd82c6ec3d",
+          "message": "Update to logback-classic 1.5.34",
+          "timestamp": "2026-06-12T20:43:58Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/01b37698a0e06424e71ab22db249cacd82c6ec3d"
+        },
+        "date": 1782123025853,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 45.0083,
+            "range": "45.0086",
+            "unit": "ns"
+          },
+          {
+            "name": "Skywalking instrumentation",
+            "value": 3855.64,
+            "range": "3859.71",
+            "unit": "ns"
+          },
+          {
+            "name": "Skywalking 20Hz Sampling",
+            "value": 2243.05,
+            "range": "2243.64",
+            "unit": "ns"
+          },
+          {
+            "name": "Skywalking no data collection",
+            "value": 45.4954,
+            "range": "45.505",
             "unit": "ns"
           }
         ]
