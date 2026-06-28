@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782633541622,
+  "lastUpdate": 1782636385787,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -232371,6 +232371,58 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2016.5,
             "range": "2017.09",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "01b37698a0e06424e71ab22db249cacd82c6ec3d",
+          "message": "Update to logback-classic 1.5.34",
+          "timestamp": "2026-06-12T20:43:58Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/01b37698a0e06424e71ab22db249cacd82c6ec3d"
+        },
+        "date": 1782636385748,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9553,
+            "range": "44.9554",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 804.88,
+            "range": "807.557",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 4968.22,
+            "range": "4968.95",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 5173.18,
+            "range": "5174.7",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2011.51,
+            "range": "2012.39",
             "unit": "ns"
           }
         ]
