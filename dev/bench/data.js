@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782724504699,
+  "lastUpdate": 1782726964078,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -232653,6 +232653,58 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2011.51,
             "range": "2012.39",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "c87b0dc9f694d72d1ee59e02a2714f5eaf996b7a",
+          "message": "Update to gradle wrapper 9.6.1",
+          "timestamp": "2026-06-29T09:53:43Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/c87b0dc9f694d72d1ee59e02a2714f5eaf996b7a"
+        },
+        "date": 1782726964030,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 47.8982,
+            "range": "47.8982",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 806.479,
+            "range": "807.548",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 4767.84,
+            "range": "4770.07",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 4864.73,
+            "range": "4868.31",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2025.8,
+            "range": "2027.32",
             "unit": "ns"
           }
         ]
