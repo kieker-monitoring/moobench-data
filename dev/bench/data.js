@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782729389394,
+  "lastUpdate": 1782729701772,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -51691,6 +51691,54 @@ window.BENCHMARK_DATA = {
             "name": "Binary file",
             "value": 1155.32,
             "range": "1156.18",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "c87b0dc9f694d72d1ee59e02a2714f5eaf996b7a",
+          "message": "Update to gradle wrapper 9.6.1",
+          "timestamp": "2026-06-29T11:53:43+02:00",
+          "tree_id": "08c945035d69c96350df4ca1d382e4e03a598079",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/c87b0dc9f694d72d1ee59e02a2714f5eaf996b7a"
+        },
+        "date": 1782729701734,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9813,
+            "range": "44.9816",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 48.725,
+            "range": "48.7255",
+            "unit": "ns"
+          },
+          {
+            "name": "No collection",
+            "value": 463.173,
+            "range": "463.208",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary file",
+            "value": 977.426,
+            "range": "978.008",
             "unit": "ns"
           }
         ]
