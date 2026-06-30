@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782810389348,
+  "lastUpdate": 1782811020847,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -195891,6 +195891,54 @@ window.BENCHMARK_DATA = {
             "name": "Writing without sanitizing fields",
             "value": 4350.86,
             "range": "4445.66",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "74676874a6aef04a25faaf6c7a3e086ef701a427",
+          "message": "Remove go - was only present since it was part of the benchmark-action\ndemo",
+          "timestamp": "2026-06-30T10:20:58+02:00",
+          "tree_id": "ce6612b3d1cd303417164b04274a816348de5221",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/74676874a6aef04a25faaf6c7a3e086ef701a427"
+        },
+        "date": 1782811020809,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9809,
+            "range": "44.9811",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 144.253,
+            "range": "144.318",
+            "unit": "ns"
+          },
+          {
+            "name": "Regular Writing",
+            "value": 3185.22,
+            "range": "3317.2",
+            "unit": "ns"
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 3362.12,
+            "range": "3446.31",
             "unit": "ns"
           }
         ]
