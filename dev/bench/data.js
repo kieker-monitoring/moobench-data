@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782805947639,
+  "lastUpdate": 1782808842553,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -233587,6 +233587,58 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2015.97,
             "range": "2018.12",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "74676874a6aef04a25faaf6c7a3e086ef701a427",
+          "message": "Remove go - was only present since it was part of the benchmark-action\ndemo",
+          "timestamp": "2026-06-30T08:20:58Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/74676874a6aef04a25faaf6c7a3e086ef701a427"
+        },
+        "date": 1782808842507,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 45.07,
+            "range": "45.0712",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 818.71,
+            "range": "819.852",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 4948.05,
+            "range": "4949.18",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 5152.16,
+            "range": "5153.44",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 1994.14,
+            "range": "1998.36",
             "unit": "ns"
           }
         ]
