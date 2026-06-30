@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782814463509,
+  "lastUpdate": 1782815401312,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -264557,6 +264557,54 @@ window.BENCHMARK_DATA = {
             "name": "Pinpoint Sampling",
             "value": 3229.44,
             "range": "3284.87",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "74676874a6aef04a25faaf6c7a3e086ef701a427",
+          "message": "Remove go - was only present since it was part of the benchmark-action\ndemo",
+          "timestamp": "2026-06-30T10:20:58+02:00",
+          "tree_id": "ce6612b3d1cd303417164b04274a816348de5221",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/74676874a6aef04a25faaf6c7a3e086ef701a427"
+        },
+        "date": 1782815401273,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 45.0116,
+            "range": "45.0136",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Deactivated",
+            "value": 46.67,
+            "range": "46.9058",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Basic",
+            "value": 4809.66,
+            "range": "4858.74",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Sampling",
+            "value": 3289.63,
+            "range": "3327.46",
             "unit": "ns"
           }
         ]
