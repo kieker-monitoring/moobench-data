@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782813533192,
+  "lastUpdate": 1782813907835,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -234075,6 +234075,60 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2022.59,
             "range": "2023.62",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "74676874a6aef04a25faaf6c7a3e086ef701a427",
+          "message": "Remove go - was only present since it was part of the benchmark-action\ndemo",
+          "timestamp": "2026-06-30T10:20:58+02:00",
+          "tree_id": "ce6612b3d1cd303417164b04274a816348de5221",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/74676874a6aef04a25faaf6c7a3e086ef701a427"
+        },
+        "date": 1782813907804,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 37.1867,
+            "range": "37.1868",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 630.817,
+            "range": "631.367",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 3626.19,
+            "range": "3627.12",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 3727.05,
+            "range": "3727.76",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 1545.24,
+            "range": "1545.81",
             "unit": "ns"
           }
         ]
