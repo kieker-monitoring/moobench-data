@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783236993498,
+  "lastUpdate": 1783239884545,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -235177,6 +235177,58 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 1975.45,
             "range": "1976.24",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "5d4012c205d88527de66c4ec468c8855cc665f77",
+          "message": "Update ssh-agent to 0.10.0",
+          "timestamp": "2026-06-30T09:11:13Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/5d4012c205d88527de66c4ec468c8855cc665f77"
+        },
+        "date": 1783239884502,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 47.9015,
+            "range": "47.9016",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 790.237,
+            "range": "792.245",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 4230.23,
+            "range": "4670.25",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 4966.11,
+            "range": "4968.12",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2012.63,
+            "range": "2013.39",
             "unit": "ns"
           }
         ]
