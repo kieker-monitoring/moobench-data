@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783337710330,
+  "lastUpdate": 1783339239790,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -266413,6 +266413,54 @@ window.BENCHMARK_DATA = {
             "name": "Pinpoint Sampling",
             "value": 3237.53,
             "range": "3370.9",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "2ba7da6409264d6fb61e75a91b22b1fa6092e364",
+          "message": "Add factorial experiments for timers",
+          "timestamp": "2026-07-06T11:50:04+02:00",
+          "tree_id": "c837d2f192be146238aad92255a47eeaf109ea64",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/2ba7da6409264d6fb61e75a91b22b1fa6092e364"
+        },
+        "date": 1783339239749,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9216,
+            "range": "44.9219",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Deactivated",
+            "value": 47.5923,
+            "range": "48.1168",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Basic",
+            "value": 4662.97,
+            "range": "4716.71",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Sampling",
+            "value": 3025.2,
+            "range": "3070.34",
             "unit": "ns"
           }
         ]
