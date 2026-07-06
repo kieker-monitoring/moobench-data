@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783335042245,
+  "lastUpdate": 1783337710330,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -235655,6 +235655,60 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2019.33,
             "range": "2020.53",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "2ba7da6409264d6fb61e75a91b22b1fa6092e364",
+          "message": "Add factorial experiments for timers",
+          "timestamp": "2026-07-06T11:50:04+02:00",
+          "tree_id": "c837d2f192be146238aad92255a47eeaf109ea64",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/2ba7da6409264d6fb61e75a91b22b1fa6092e364"
+        },
+        "date": 1783337710291,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 45.0067,
+            "range": "45.007",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 826.578,
+            "range": "827.82",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 5004.43,
+            "range": "5005.9",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 5175.96,
+            "range": "5177.34",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 1809.03,
+            "range": "1991.51",
             "unit": "ns"
           }
         ]
