@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783408778325,
+  "lastUpdate": 1783409184026,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -52443,6 +52443,52 @@ window.BENCHMARK_DATA = {
             "name": "Binary file",
             "value": 1495.85,
             "range": "1498.09",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "2ba7da6409264d6fb61e75a91b22b1fa6092e364",
+          "message": "Add factorial experiments for timers",
+          "timestamp": "2026-07-06T09:49:37Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/2ba7da6409264d6fb61e75a91b22b1fa6092e364"
+        },
+        "date": 1783409183981,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 29.8517,
+            "range": "29.9526",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 39.4028,
+            "range": "39.4059",
+            "unit": "ns"
+          },
+          {
+            "name": "No collection",
+            "value": 431.593,
+            "range": "431.667",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary file",
+            "value": 1218.39,
+            "range": "1223.32",
             "unit": "ns"
           }
         ]
