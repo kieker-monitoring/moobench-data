@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783409184026,
+  "lastUpdate": 1783409604909,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -98525,6 +98525,52 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2474.3,
             "range": "2475.29",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "2ba7da6409264d6fb61e75a91b22b1fa6092e364",
+          "message": "Add factorial experiments for timers",
+          "timestamp": "2026-07-06T09:49:37Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/2ba7da6409264d6fb61e75a91b22b1fa6092e364"
+        },
+        "date": 1783409604862,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9364,
+            "range": "44.9365",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 1618.3,
+            "range": "1619.28",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 2800.23,
+            "range": "2802.1",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2461.37,
+            "range": "2461.91",
             "unit": "ns"
           }
         ]
