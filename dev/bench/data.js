@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783609998077,
+  "lastUpdate": 1783611175164,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -237467,6 +237467,60 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2021.33,
             "range": "2022.02",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "0715a0a24e51e870625c4c32c9c6eb6cbd46f610",
+          "message": "Go back to Java 17 for benchmarking pinpoint",
+          "timestamp": "2026-07-09T15:47:39+02:00",
+          "tree_id": "ddb9f6f2006d922ac43ce96137d66aedcdc44390",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/0715a0a24e51e870625c4c32c9c6eb6cbd46f610"
+        },
+        "date": 1783611175123,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 45.0536,
+            "range": "45.0542",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 718.684,
+            "range": "787.343",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 4984.42,
+            "range": "4984.88",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 5171.64,
+            "range": "5172.7",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 1998.65,
+            "range": "1999.11",
             "unit": "ns"
           }
         ]
