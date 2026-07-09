@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783608517710,
+  "lastUpdate": 1783609998077,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -237413,6 +237413,60 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2031.79,
             "range": "2033.12",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "598bce37eb87f74cefa5ce3475d34ba21f20c679",
+          "message": "Completely disable unit tests for pinpoint Java 25",
+          "timestamp": "2026-07-09T15:27:41+02:00",
+          "tree_id": "4588d4eb14662a506f49f08900e0a7d75ef4ad42",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/598bce37eb87f74cefa5ce3475d34ba21f20c679"
+        },
+        "date": 1783609998036,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 45.0021,
+            "range": "45.0023",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 785.412,
+            "range": "787.048",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 4993.16,
+            "range": "4994.07",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 5129.85,
+            "range": "5130.44",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2021.33,
+            "range": "2022.02",
             "unit": "ns"
           }
         ]
