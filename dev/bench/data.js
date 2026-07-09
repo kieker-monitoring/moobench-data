@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783598257391,
+  "lastUpdate": 1783598572874,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -237017,6 +237017,60 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2014.5,
             "range": "2014.69",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "70e27e78c3273c01aae4dcbf32b3a103b61658ca",
+          "message": "Update to pinpoint 3.1.0 and use GH download link",
+          "timestamp": "2026-07-09T12:15:49+02:00",
+          "tree_id": "e85aaba551607912b36d42245f91a09d5640f4ec",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/70e27e78c3273c01aae4dcbf32b3a103b61658ca"
+        },
+        "date": 1783598572840,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 35.0761,
+            "range": "35.2394",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 689.958,
+            "range": "691.743",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 3993.43,
+            "range": "3996.87",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 4019.91,
+            "range": "4023.15",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 1754.82,
+            "range": "1756.55",
             "unit": "ns"
           }
         ]
