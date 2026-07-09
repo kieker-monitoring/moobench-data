@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783594910288,
+  "lastUpdate": 1783595339138,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -52725,6 +52725,54 @@ window.BENCHMARK_DATA = {
             "name": "Binary file",
             "value": 1525.24,
             "range": "1526.13",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "9a7123a3495891ea4e0fd63769f0fc3020e4c8ff",
+          "message": "Skip pinpoint if Java 25 is active; fix can be added later",
+          "timestamp": "2026-07-09T12:20:22+02:00",
+          "tree_id": "d7f5c3256ff897e0fce3757d75000912b8f182f6",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/9a7123a3495891ea4e0fd63769f0fc3020e4c8ff"
+        },
+        "date": 1783595339095,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9666,
+            "range": "44.9667",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 48.7263,
+            "range": "48.7278",
+            "unit": "ns"
+          },
+          {
+            "name": "No collection",
+            "value": 462.34,
+            "range": "462.363",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary file",
+            "value": 996.601,
+            "range": "998.362",
             "unit": "ns"
           }
         ]
