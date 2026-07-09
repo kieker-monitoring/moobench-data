@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783607047587,
+  "lastUpdate": 1783607317588,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -99187,6 +99187,54 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2435.36,
             "range": "2437.24",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "598bce37eb87f74cefa5ce3475d34ba21f20c679",
+          "message": "Completely disable unit tests for pinpoint Java 25",
+          "timestamp": "2026-07-09T15:27:41+02:00",
+          "tree_id": "4588d4eb14662a506f49f08900e0a7d75ef4ad42",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/598bce37eb87f74cefa5ce3475d34ba21f20c679"
+        },
+        "date": 1783607317548,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9418,
+            "range": "44.9419",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 1610.3,
+            "range": "1611.15",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 2770.89,
+            "range": "2771.9",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2462.56,
+            "range": "2463.51",
             "unit": "ns"
           }
         ]
