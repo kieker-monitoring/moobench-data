@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783608251820,
+  "lastUpdate": 1783608517710,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -99283,6 +99283,54 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2462.56,
             "range": "2463.51",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "0715a0a24e51e870625c4c32c9c6eb6cbd46f610",
+          "message": "Go back to Java 17 for benchmarking pinpoint",
+          "timestamp": "2026-07-09T15:47:39+02:00",
+          "tree_id": "ddb9f6f2006d922ac43ce96137d66aedcdc44390",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/0715a0a24e51e870625c4c32c9c6eb6cbd46f610"
+        },
+        "date": 1783608517671,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 45.0027,
+            "range": "45.0031",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 1629.92,
+            "range": "1631.48",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 2796.39,
+            "range": "2798.09",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2450.44,
+            "range": "2451.31",
             "unit": "ns"
           }
         ]
