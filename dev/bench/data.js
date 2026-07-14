@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1784009510843,
+  "lastUpdate": 1784009918717,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -99841,6 +99841,52 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2276.48,
             "range": "2276.9",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "5e4b44697338890eebfe8e1149662edf60e87edb",
+          "message": "Leave out Java 21",
+          "timestamp": "2026-07-11T09:54:57Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/5e4b44697338890eebfe8e1149662edf60e87edb"
+        },
+        "date": 1784009918672,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9977,
+            "range": "44.9979",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 1600.24,
+            "range": "1601.79",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 2736.01,
+            "range": "2737.42",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2480.67,
+            "range": "2481.76",
             "unit": "ns"
           }
         ]
