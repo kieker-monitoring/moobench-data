@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1784095479858,
+  "lastUpdate": 1784095967637,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -53147,6 +53147,52 @@ window.BENCHMARK_DATA = {
             "name": "Binary file",
             "value": 970.798,
             "range": "971.487",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "5e4b44697338890eebfe8e1149662edf60e87edb",
+          "message": "Leave out Java 21",
+          "timestamp": "2026-07-11T09:54:57Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/5e4b44697338890eebfe8e1149662edf60e87edb"
+        },
+        "date": 1784095967587,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9421,
+            "range": "44.9423",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 48.7776,
+            "range": "48.7777",
+            "unit": "ns"
+          },
+          {
+            "name": "No collection",
+            "value": 463.267,
+            "range": "463.281",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary file",
+            "value": 990.922,
+            "range": "992.418",
             "unit": "ns"
           }
         ]
