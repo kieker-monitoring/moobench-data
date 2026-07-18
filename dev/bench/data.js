@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1784355700862,
+  "lastUpdate": 1784358647283,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -239423,6 +239423,58 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 1730.11,
             "range": "1731.45",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "5e4b44697338890eebfe8e1149662edf60e87edb",
+          "message": "Leave out Java 21",
+          "timestamp": "2026-07-11T09:54:57Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/5e4b44697338890eebfe8e1149662edf60e87edb"
+        },
+        "date": 1784358647236,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 45.0015,
+            "range": "45.0016",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 829.571,
+            "range": "831.11",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 5018.67,
+            "range": "5019.88",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 5291.27,
+            "range": "5294.44",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2026.88,
+            "range": "2029.16",
             "unit": "ns"
           }
         ]
