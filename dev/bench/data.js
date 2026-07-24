@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1784906966441,
+  "lastUpdate": 1784907484152,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -200921,6 +200921,54 @@ window.BENCHMARK_DATA = {
             "name": "Writing without sanitizing fields",
             "value": 4278.06,
             "range": "4415.84",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shinhyung.yang@email.uni-kiel.de",
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "34c1ab5b5a5ac454f0220c71047f2b05e5250751",
+          "message": "Kieker-python fixes\n\n1. Added new hook routines for the post import hook.\n2. Minor updates has been made as kieker-lang-pack-python 0.0.2",
+          "timestamp": "2026-07-24T16:41:38+02:00",
+          "tree_id": "0fb1509800e783a529b2419c7c070ef020e73ee6",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/34c1ab5b5a5ac454f0220c71047f2b05e5250751"
+        },
+        "date": 1784907484111,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 48.0706,
+            "range": "48.0732",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 146.622,
+            "range": "146.653",
+            "unit": "ns"
+          },
+          {
+            "name": "Regular Writing",
+            "value": 3383.91,
+            "range": "3454.39",
+            "unit": "ns"
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 3236.96,
+            "range": "3331.58",
             "unit": "ns"
           }
         ]
