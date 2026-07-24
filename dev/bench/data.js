@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1784907708939,
+  "lastUpdate": 1784910384682,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -240851,6 +240851,60 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2002.11,
             "range": "2003.3",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shinhyung.yang@email.uni-kiel.de",
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "34c1ab5b5a5ac454f0220c71047f2b05e5250751",
+          "message": "Kieker-python fixes\n\n1. Added new hook routines for the post import hook.\n2. Minor updates has been made as kieker-lang-pack-python 0.0.2",
+          "timestamp": "2026-07-24T16:41:38+02:00",
+          "tree_id": "0fb1509800e783a529b2419c7c070ef020e73ee6",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/34c1ab5b5a5ac454f0220c71047f2b05e5250751"
+        },
+        "date": 1784910384631,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9887,
+            "range": "44.9889",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 814.26,
+            "range": "815.623",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 5042.85,
+            "range": "5044.22",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 5229.1,
+            "range": "5231.7",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2008.05,
+            "range": "2008.32",
             "unit": "ns"
           }
         ]
