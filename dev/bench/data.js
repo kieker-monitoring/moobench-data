@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785136331433,
+  "lastUpdate": 1785136446634,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -101133,6 +101133,52 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2459.37,
             "range": "2460.41",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang",
+            "email": "shinhyung.yang@email.uni-kiel.de"
+          },
+          "committer": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "34c1ab5b5a5ac454f0220c71047f2b05e5250751",
+          "message": "Kieker-python fixes\n\n1. Added new hook routines for the post import hook.\n2. Minor updates has been made as kieker-lang-pack-python 0.0.2",
+          "timestamp": "2026-07-24T13:16:57Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/34c1ab5b5a5ac454f0220c71047f2b05e5250751"
+        },
+        "date": 1785136446586,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 47.8731,
+            "range": "47.8732",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 1521.15,
+            "range": "1522.09",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 2562.88,
+            "range": "2564.65",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2276.7,
+            "range": "2276.93",
             "unit": "ns"
           }
         ]
