@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785243086874,
+  "lastUpdate": 1785243331962,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -101319,6 +101319,54 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2281.63,
             "range": "2281.93",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shinhyung.yang@email.uni-kiel.de",
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "dc5a2ded81a5633fb578a191e526d22cfa0a5cda",
+          "message": "Fixed Python Benchmarking\n\n* Instrument recursed method call when OTEL_AVAILABLE==True\n* Minor refactorizations",
+          "timestamp": "2026-07-28T13:54:57+02:00",
+          "tree_id": "c901a2abdb66c36015631dced3c18b4e19310129",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/dc5a2ded81a5633fb578a191e526d22cfa0a5cda"
+        },
+        "date": 1785243331918,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 45.018,
+            "range": "45.0182",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 1654.89,
+            "range": "1656.47",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 2791.84,
+            "range": "2793.48",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2457.19,
+            "range": "2458.24",
             "unit": "ns"
           }
         ]
