@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785220931000,
+  "lastUpdate": 1785223869496,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -241705,6 +241705,58 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2011.1,
             "range": "2012.1",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang",
+            "email": "shinhyung.yang@email.uni-kiel.de"
+          },
+          "committer": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "34c1ab5b5a5ac454f0220c71047f2b05e5250751",
+          "message": "Kieker-python fixes\n\n1. Added new hook routines for the post import hook.\n2. Minor updates has been made as kieker-lang-pack-python 0.0.2",
+          "timestamp": "2026-07-24T13:16:57Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/34c1ab5b5a5ac454f0220c71047f2b05e5250751"
+        },
+        "date": 1785223869447,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9874,
+            "range": "44.9876",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 834.72,
+            "range": "835.8",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 5013.8,
+            "range": "5015.19",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 5271.52,
+            "range": "5274.8",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2041.95,
+            "range": "2043.69",
             "unit": "ns"
           }
         ]
