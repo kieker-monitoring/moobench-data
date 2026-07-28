@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785242595132,
+  "lastUpdate": 1785243086874,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -201709,6 +201709,54 @@ window.BENCHMARK_DATA = {
             "name": "Writing without sanitizing fields",
             "value": 3502.31,
             "range": "3601.14",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shinhyung.yang@email.uni-kiel.de",
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "dc5a2ded81a5633fb578a191e526d22cfa0a5cda",
+          "message": "Fixed Python Benchmarking\n\n* Instrument recursed method call when OTEL_AVAILABLE==True\n* Minor refactorizations",
+          "timestamp": "2026-07-28T13:54:57+02:00",
+          "tree_id": "c901a2abdb66c36015631dced3c18b4e19310129",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/dc5a2ded81a5633fb578a191e526d22cfa0a5cda"
+        },
+        "date": 1785243086834,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9155,
+            "range": "44.9157",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 142.395,
+            "range": "142.538",
+            "unit": "ns"
+          },
+          {
+            "name": "Regular Writing",
+            "value": 3290.85,
+            "range": "3374.16",
+            "unit": "ns"
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 3633.71,
+            "range": "3695.12",
             "unit": "ns"
           }
         ]
