@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785243331962,
+  "lastUpdate": 1785246032993,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -241901,6 +241901,60 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2041.95,
             "range": "2043.69",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shinhyung.yang@email.uni-kiel.de",
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "dc5a2ded81a5633fb578a191e526d22cfa0a5cda",
+          "message": "Fixed Python Benchmarking\n\n* Instrument recursed method call when OTEL_AVAILABLE==True\n* Minor refactorizations",
+          "timestamp": "2026-07-28T13:54:57+02:00",
+          "tree_id": "c901a2abdb66c36015631dced3c18b4e19310129",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/dc5a2ded81a5633fb578a191e526d22cfa0a5cda"
+        },
+        "date": 1785246032953,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 47.9049,
+            "range": "47.905",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 825.163,
+            "range": "827.646",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 4716.9,
+            "range": "4718.41",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 5049.07,
+            "range": "5053.13",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2010.28,
+            "range": "2010.68",
             "unit": "ns"
           }
         ]
