@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785396337236,
+  "lastUpdate": 1785399268861,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -273463,6 +273463,52 @@ window.BENCHMARK_DATA = {
             "name": "Pinpoint Sampling",
             "value": 4660.37,
             "range": "4676.71",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang",
+            "email": "shinhyung.yang@email.uni-kiel.de"
+          },
+          "committer": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "dc5a2ded81a5633fb578a191e526d22cfa0a5cda",
+          "message": "Fixed Python Benchmarking\n\n* Instrument recursed method call when OTEL_AVAILABLE==True\n* Minor refactorizations",
+          "timestamp": "2026-07-28T08:55:05Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/dc5a2ded81a5633fb578a191e526d22cfa0a5cda"
+        },
+        "date": 1785399268809,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.7288,
+            "range": "44.7289",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Deactivated",
+            "value": 45.3921,
+            "range": "45.3996",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Basic",
+            "value": 10511.4,
+            "range": "10524.9",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Sampling",
+            "value": 5500.11,
+            "range": "5564.12",
             "unit": "ns"
           }
         ]
