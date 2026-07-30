@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785393359091,
+  "lastUpdate": 1785396337236,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -242283,6 +242283,58 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2019.3,
             "range": "2021.29",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang",
+            "email": "shinhyung.yang@email.uni-kiel.de"
+          },
+          "committer": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "dc5a2ded81a5633fb578a191e526d22cfa0a5cda",
+          "message": "Fixed Python Benchmarking\n\n* Instrument recursed method call when OTEL_AVAILABLE==True\n* Minor refactorizations",
+          "timestamp": "2026-07-28T08:55:05Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/dc5a2ded81a5633fb578a191e526d22cfa0a5cda"
+        },
+        "date": 1785396337190,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 45.0601,
+            "range": "45.0604",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 818.096,
+            "range": "820.301",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 5066.28,
+            "range": "5067.68",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 5275.98,
+            "range": "5280.81",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2022.32,
+            "range": "2023.23",
             "unit": "ns"
           }
         ]
