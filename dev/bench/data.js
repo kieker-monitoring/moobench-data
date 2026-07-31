@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785511374887,
+  "lastUpdate": 1785512651066,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -274733,6 +274733,54 @@ window.BENCHMARK_DATA = {
             "name": "Pinpoint Sampling",
             "value": 5269.99,
             "range": "5298.5",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "2bd16bac0e40a07b5c7ae744972590cd1bf17946",
+          "message": "Fix python: Use with for spans",
+          "timestamp": "2026-07-31T15:26:09+02:00",
+          "tree_id": "94bb940eef5248ac6bcfedc4ba8003f6d2d662e2",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/2bd16bac0e40a07b5c7ae744972590cd1bf17946"
+        },
+        "date": 1785512651035,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 31.8432,
+            "range": "31.847",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Deactivated",
+            "value": 33.1228,
+            "range": "33.1812",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Basic",
+            "value": 7959.84,
+            "range": "7998.98",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Sampling",
+            "value": 3739.54,
+            "range": "3761.67",
             "unit": "ns"
           }
         ]
