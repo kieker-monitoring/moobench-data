@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785507941751,
+  "lastUpdate": 1785507995346,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -54169,6 +54169,54 @@ window.BENCHMARK_DATA = {
             "name": "Binary file",
             "value": 886.797,
             "range": "888.003",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "2bd16bac0e40a07b5c7ae744972590cd1bf17946",
+          "message": "Fix python: Use with for spans",
+          "timestamp": "2026-07-31T15:26:09+02:00",
+          "tree_id": "94bb940eef5248ac6bcfedc4ba8003f6d2d662e2",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/2bd16bac0e40a07b5c7ae744972590cd1bf17946"
+        },
+        "date": 1785507995306,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9613,
+            "range": "44.9615",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 48.7077,
+            "range": "48.7078",
+            "unit": "ns"
+          },
+          {
+            "name": "No collection",
+            "value": 464.313,
+            "range": "464.344",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary file",
+            "value": 972.558,
+            "range": "973.286",
             "unit": "ns"
           }
         ]
