@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785596248150,
+  "lastUpdate": 1785597638237,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -244043,6 +244043,60 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2033.54,
             "range": "2034.47",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "ab1eec933a4913d0710b9f3f45878f211507506c",
+          "message": "Use individual venv for each python framework, use configured $PYTHON\nfrom the outside and don't overwrite",
+          "timestamp": "2026-08-01T15:34:52+02:00",
+          "tree_id": "33c2540cc0352fd3768715cf23ae1d53f438988d",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/ab1eec933a4913d0710b9f3f45878f211507506c"
+        },
+        "date": 1785597638196,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 45.0217,
+            "range": "45.0219",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 798.422,
+            "range": "800.355",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 5023.79,
+            "range": "5024.87",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 5243.99,
+            "range": "5247.52",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2039.27,
+            "range": "2042.13",
             "unit": "ns"
           }
         ]
