@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785594465586,
+  "lastUpdate": 1785594737148,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -203127,6 +203127,54 @@ window.BENCHMARK_DATA = {
             "name": "Writing without sanitizing fields",
             "value": 3395.27,
             "range": "3484.51",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "ab1eec933a4913d0710b9f3f45878f211507506c",
+          "message": "Use individual venv for each python framework, use configured $PYTHON\nfrom the outside and don't overwrite",
+          "timestamp": "2026-08-01T15:34:52+02:00",
+          "tree_id": "33c2540cc0352fd3768715cf23ae1d53f438988d",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/ab1eec933a4913d0710b9f3f45878f211507506c"
+        },
+        "date": 1785594737109,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 45.0228,
+            "range": "45.023",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 142.832,
+            "range": "143.215",
+            "unit": "ns"
+          },
+          {
+            "name": "Regular Writing",
+            "value": 3567.81,
+            "range": "3654.48",
+            "unit": "ns"
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 3758.95,
+            "range": "3862.16",
             "unit": "ns"
           }
         ]
