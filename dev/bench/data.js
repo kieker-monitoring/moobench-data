@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785753544666,
+  "lastUpdate": 1785753720044,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -246057,6 +246057,60 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2005.81,
             "range": "2007.26",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "9f6906f27c1576be5c5a3fb1f17d0476a5b72c33",
+          "message": "Add classifiers after framework name, remove | in table",
+          "timestamp": "2026-08-03T10:35:58+02:00",
+          "tree_id": "76aa12531d05e7c75c6530be405482c86b088771",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/9f6906f27c1576be5c5a3fb1f17d0476a5b72c33"
+        },
+        "date": 1785753720002,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 47.908,
+            "range": "47.9081",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 815.025,
+            "range": "816.576",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 4795.6,
+            "range": "4796.48",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 5017.43,
+            "range": "5021",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2016.38,
+            "range": "2017",
             "unit": "ns"
           }
         ]
