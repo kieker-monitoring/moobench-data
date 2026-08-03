@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785741688979,
+  "lastUpdate": 1785741920817,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -282719,6 +282719,52 @@ window.BENCHMARK_DATA = {
             "name": "Skywalking no data collection",
             "value": 31.2376,
             "range": "31.3613",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "a816e415e14eea497c5ca59322ceda85c080da1b",
+          "message": "Use configurable PYTHON variable for version",
+          "timestamp": "2026-08-01T18:55:43Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/a816e415e14eea497c5ca59322ceda85c080da1b"
+        },
+        "date": 1785741920781,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 32.4963,
+            "range": "32.5639",
+            "unit": "ns"
+          },
+          {
+            "name": "Skywalking instrumentation",
+            "value": 2886.64,
+            "range": "2887.28",
+            "unit": "ns"
+          },
+          {
+            "name": "Skywalking 20Hz Sampling",
+            "value": 1850.66,
+            "range": "1851.08",
+            "unit": "ns"
+          },
+          {
+            "name": "Skywalking no data collection",
+            "value": 32.0262,
+            "range": "32.0552",
             "unit": "ns"
           }
         ]
