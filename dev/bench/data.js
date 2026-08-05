@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785930476790,
+  "lastUpdate": 1785933086663,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -246881,6 +246881,60 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2027.62,
             "range": "2028.51",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "504042d5a9f0345a3ccd2727da564a0c512aa8c8",
+          "message": "Scaling experiment can be run for depth and threads -> rename script",
+          "timestamp": "2026-08-05T12:46:44+02:00",
+          "tree_id": "3d914e1d4df3c49ed103ae1e6cfa65caabba2fc3",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/504042d5a9f0345a3ccd2727da564a0c512aa8c8"
+        },
+        "date": 1785933086623,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9681,
+            "range": "44.9682",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 805.217,
+            "range": "807.153",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 5035.85,
+            "range": "5036.45",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 4724.23,
+            "range": "5215.84",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2015.83,
+            "range": "2016.33",
             "unit": "ns"
           }
         ]
