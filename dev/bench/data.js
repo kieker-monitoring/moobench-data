@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785933086663,
+  "lastUpdate": 1785933305423,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -246935,6 +246935,60 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2015.83,
             "range": "2016.33",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "c29a325a6dbf8bd47286d178e9ec439b387f1375",
+          "message": "Fix warning: It might only be a problem if a user has set\n$RECURSION_DEPTH, but the script varies the depth",
+          "timestamp": "2026-08-05T12:49:35+02:00",
+          "tree_id": "fcb41562cfafb23e62ffcda2f979240a5429cdf7",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/c29a325a6dbf8bd47286d178e9ec439b387f1375"
+        },
+        "date": 1785933305378,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9647,
+            "range": "44.9648",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 782.317,
+            "range": "784.9",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 5019.63,
+            "range": "5020.8",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 5269.66,
+            "range": "5272.59",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2024.8,
+            "range": "2026.64",
             "unit": "ns"
           }
         ]
