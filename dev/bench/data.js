@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785920932790,
+  "lastUpdate": 1785929556143,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -55023,6 +55023,54 @@ window.BENCHMARK_DATA = {
             "name": "Binary file",
             "value": 956.185,
             "range": "957.233",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "504042d5a9f0345a3ccd2727da564a0c512aa8c8",
+          "message": "Scaling experiment can be run for depth and threads -> rename script",
+          "timestamp": "2026-08-05T12:46:44+02:00",
+          "tree_id": "3d914e1d4df3c49ed103ae1e6cfa65caabba2fc3",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/504042d5a9f0345a3ccd2727da564a0c512aa8c8"
+        },
+        "date": 1785929556109,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 37.1399,
+            "range": "37.1399",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 40.0548,
+            "range": "40.055",
+            "unit": "ns"
+          },
+          {
+            "name": "No collection",
+            "value": 380.623,
+            "range": "380.653",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary file",
+            "value": 895.116,
+            "range": "897.723",
             "unit": "ns"
           }
         ]
