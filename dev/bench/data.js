@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1786001564486,
+  "lastUpdate": 1786004396748,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -279351,6 +279351,52 @@ window.BENCHMARK_DATA = {
             "name": "Pinpoint Sampling",
             "value": 5146.33,
             "range": "5195.06",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "c29a325a6dbf8bd47286d178e9ec439b387f1375",
+          "message": "Fix warning: It might only be a problem if a user has set\n$RECURSION_DEPTH, but the script varies the depth",
+          "timestamp": "2026-08-05T10:49:35Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/c29a325a6dbf8bd47286d178e9ec439b387f1375"
+        },
+        "date": 1786004396696,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 45.669,
+            "range": "45.7396",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Deactivated",
+            "value": 45.0945,
+            "range": "45.0994",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Basic",
+            "value": 10754.6,
+            "range": "10786.3",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Sampling",
+            "value": 5113.18,
+            "range": "5135.21",
             "unit": "ns"
           }
         ]
