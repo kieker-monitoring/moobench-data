@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785997885857,
+  "lastUpdate": 1785998175674,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -103783,6 +103783,52 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2019.04,
             "range": "2020.03",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "c29a325a6dbf8bd47286d178e9ec439b387f1375",
+          "message": "Fix warning: It might only be a problem if a user has set\n$RECURSION_DEPTH, but the script varies the depth",
+          "timestamp": "2026-08-05T10:49:35Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/c29a325a6dbf8bd47286d178e9ec439b387f1375"
+        },
+        "date": 1785998175627,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.6947,
+            "range": "44.699",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 1648.5,
+            "range": "1649.36",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 2804.86,
+            "range": "2807.03",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2440.47,
+            "range": "2442.25",
             "unit": "ns"
           }
         ]
