@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785936394261,
+  "lastUpdate": 1785997885857,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -55119,6 +55119,52 @@ window.BENCHMARK_DATA = {
             "name": "Binary file",
             "value": 996.081,
             "range": "997.408",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "c29a325a6dbf8bd47286d178e9ec439b387f1375",
+          "message": "Fix warning: It might only be a problem if a user has set\n$RECURSION_DEPTH, but the script varies the depth",
+          "timestamp": "2026-08-05T10:49:35Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/c29a325a6dbf8bd47286d178e9ec439b387f1375"
+        },
+        "date": 1785997885811,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 47.913,
+            "range": "47.9131",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 52.5296,
+            "range": "52.6682",
+            "unit": "ns"
+          },
+          {
+            "name": "No collection",
+            "value": 491.46,
+            "range": "491.476",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary file",
+            "value": 1133.59,
+            "range": "1135",
             "unit": "ns"
           }
         ]
