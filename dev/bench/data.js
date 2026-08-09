@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1786261544321,
+  "lastUpdate": 1786287029512,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -55303,6 +55303,53 @@ window.BENCHMARK_DATA = {
             "name": "Binary file",
             "value": 979.947,
             "range": "980.814",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "j.heinzlreiter@decom.at",
+            "name": "Jannik Heinzlreiter"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "2305fd93a700ee5c09b91fc53a95803557d46f2d",
+          "message": "Update statistics.r\n\nModified \"frameworks/statistic.r\" so that read data is no longer overwritten",
+          "timestamp": "2026-08-09T16:04:38+02:00",
+          "tree_id": "4bbc2c3e327aa34f71fde02de8d955f0170e7cfa",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/2305fd93a700ee5c09b91fc53a95803557d46f2d"
+        },
+        "date": 1786287029481,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 37.1345,
+            "range": "37.1345",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 40.0747,
+            "range": "40.075",
+            "unit": "ns"
+          },
+          {
+            "name": "No collection",
+            "value": 379.803,
+            "range": "379.809",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary file",
+            "value": 863.811,
+            "range": "864.548",
             "unit": "ns"
           }
         ]
