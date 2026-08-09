@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1786287029512,
+  "lastUpdate": 1786287682979,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -206050,6 +206050,53 @@ window.BENCHMARK_DATA = {
             "name": "Writing without sanitizing fields",
             "value": 3463.25,
             "range": "3575.45",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "j.heinzlreiter@decom.at",
+            "name": "Jannik Heinzlreiter"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "2305fd93a700ee5c09b91fc53a95803557d46f2d",
+          "message": "Update statistics.r\n\nModified \"frameworks/statistic.r\" so that read data is no longer overwritten",
+          "timestamp": "2026-08-09T16:04:38+02:00",
+          "tree_id": "4bbc2c3e327aa34f71fde02de8d955f0170e7cfa",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/2305fd93a700ee5c09b91fc53a95803557d46f2d"
+        },
+        "date": 1786287682942,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 29.0568,
+            "range": "29.088",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 151.574,
+            "range": "151.645",
+            "unit": "ns"
+          },
+          {
+            "name": "Regular Writing",
+            "value": 4462.75,
+            "range": "4545.07",
+            "unit": "ns"
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 4365.52,
+            "range": "4429.62",
             "unit": "ns"
           }
         ]
