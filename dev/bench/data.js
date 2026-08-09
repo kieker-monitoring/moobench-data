@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1786287682979,
+  "lastUpdate": 1786287879163,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -104152,6 +104152,53 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2476.3,
             "range": "2477.05",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "j.heinzlreiter@decom.at",
+            "name": "Jannik Heinzlreiter"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "2305fd93a700ee5c09b91fc53a95803557d46f2d",
+          "message": "Update statistics.r\n\nModified \"frameworks/statistic.r\" so that read data is no longer overwritten",
+          "timestamp": "2026-08-09T16:04:38+02:00",
+          "tree_id": "4bbc2c3e327aa34f71fde02de8d955f0170e7cfa",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/2305fd93a700ee5c09b91fc53a95803557d46f2d"
+        },
+        "date": 1786287879123,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9937,
+            "range": "44.9944",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 1596.53,
+            "range": "1597.7",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 2757.41,
+            "range": "2757.93",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2443.63,
+            "range": "2444.08",
             "unit": "ns"
           }
         ]
