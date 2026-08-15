@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1786774209049,
+  "lastUpdate": 1786807427794,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -55674,6 +55674,54 @@ window.BENCHMARK_DATA = {
             "name": "Binary file",
             "value": 981.688,
             "range": "982.754",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "5fdc87a6055aec4284c50ea31b4f38168b374fb6",
+          "message": "Update to skywalking 9.7.0",
+          "timestamp": "2026-08-15T16:38:08+02:00",
+          "tree_id": "bafe4164b1318a217280442f16ebedd4c6765d3f",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/5fdc87a6055aec4284c50ea31b4f38168b374fb6"
+        },
+        "date": 1786807427755,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 29.5478,
+            "range": "29.6322",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 37.4359,
+            "range": "37.4858",
+            "unit": "ns"
+          },
+          {
+            "name": "No collection",
+            "value": 430.194,
+            "range": "430.24",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary file",
+            "value": 1185.56,
+            "range": "1189.29",
             "unit": "ns"
           }
         ]
