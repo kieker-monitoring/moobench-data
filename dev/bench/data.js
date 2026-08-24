@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787568125332,
+  "lastUpdate": 1787570634239,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -284760,6 +284760,54 @@ window.BENCHMARK_DATA = {
             "name": "Pinpoint Sampling",
             "value": 4837.9,
             "range": "4852.21",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3ef83740eb8f4ee58832b3cde03f1a0b0be68136",
+          "message": "Merge pull request #70 from Quomodo-0/implementation-k-perf-kotlin\n\nImplementation of k-perf Kotlin benchmark",
+          "timestamp": "2026-08-24T10:58:18+02:00",
+          "tree_id": "2a1931d5372be635ba0dd248e7dab172f70209f5",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/3ef83740eb8f4ee58832b3cde03f1a0b0be68136"
+        },
+        "date": 1787570634194,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 47.8954,
+            "range": "47.8956",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Deactivated",
+            "value": 48.2488,
+            "range": "48.2542",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Basic",
+            "value": 9646.09,
+            "range": "9708.38",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Sampling",
+            "value": 4614.45,
+            "range": "4685.84",
             "unit": "ns"
           }
         ]
