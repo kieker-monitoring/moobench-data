@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787565525709,
+  "lastUpdate": 1787568125332,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -251517,6 +251517,60 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 1191.69,
             "range": "1193.26",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3ef83740eb8f4ee58832b3cde03f1a0b0be68136",
+          "message": "Merge pull request #70 from Quomodo-0/implementation-k-perf-kotlin\n\nImplementation of k-perf Kotlin benchmark",
+          "timestamp": "2026-08-24T10:58:18+02:00",
+          "tree_id": "2a1931d5372be635ba0dd248e7dab172f70209f5",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/3ef83740eb8f4ee58832b3cde03f1a0b0be68136"
+        },
+        "date": 1787568125290,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 36.7234,
+            "range": "36.7502",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 732.31,
+            "range": "732.846",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 4231.25,
+            "range": "4231.46",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 4304.61,
+            "range": "4305.14",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 1854.66,
+            "range": "1855.13",
             "unit": "ns"
           }
         ]
