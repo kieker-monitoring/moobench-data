@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787638624194,
+  "lastUpdate": 1787640288939,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -309643,6 +309643,70 @@ window.BENCHMARK_DATA = {
             "name": "Binary TCP - B",
             "value": 69184.1,
             "range": "69203.5",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "3ef83740eb8f4ee58832b3cde03f1a0b0be68136",
+          "message": "Merge pull request #70 from Quomodo-0/implementation-k-perf-kotlin\n\nImplementation of k-perf Kotlin benchmark",
+          "timestamp": "2026-08-24T08:58:18Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/3ef83740eb8f4ee58832b3cde03f1a0b0be68136"
+        },
+        "date": 1787640288886,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 354.577,
+            "range": "354.691",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe - A",
+            "value": 937.451,
+            "range": "940.25",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe - B",
+            "value": 914.589,
+            "range": "914.643",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging - A",
+            "value": 30189.8,
+            "range": "30192.3",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging - B",
+            "value": 8967.38,
+            "range": "8969.79",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary TCP - A",
+            "value": 98596.2,
+            "range": "98604.5",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary TCP - B",
+            "value": 73554.2,
+            "range": "73568.3",
             "unit": "ns"
           }
         ]
