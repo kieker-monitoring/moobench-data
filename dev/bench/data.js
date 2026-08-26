@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787719048233,
+  "lastUpdate": 1787719193690,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -105913,6 +105913,52 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2372.22,
             "range": "2372.76",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "3ef83740eb8f4ee58832b3cde03f1a0b0be68136",
+          "message": "Merge pull request #70 from Quomodo-0/implementation-k-perf-kotlin\n\nImplementation of k-perf Kotlin benchmark",
+          "timestamp": "2026-08-24T08:58:18Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/3ef83740eb8f4ee58832b3cde03f1a0b0be68136"
+        },
+        "date": 1787719193653,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 37.144,
+            "range": "37.1442",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 1218.52,
+            "range": "1219.91",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 1998.66,
+            "range": "1999.3",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 1786.24,
+            "range": "1786.54",
             "unit": "ns"
           }
         ]
