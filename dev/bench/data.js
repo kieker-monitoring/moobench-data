@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787719193690,
+  "lastUpdate": 1787719749055,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -209060,6 +209060,52 @@ window.BENCHMARK_DATA = {
             "name": "Writing without sanitizing fields",
             "value": 3808.31,
             "range": "3821.21",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "3ef83740eb8f4ee58832b3cde03f1a0b0be68136",
+          "message": "Merge pull request #70 from Quomodo-0/implementation-k-perf-kotlin\n\nImplementation of k-perf Kotlin benchmark",
+          "timestamp": "2026-08-24T08:58:18Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/3ef83740eb8f4ee58832b3cde03f1a0b0be68136"
+        },
+        "date": 1787719749009,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 45.0351,
+            "range": "45.0353",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 147.548,
+            "range": "147.84",
+            "unit": "ns"
+          },
+          {
+            "name": "Regular Writing",
+            "value": 3279.97,
+            "range": "3380.77",
+            "unit": "ns"
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 3672.98,
+            "range": "3770.44",
             "unit": "ns"
           }
         ]
