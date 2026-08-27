@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787726490356,
+  "lastUpdate": 1787823295336,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -56230,6 +56230,54 @@ window.BENCHMARK_DATA = {
             "name": "Binary file",
             "value": 977.47,
             "range": "978.574",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "d55a6f200d6bc2e204c7d07cc1bd4831e6e2f0e8",
+          "message": "Add K-perf kotlin continuous measurement",
+          "timestamp": "2026-08-27T10:46:06+02:00",
+          "tree_id": "ddff575f8c973e6cc37f62a00af188178acc4198",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/d55a6f200d6bc2e204c7d07cc1bd4831e6e2f0e8"
+        },
+        "date": 1787823295286,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 47.9001,
+            "range": "47.9001",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 51.6818,
+            "range": "51.6822",
+            "unit": "ns"
+          },
+          {
+            "name": "No collection",
+            "value": 492.64,
+            "range": "492.661",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary file",
+            "value": 1137.87,
+            "range": "1138.41",
             "unit": "ns"
           }
         ]
