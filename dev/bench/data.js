@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788602230646,
+  "lastUpdate": 1788606534838,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -56978,6 +56978,53 @@ window.BENCHMARK_DATA = {
             "name": "Binary file",
             "value": 983.101,
             "range": "983.932",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "j.heinzlreiter@decom.at",
+            "name": "Jannik Heinzlreiter"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "197240cd8f8686d7131664f1caba245502508082",
+          "message": "Formatting script, adding parameters and removing \"--no-daemon\"",
+          "timestamp": "2026-09-05T12:24:15+02:00",
+          "tree_id": "dca908282ad235a661a937b448423fe94f514b8b",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/197240cd8f8686d7131664f1caba245502508082"
+        },
+        "date": 1788606534799,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 27.5626,
+            "range": "27.5728",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 32.4321,
+            "range": "32.5162",
+            "unit": "ns"
+          },
+          {
+            "name": "No collection",
+            "value": 379.66,
+            "range": "379.841",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary file",
+            "value": 1244.74,
+            "range": "1247.99",
             "unit": "ns"
           }
         ]
