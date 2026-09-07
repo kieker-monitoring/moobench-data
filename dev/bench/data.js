@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788771197947,
+  "lastUpdate": 1788771267936,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -211668,6 +211668,51 @@ window.BENCHMARK_DATA = {
             "name": "Writing without sanitizing fields",
             "value": 4220.87,
             "range": "4240.55",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Jannik Heinzlreiter",
+            "email": "j.heinzlreiter@decom.at"
+          },
+          "committer": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "197240cd8f8686d7131664f1caba245502508082",
+          "message": "Formatting script, adding parameters and removing \"--no-daemon\"",
+          "timestamp": "2026-09-04T12:26:29Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/197240cd8f8686d7131664f1caba245502508082"
+        },
+        "date": 1788771267885,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 45.0075,
+            "range": "45.0078",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 139.058,
+            "range": "139.997",
+            "unit": "ns"
+          },
+          {
+            "name": "Regular Writing",
+            "value": 3383.8,
+            "range": "3522.85",
+            "unit": "ns"
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 3327.27,
+            "range": "3390.03",
             "unit": "ns"
           }
         ]
