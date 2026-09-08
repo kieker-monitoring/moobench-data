@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788777244023,
+  "lastUpdate": 1788856138454,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -107635,6 +107635,51 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2655.66,
             "range": "2656.57",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Jannik Heinzlreiter",
+            "email": "j.heinzlreiter@decom.at"
+          },
+          "committer": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "197240cd8f8686d7131664f1caba245502508082",
+          "message": "Formatting script, adding parameters and removing \"--no-daemon\"",
+          "timestamp": "2026-09-04T12:26:29Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/197240cd8f8686d7131664f1caba245502508082"
+        },
+        "date": 1788856138402,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9381,
+            "range": "44.9383",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 1763.49,
+            "range": "1764.42",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 2958,
+            "range": "2958.41",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2667.88,
+            "range": "2669.41",
             "unit": "ns"
           }
         ]
