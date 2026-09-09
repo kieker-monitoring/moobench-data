@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788946288745,
+  "lastUpdate": 1788949512824,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -290140,6 +290140,51 @@ window.BENCHMARK_DATA = {
             "name": "Pinpoint Sampling",
             "value": 5021.51,
             "range": "5034.58",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Jannik Heinzlreiter",
+            "email": "j.heinzlreiter@decom.at"
+          },
+          "committer": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "197240cd8f8686d7131664f1caba245502508082",
+          "message": "Formatting script, adding parameters and removing \"--no-daemon\"",
+          "timestamp": "2026-09-04T12:26:29Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/197240cd8f8686d7131664f1caba245502508082"
+        },
+        "date": 1788949512773,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 47.9021,
+            "range": "47.9021",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Deactivated",
+            "value": 48.1357,
+            "range": "48.1358",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Basic",
+            "value": 9401.44,
+            "range": "9438.49",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Sampling",
+            "value": 4759.06,
+            "range": "4820.69",
             "unit": "ns"
           }
         ]
