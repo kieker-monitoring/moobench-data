@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789138211109,
+  "lastUpdate": 1789139503861,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -212253,6 +212253,54 @@ window.BENCHMARK_DATA = {
             "name": "Writing without sanitizing fields",
             "value": 2609.31,
             "range": "2619.52",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "22fa9faf46b436a2ca3a6a44d13dd51c1f7bfe75",
+          "message": "Update Elastic APM to Ubuntu 26.04",
+          "timestamp": "2026-09-11T16:01:51+02:00",
+          "tree_id": "4519127057804d99e28b2dff04d924be471a7d1a",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/22fa9faf46b436a2ca3a6a44d13dd51c1f7bfe75"
+        },
+        "date": 1789139503808,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9007,
+            "range": "44.9008",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 142.25,
+            "range": "143.369",
+            "unit": "ns"
+          },
+          {
+            "name": "Regular Writing",
+            "value": 3353.07,
+            "range": "3448.2",
+            "unit": "ns"
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 3432.57,
+            "range": "3556.31",
             "unit": "ns"
           }
         ]
