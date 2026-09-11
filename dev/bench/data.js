@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789144215437,
+  "lastUpdate": 1789146628242,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -316882,6 +316882,72 @@ window.BENCHMARK_DATA = {
             "name": "Binary TCP - B",
             "value": 55051.1,
             "range": "55054.5",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "22fa9faf46b436a2ca3a6a44d13dd51c1f7bfe75",
+          "message": "Update Elastic APM to Ubuntu 26.04",
+          "timestamp": "2026-09-11T16:01:51+02:00",
+          "tree_id": "4519127057804d99e28b2dff04d924be471a7d1a",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/22fa9faf46b436a2ca3a6a44d13dd51c1f7bfe75"
+        },
+        "date": 1789146628191,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 362.438,
+            "range": "362.709",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe - A",
+            "value": 903.395,
+            "range": "903.708",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe - B",
+            "value": 909.268,
+            "range": "909.314",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging - A",
+            "value": 30455.1,
+            "range": "30457.4",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging - B",
+            "value": 8938.22,
+            "range": "8939.93",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary TCP - A",
+            "value": 102578,
+            "range": "102612",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary TCP - B",
+            "value": 75341.2,
+            "range": "75350.5",
             "unit": "ns"
           }
         ]
