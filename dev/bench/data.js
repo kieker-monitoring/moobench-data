@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789143928724,
+  "lastUpdate": 1789144148509,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -290797,6 +290797,54 @@ window.BENCHMARK_DATA = {
             "name": "Pinpoint Sampling",
             "value": 3947.52,
             "range": "4018.5",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "22fa9faf46b436a2ca3a6a44d13dd51c1f7bfe75",
+          "message": "Update Elastic APM to Ubuntu 26.04",
+          "timestamp": "2026-09-11T16:01:51+02:00",
+          "tree_id": "4519127057804d99e28b2dff04d924be471a7d1a",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/22fa9faf46b436a2ca3a6a44d13dd51c1f7bfe75"
+        },
+        "date": 1789144148454,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 28.9108,
+            "range": "28.9677",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Deactivated",
+            "value": 29.0785,
+            "range": "29.0836",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Basic",
+            "value": 9751.01,
+            "range": "9790.18",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Sampling",
+            "value": 4742.24,
+            "range": "4747.78",
             "unit": "ns"
           }
         ]
