@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789122512969,
+  "lastUpdate": 1789138211109,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -317515,6 +317515,66 @@ window.BENCHMARK_DATA = {
             "name": "Instrumentation JS with KPerf",
             "value": 10732.2,
             "range": "10735.4",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "22fa9faf46b436a2ca3a6a44d13dd51c1f7bfe75",
+          "message": "Update Elastic APM to Ubuntu 26.04",
+          "timestamp": "2026-09-11T16:01:51+02:00",
+          "tree_id": "4519127057804d99e28b2dff04d924be471a7d1a",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/22fa9faf46b436a2ca3a6a44d13dd51c1f7bfe75"
+        },
+        "date": 1789138211069,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation Java",
+            "value": 32.2807,
+            "range": "32.3065",
+            "unit": "ns"
+          },
+          {
+            "name": "Instrumentation Java with KPerf",
+            "value": 393.298,
+            "range": "393.506",
+            "unit": "ns"
+          },
+          {
+            "name": "No instrumentation Native",
+            "value": 45.5968,
+            "range": "45.6477",
+            "unit": "ns"
+          },
+          {
+            "name": "Instrumentation Native with KPerf",
+            "value": 1506.72,
+            "range": "1508.16",
+            "unit": "ns"
+          },
+          {
+            "name": "No instrumentation JS",
+            "value": 352.177,
+            "range": "352.316",
+            "unit": "ns"
+          },
+          {
+            "name": "Instrumentation JS with KPerf",
+            "value": 7392.28,
+            "range": "7403.55",
             "unit": "ns"
           }
         ]
