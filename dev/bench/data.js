@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789139503861,
+  "lastUpdate": 1789142203796,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -256349,6 +256349,60 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2017.07,
             "range": "2019.7",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "22fa9faf46b436a2ca3a6a44d13dd51c1f7bfe75",
+          "message": "Update Elastic APM to Ubuntu 26.04",
+          "timestamp": "2026-09-11T16:01:51+02:00",
+          "tree_id": "4519127057804d99e28b2dff04d924be471a7d1a",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/22fa9faf46b436a2ca3a6a44d13dd51c1f7bfe75"
+        },
+        "date": 1789142203745,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9868,
+            "range": "44.9869",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 810.742,
+            "range": "811.52",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 5060.57,
+            "range": "5062.21",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 5217.84,
+            "range": "5219",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2045.87,
+            "range": "2047.19",
             "unit": "ns"
           }
         ]
