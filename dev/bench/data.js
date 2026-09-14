@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789376872744,
+  "lastUpdate": 1789377409708,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -57435,6 +57435,52 @@ window.BENCHMARK_DATA = {
             "name": "Binary file",
             "value": 969.71,
             "range": "973.354",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "16ddafc1605da2f3938f8de2948ed71852daf3de",
+          "message": "Update remaining workflows to ubuntu 26.04",
+          "timestamp": "2026-09-11T15:32:49Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/16ddafc1605da2f3938f8de2948ed71852daf3de"
+        },
+        "date": 1789377409656,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 45.1134,
+            "range": "45.1178",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 48.6521,
+            "range": "48.6524",
+            "unit": "ns"
+          },
+          {
+            "name": "No collection",
+            "value": 476.673,
+            "range": "476.692",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary file",
+            "value": 1000.29,
+            "range": "1006.81",
             "unit": "ns"
           }
         ]
