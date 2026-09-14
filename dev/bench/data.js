@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789378163586,
+  "lastUpdate": 1789378334031,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -212721,6 +212721,52 @@ window.BENCHMARK_DATA = {
             "name": "Writing without sanitizing fields",
             "value": 3917.43,
             "range": "3920.87",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "16ddafc1605da2f3938f8de2948ed71852daf3de",
+          "message": "Update remaining workflows to ubuntu 26.04",
+          "timestamp": "2026-09-11T15:32:49Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/16ddafc1605da2f3938f8de2948ed71852daf3de"
+        },
+        "date": 1789378333980,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9312,
+            "range": "44.9313",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 138.109,
+            "range": "139.05",
+            "unit": "ns"
+          },
+          {
+            "name": "Regular Writing",
+            "value": 3736.64,
+            "range": "3827.49",
+            "unit": "ns"
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 3041.96,
+            "range": "3074.6",
             "unit": "ns"
           }
         ]
