@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789295735469,
+  "lastUpdate": 1789375938681,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -294138,6 +294138,46 @@ window.BENCHMARK_DATA = {
             "name": "Disabled Profiling",
             "value": 7238.08,
             "range": "7239.56",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "16ddafc1605da2f3938f8de2948ed71852daf3de",
+          "message": "Update remaining workflows to ubuntu 26.04",
+          "timestamp": "2026-09-11T15:32:49Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/16ddafc1605da2f3938f8de2948ed71852daf3de"
+        },
+        "date": 1789375938628,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.8953,
+            "range": "44.8959",
+            "unit": "ns"
+          },
+          {
+            "name": "Instrumentation and Profiling",
+            "value": 14093.7,
+            "range": "14096.2",
+            "unit": "ns"
+          },
+          {
+            "name": "Disabled Profiling",
+            "value": 12756.2,
+            "range": "12758.6",
             "unit": "ns"
           }
         ]
