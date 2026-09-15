@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789464706241,
+  "lastUpdate": 1789465923092,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -292191,6 +292191,54 @@ window.BENCHMARK_DATA = {
             "name": "Pinpoint Sampling",
             "value": 4445.13,
             "range": "4451.5",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "4375a70a58bd828cf8f1ae2b9ecb80cbbb009a25",
+          "message": "Update remaining workflows to ubuntu 26.04",
+          "timestamp": "2026-09-15T09:25:56+02:00",
+          "tree_id": "0e9bf45bcf5fdff68f625985f0789d6b2645c542",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/4375a70a58bd828cf8f1ae2b9ecb80cbbb009a25"
+        },
+        "date": 1789465923034,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.4985,
+            "range": "44.4986",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Deactivated",
+            "value": 44.7797,
+            "range": "44.7802",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Basic",
+            "value": 9839.89,
+            "range": "9910.8",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Sampling",
+            "value": 4855.84,
+            "range": "4904.74",
             "unit": "ns"
           }
         ]
