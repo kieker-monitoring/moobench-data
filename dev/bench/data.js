@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789467160426,
+  "lastUpdate": 1789467289554,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -57625,6 +57625,54 @@ window.BENCHMARK_DATA = {
             "name": "Binary file",
             "value": 870.964,
             "range": "871.522",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "87e3ffb2b29400b69c6c27b337f70699835c977a",
+          "message": "Rename i, k -> loop, index in OpenTelemetry-python (like in\nKieker-python)",
+          "timestamp": "2026-09-15T09:43:39+02:00",
+          "tree_id": "0bf9f08615f94bede290af9640ea9e3090eb9043",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/87e3ffb2b29400b69c6c27b337f70699835c977a"
+        },
+        "date": 1789467289509,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 37.1454,
+            "range": "37.1455",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 40.0545,
+            "range": "40.055",
+            "unit": "ns"
+          },
+          {
+            "name": "No collection",
+            "value": 385.926,
+            "range": "385.946",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary file",
+            "value": 791.02,
+            "range": "791.193",
             "unit": "ns"
           }
         ]
