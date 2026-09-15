@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789467341162,
+  "lastUpdate": 1789467856151,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -108518,6 +108518,54 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 1466.66,
             "range": "1466.99",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "87e3ffb2b29400b69c6c27b337f70699835c977a",
+          "message": "Rename i, k -> loop, index in OpenTelemetry-python (like in\nKieker-python)",
+          "timestamp": "2026-09-15T09:43:39+02:00",
+          "tree_id": "0bf9f08615f94bede290af9640ea9e3090eb9043",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/87e3ffb2b29400b69c6c27b337f70699835c977a"
+        },
+        "date": 1789467856107,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 37.1748,
+            "range": "37.1749",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 1255.69,
+            "range": "1256.27",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 2030.31,
+            "range": "2031.95",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 1860.87,
+            "range": "1861.68",
             "unit": "ns"
           }
         ]
