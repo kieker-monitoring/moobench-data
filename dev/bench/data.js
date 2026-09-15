@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789474682135,
+  "lastUpdate": 1789475055672,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -258145,6 +258145,60 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 1898.27,
             "range": "1898.76",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "a8c11328e7313397d9c7bca02f537e31a4c56559",
+          "message": "Don't pass RECURSION_DEPTH as parameter",
+          "timestamp": "2026-09-15T09:41:13+02:00",
+          "tree_id": "f9385869b3dc6943e62e13577397f832686100af",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/a8c11328e7313397d9c7bca02f537e31a4c56559"
+        },
+        "date": 1789475055621,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.934,
+            "range": "44.9346",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 826.964,
+            "range": "828.135",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 5027.5,
+            "range": "5029.08",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 5290.98,
+            "range": "5292.97",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2084.11,
+            "range": "2086.17",
             "unit": "ns"
           }
         ]
