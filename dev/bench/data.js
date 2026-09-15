@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789460951865,
+  "lastUpdate": 1789461168156,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -108374,6 +108374,54 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2681.66,
             "range": "2682.8",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "16ddafc1605da2f3938f8de2948ed71852daf3de",
+          "message": "Update remaining workflows to ubuntu 26.04",
+          "timestamp": "2026-09-11T17:32:49+02:00",
+          "tree_id": "eb40c711929b308864c75b2747cf7ee56542f4ae",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/16ddafc1605da2f3938f8de2948ed71852daf3de"
+        },
+        "date": 1789461168124,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 33.2257,
+            "range": "33.2409",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 885.79,
+            "range": "887.464",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 1618,
+            "range": "1618.52",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 1466.66,
+            "range": "1466.99",
             "unit": "ns"
           }
         ]
