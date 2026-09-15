@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789475534483,
+  "lastUpdate": 1789475911469,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -258253,6 +258253,60 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 1388.99,
             "range": "1389.73",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "87e3ffb2b29400b69c6c27b337f70699835c977a",
+          "message": "Rename i, k -> loop, index in OpenTelemetry-python (like in\nKieker-python)",
+          "timestamp": "2026-09-15T09:43:39+02:00",
+          "tree_id": "0bf9f08615f94bede290af9640ea9e3090eb9043",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/87e3ffb2b29400b69c6c27b337f70699835c977a"
+        },
+        "date": 1789475911411,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9363,
+            "range": "44.9365",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 825.378,
+            "range": "826.449",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 4999.65,
+            "range": "5001.94",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 5162.7,
+            "range": "5163.51",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2036.32,
+            "range": "2038.94",
             "unit": "ns"
           }
         ]
