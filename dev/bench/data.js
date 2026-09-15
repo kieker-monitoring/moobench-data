@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789477400277,
+  "lastUpdate": 1789477614727,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -319580,6 +319580,72 @@ window.BENCHMARK_DATA = {
             "name": "Binary TCP - B",
             "value": 53136.4,
             "range": "53148.4",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "87e3ffb2b29400b69c6c27b337f70699835c977a",
+          "message": "Rename i, k -> loop, index in OpenTelemetry-python (like in\nKieker-python)",
+          "timestamp": "2026-09-15T09:43:39+02:00",
+          "tree_id": "0bf9f08615f94bede290af9640ea9e3090eb9043",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/87e3ffb2b29400b69c6c27b337f70699835c977a"
+        },
+        "date": 1789477614672,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 321.025,
+            "range": "321.107",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe - A",
+            "value": 792.444,
+            "range": "792.499",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe - B",
+            "value": 803.474,
+            "range": "803.502",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging - A",
+            "value": 26050.7,
+            "range": "26052.6",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging - B",
+            "value": 7402.09,
+            "range": "7402.91",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary TCP - A",
+            "value": 108964,
+            "range": "109142",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary TCP - B",
+            "value": 55958.1,
+            "range": "56027.5",
             "unit": "ns"
           }
         ]
