@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789466559522,
+  "lastUpdate": 1789466650863,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -257611,6 +257611,60 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2221.89,
             "range": "2223.63",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "16ddafc1605da2f3938f8de2948ed71852daf3de",
+          "message": "Update remaining workflows to ubuntu 26.04",
+          "timestamp": "2026-09-11T17:32:49+02:00",
+          "tree_id": "eb40c711929b308864c75b2747cf7ee56542f4ae",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/16ddafc1605da2f3938f8de2948ed71852daf3de"
+        },
+        "date": 1789466650808,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.8501,
+            "range": "44.8502",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 811.183,
+            "range": "813.653",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 5055.59,
+            "range": "5057.32",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 5238.66,
+            "range": "5239.89",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2020.91,
+            "range": "2021.75",
             "unit": "ns"
           }
         ]
