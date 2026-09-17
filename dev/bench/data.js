@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789678820181,
+  "lastUpdate": 1789681045027,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -258835,6 +258835,60 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2009.86,
             "range": "2011.08",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "bc2646654b9fe126c8b96eb5302085f6b49dbb5a",
+          "message": "Update to Skywalking-java 11.0.0",
+          "timestamp": "2026-09-17T21:58:46+02:00",
+          "tree_id": "b8355ec3a4d366d3d4e7571ac8bd665c1b7fd0ec",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/bc2646654b9fe126c8b96eb5302085f6b49dbb5a"
+        },
+        "date": 1789681044996,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 34.662,
+            "range": "34.7164",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 491.876,
+            "range": "492.49",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 3058.69,
+            "range": "3061.77",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 3141.01,
+            "range": "3144.46",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 1158.61,
+            "range": "1159.79",
             "unit": "ns"
           }
         ]
