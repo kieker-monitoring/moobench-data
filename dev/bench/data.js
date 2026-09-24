@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790239940831,
+  "lastUpdate": 1790240000069,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -109584,6 +109584,52 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2671.03,
             "range": "2671.31",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "bc2646654b9fe126c8b96eb5302085f6b49dbb5a",
+          "message": "Update to Skywalking-java 11.0.0",
+          "timestamp": "2026-09-17T19:58:46Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/bc2646654b9fe126c8b96eb5302085f6b49dbb5a"
+        },
+        "date": 1790240000011,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9374,
+            "range": "44.938",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 1790.71,
+            "range": "1792.74",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 2983.28,
+            "range": "2983.98",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2687.19,
+            "range": "2689.01",
             "unit": "ns"
           }
         ]
