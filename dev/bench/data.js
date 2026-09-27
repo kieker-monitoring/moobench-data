@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790502003162,
+  "lastUpdate": 1790502841969,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -325479,6 +325479,64 @@ window.BENCHMARK_DATA = {
             "name": "Instrumentation JS with KPerf",
             "value": 8313.02,
             "range": "8313.99",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "bc2646654b9fe126c8b96eb5302085f6b49dbb5a",
+          "message": "Update to Skywalking-java 11.0.0",
+          "timestamp": "2026-09-17T19:58:46Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/bc2646654b9fe126c8b96eb5302085f6b49dbb5a"
+        },
+        "date": 1790502841916,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation Java",
+            "value": 48.0459,
+            "range": "48.0521",
+            "unit": "ns"
+          },
+          {
+            "name": "Instrumentation Java with KPerf",
+            "value": 544.94,
+            "range": "544.949",
+            "unit": "ns"
+          },
+          {
+            "name": "No instrumentation Native",
+            "value": 62.9124,
+            "range": "62.9226",
+            "unit": "ns"
+          },
+          {
+            "name": "Instrumentation Native with KPerf",
+            "value": 2128.03,
+            "range": "2128.45",
+            "unit": "ns"
+          },
+          {
+            "name": "No instrumentation JS",
+            "value": 455.713,
+            "range": "455.929",
+            "unit": "ns"
+          },
+          {
+            "name": "Instrumentation JS with KPerf",
+            "value": 10675,
+            "range": "10676.5",
             "unit": "ns"
           }
         ]
