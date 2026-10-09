@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791563358943,
+  "lastUpdate": 1791565733448,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -263299,6 +263299,60 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 1427.25,
             "range": "1573.12",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "5821873b210cbb13afcf083f943bbf101514bd58",
+          "message": "Update to skywalking 9.8.0",
+          "timestamp": "2026-10-09T17:22:42+02:00",
+          "tree_id": "f906717a6d4ade4037bfa66ce87998f1f8dabdf7",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/5821873b210cbb13afcf083f943bbf101514bd58"
+        },
+        "date": 1791565733393,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.9683,
+            "range": "44.9691",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 822.238,
+            "range": "822.832",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 5082.41,
+            "range": "5083.89",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 5319.49,
+            "range": "5321.86",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2030.31,
+            "range": "2032.88",
             "unit": "ns"
           }
         ]
