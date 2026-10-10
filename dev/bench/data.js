@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791627665775,
+  "lastUpdate": 1791627932369,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -330217,6 +330217,64 @@ window.BENCHMARK_DATA = {
             "name": "Instrumentation JS with KPerf",
             "value": 10720.4,
             "range": "10721.2",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "5821873b210cbb13afcf083f943bbf101514bd58",
+          "message": "Update to skywalking 9.8.0",
+          "timestamp": "2026-10-09T15:22:42Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/5821873b210cbb13afcf083f943bbf101514bd58"
+        },
+        "date": 1791627932317,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation Java",
+            "value": 48.1735,
+            "range": "48.1751",
+            "unit": "ns"
+          },
+          {
+            "name": "Instrumentation Java with KPerf",
+            "value": 544.222,
+            "range": "544.228",
+            "unit": "ns"
+          },
+          {
+            "name": "No instrumentation Native",
+            "value": 63.1726,
+            "range": "63.176",
+            "unit": "ns"
+          },
+          {
+            "name": "Instrumentation Native with KPerf",
+            "value": 2120.51,
+            "range": "2120.69",
+            "unit": "ns"
+          },
+          {
+            "name": "No instrumentation JS",
+            "value": 457.694,
+            "range": "457.969",
+            "unit": "ns"
+          },
+          {
+            "name": "Instrumentation JS with KPerf",
+            "value": 10662,
+            "range": "10664.2",
             "unit": "ns"
           }
         ]
