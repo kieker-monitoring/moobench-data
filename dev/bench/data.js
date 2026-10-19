@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792318955979,
+  "lastUpdate": 1792399231866,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -304598,6 +304598,46 @@ window.BENCHMARK_DATA = {
             "name": "Disabled Profiling",
             "value": 10960.5,
             "range": "10963.3",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "5821873b210cbb13afcf083f943bbf101514bd58",
+          "message": "Update to skywalking 9.8.0",
+          "timestamp": "2026-10-09T15:22:42Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/5821873b210cbb13afcf083f943bbf101514bd58"
+        },
+        "date": 1792399231835,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 33.8399,
+            "range": "33.9087",
+            "unit": "ns"
+          },
+          {
+            "name": "Instrumentation and Profiling",
+            "value": 8355.86,
+            "range": "8371.16",
+            "unit": "ns"
+          },
+          {
+            "name": "Disabled Profiling",
+            "value": 7088.16,
+            "range": "7096.72",
             "unit": "ns"
           }
         ]
