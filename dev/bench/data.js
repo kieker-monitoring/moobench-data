@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793277857205,
+  "lastUpdate": 1793280493399,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -267679,6 +267679,60 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 1468.31,
             "range": "1617.52",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "2824b54dd79c7d01180ca9613717e3dc86e18d3a",
+          "message": "Update Pinpoint to Java 25",
+          "timestamp": "2026-10-29T12:11:01+01:00",
+          "tree_id": "a125b46efd9f49b5b2377d003c4460fd30bb9da5",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/2824b54dd79c7d01180ca9613717e3dc86e18d3a"
+        },
+        "date": 1793280493338,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.8393,
+            "range": "44.84",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 757.317,
+            "range": "829.037",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 5065.41,
+            "range": "5066.49",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 5308.53,
+            "range": "5309.23",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2062.2,
+            "range": "2065.62",
             "unit": "ns"
           }
         ]
