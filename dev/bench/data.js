@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793271971213,
+  "lastUpdate": 1793273018446,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -336619,6 +336619,66 @@ window.BENCHMARK_DATA = {
             "name": "Instrumentation JS with KPerf",
             "value": 10567.4,
             "range": "10570.1",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "c15734ea2b13998f93e9c0af2c8aca3fab47093f",
+          "message": "Update to pinot 1.6.0",
+          "timestamp": "2026-10-29T11:39:16+01:00",
+          "tree_id": "921cfc964c8763ae4f7776cf7932bc28bb2f4307",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/c15734ea2b13998f93e9c0af2c8aca3fab47093f"
+        },
+        "date": 1793273018412,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation Java",
+            "value": 35.5268,
+            "range": "35.548",
+            "unit": "ns"
+          },
+          {
+            "name": "Instrumentation Java with KPerf",
+            "value": 375.696,
+            "range": "376.182",
+            "unit": "ns"
+          },
+          {
+            "name": "No instrumentation Native",
+            "value": 41.5155,
+            "range": "41.539",
+            "unit": "ns"
+          },
+          {
+            "name": "Instrumentation Native with KPerf",
+            "value": 1192.03,
+            "range": "1193.35",
+            "unit": "ns"
+          },
+          {
+            "name": "No instrumentation JS",
+            "value": 269.788,
+            "range": "270.239",
+            "unit": "ns"
+          },
+          {
+            "name": "Instrumentation JS with KPerf",
+            "value": 6011,
+            "range": "6025.79",
             "unit": "ns"
           }
         ]
