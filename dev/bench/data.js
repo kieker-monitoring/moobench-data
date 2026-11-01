@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793530471305,
+  "lastUpdate": 1793531050927,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -220961,6 +220961,52 @@ window.BENCHMARK_DATA = {
             "name": "Writing without sanitizing fields",
             "value": 3553.08,
             "range": "3665",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "2824b54dd79c7d01180ca9613717e3dc86e18d3a",
+          "message": "Update Pinpoint to Java 25",
+          "timestamp": "2026-10-29T11:11:01Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/2824b54dd79c7d01180ca9613717e3dc86e18d3a"
+        },
+        "date": 1793531050871,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.7957,
+            "range": "44.7959",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 142.192,
+            "range": "143.051",
+            "unit": "ns"
+          },
+          {
+            "name": "Regular Writing",
+            "value": 3381.71,
+            "range": "3527.91",
+            "unit": "ns"
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 3312.37,
+            "range": "3451.63",
             "unit": "ns"
           }
         ]
