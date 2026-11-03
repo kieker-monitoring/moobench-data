@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793710222781,
+  "lastUpdate": 1793710318277,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -306411,6 +306411,54 @@ window.BENCHMARK_DATA = {
             "name": "Pinpoint Sampling",
             "value": 4788.48,
             "range": "4864.42",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "0f369dc4268c8565076df2eeb976c4a25a042635",
+          "message": "Downgrade pinpoint to JDK 17 again",
+          "timestamp": "2026-11-03T10:14:24+01:00",
+          "tree_id": "a285b9f0e399350b840251c115464a04cd307dbc",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/0f369dc4268c8565076df2eeb976c4a25a042635"
+        },
+        "date": 1793710318210,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.5841,
+            "range": "44.5855",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Deactivated",
+            "value": 44.8373,
+            "range": "44.8377",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Basic",
+            "value": 9709.72,
+            "range": "9800.46",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Sampling",
+            "value": 4792.44,
+            "range": "4844.68",
             "unit": "ns"
           }
         ]
