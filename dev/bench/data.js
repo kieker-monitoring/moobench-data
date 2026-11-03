@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793707931582,
+  "lastUpdate": 1793708002664,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -334934,6 +334934,72 @@ window.BENCHMARK_DATA = {
             "name": "Binary TCP - B",
             "value": 43080.3,
             "range": "43081.6",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "25045c3562abf506b3320dcce1724ef7df06d694",
+          "message": "Fix pinpoint: Use pinot as docker container",
+          "timestamp": "2026-11-03T10:07:35+01:00",
+          "tree_id": "060bd326a3dfd2cf8261def507eeec3bc79850bc",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/25045c3562abf506b3320dcce1724ef7df06d694"
+        },
+        "date": 1793708002607,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 323.586,
+            "range": "323.61",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe - A",
+            "value": 788.361,
+            "range": "788.461",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe - B",
+            "value": 795.589,
+            "range": "795.71",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging - A",
+            "value": 26405.2,
+            "range": "26405.8",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging - B",
+            "value": 7462.71,
+            "range": "7463.29",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary TCP - A",
+            "value": 122826,
+            "range": "122850",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary TCP - B",
+            "value": 56330.8,
+            "range": "56344.7",
             "unit": "ns"
           }
         ]
