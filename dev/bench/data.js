@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793708047093,
+  "lastUpdate": 1793710222781,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -269273,6 +269273,60 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2041.13,
             "range": "2043.28",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "a5e1a4ebd36354b2c84dd858398ad02633108a55",
+          "message": "Due to network latencys, more time is needed for the correctness tests",
+          "timestamp": "2026-11-03T11:06:45+01:00",
+          "tree_id": "09659b184e320c96f9b1aeba5994cff467e901e5",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/a5e1a4ebd36354b2c84dd858398ad02633108a55"
+        },
+        "date": 1793710222726,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.8161,
+            "range": "44.8162",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 824.908,
+            "range": "826.741",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 5037.9,
+            "range": "5038.87",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 5332.75,
+            "range": "5334.24",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2039.82,
+            "range": "2040.61",
             "unit": "ns"
           }
         ]
