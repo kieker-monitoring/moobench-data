@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793700373144,
+  "lastUpdate": 1793700896662,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -113556,6 +113556,54 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2352.27,
             "range": "2354.09",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "0f369dc4268c8565076df2eeb976c4a25a042635",
+          "message": "Downgrade pinpoint to JDK 17 again",
+          "timestamp": "2026-11-03T10:14:24+01:00",
+          "tree_id": "a285b9f0e399350b840251c115464a04cd307dbc",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/0f369dc4268c8565076df2eeb976c4a25a042635"
+        },
+        "date": 1793700896617,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 37.1874,
+            "range": "37.1875",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 1225.38,
+            "range": "1225.86",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 2028.86,
+            "range": "2033.49",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 1813.24,
+            "range": "1813.52",
             "unit": "ns"
           }
         ]
