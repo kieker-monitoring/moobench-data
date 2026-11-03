@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793699850340,
+  "lastUpdate": 1793699907766,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -338427,6 +338427,66 @@ window.BENCHMARK_DATA = {
             "name": "Instrumentation JS with KPerf",
             "value": 6268.99,
             "range": "6280.72",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "f6304873d5af045e46420c9d9d1d9e71dbc87c1a",
+          "message": "Update to gradlew 9.8.2",
+          "timestamp": "2026-11-03T10:08:58+01:00",
+          "tree_id": "4dabcffc0f608921277e666ed5a39a5a411fe28c",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/f6304873d5af045e46420c9d9d1d9e71dbc87c1a"
+        },
+        "date": 1793699907723,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation Java",
+            "value": 43.4641,
+            "range": "43.4681",
+            "unit": "ns"
+          },
+          {
+            "name": "Instrumentation Java with KPerf",
+            "value": 496.037,
+            "range": "496.172",
+            "unit": "ns"
+          },
+          {
+            "name": "No instrumentation Native",
+            "value": 56.1086,
+            "range": "56.1255",
+            "unit": "ns"
+          },
+          {
+            "name": "Instrumentation Native with KPerf",
+            "value": 1942.6,
+            "range": "1944.7",
+            "unit": "ns"
+          },
+          {
+            "name": "No instrumentation JS",
+            "value": 395.275,
+            "range": "395.49",
+            "unit": "ns"
+          },
+          {
+            "name": "Instrumentation JS with KPerf",
+            "value": 9119.51,
+            "range": "9135.23",
             "unit": "ns"
           }
         ]
