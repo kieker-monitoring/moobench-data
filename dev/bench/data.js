@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793699955735,
+  "lastUpdate": 1793700373144,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -221381,6 +221381,54 @@ window.BENCHMARK_DATA = {
             "name": "Writing without sanitizing fields",
             "value": 2815.64,
             "range": "2816.22",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "f6304873d5af045e46420c9d9d1d9e71dbc87c1a",
+          "message": "Update to gradlew 9.8.2",
+          "timestamp": "2026-11-03T10:08:58+01:00",
+          "tree_id": "4dabcffc0f608921277e666ed5a39a5a411fe28c",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/f6304873d5af045e46420c9d9d1d9e71dbc87c1a"
+        },
+        "date": 1793700373083,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.7591,
+            "range": "44.7591",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 140.23,
+            "range": "141.171",
+            "unit": "ns"
+          },
+          {
+            "name": "Regular Writing",
+            "value": 3418.93,
+            "range": "3511.05",
+            "unit": "ns"
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 3583.73,
+            "range": "3680.88",
             "unit": "ns"
           }
         ]
