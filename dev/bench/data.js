@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793699907766,
+  "lastUpdate": 1793699955735,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -221333,6 +221333,54 @@ window.BENCHMARK_DATA = {
             "name": "Writing without sanitizing fields",
             "value": 3843.2,
             "range": "3911.42",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "25045c3562abf506b3320dcce1724ef7df06d694",
+          "message": "Fix pinpoint: Use pinot as docker container",
+          "timestamp": "2026-11-03T10:07:35+01:00",
+          "tree_id": "060bd326a3dfd2cf8261def507eeec3bc79850bc",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/25045c3562abf506b3320dcce1724ef7df06d694"
+        },
+        "date": 1793699955696,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 34.4593,
+            "range": "34.4766",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 73.3031,
+            "range": "74.2199",
+            "unit": "ns"
+          },
+          {
+            "name": "Regular Writing",
+            "value": 2782.45,
+            "range": "2790.56",
+            "unit": "ns"
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 2815.64,
+            "range": "2816.22",
             "unit": "ns"
           }
         ]
