@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793877709741,
+  "lastUpdate": 1793880616881,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -269615,6 +269615,58 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 1567.13,
             "range": "1567.84",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "a5e1a4ebd36354b2c84dd858398ad02633108a55",
+          "message": "Due to network latencys, more time is needed for the correctness tests",
+          "timestamp": "2026-11-03T10:06:45Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/a5e1a4ebd36354b2c84dd858398ad02633108a55"
+        },
+        "date": 1793880616838,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 37.1636,
+            "range": "37.1637",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 641.639,
+            "range": "642.66",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 3292.49,
+            "range": "3632.97",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 3802.07,
+            "range": "3803.75",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 1594.65,
+            "range": "1595.55",
             "unit": "ns"
           }
         ]
