@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793976659607,
+  "lastUpdate": 1793977642263,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -113978,6 +113978,54 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2340.24,
             "range": "2341.92",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "36c846e0253e09b1c1a39197b1da2a811b2655e9",
+          "message": "Disable Skywalking for now to avoid failure due to download",
+          "timestamp": "2026-11-06T15:02:28+01:00",
+          "tree_id": "bb3f2a545be78a25abb69650e6437b53efb50073",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/36c846e0253e09b1c1a39197b1da2a811b2655e9"
+        },
+        "date": 1793977642204,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.6973,
+            "range": "44.6974",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 1730.51,
+            "range": "1732.3",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 2922.83,
+            "range": "2923.56",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2567.88,
+            "range": "2568.52",
             "unit": "ns"
           }
         ]
