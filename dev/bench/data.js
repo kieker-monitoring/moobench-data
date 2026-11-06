@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793980135728,
+  "lastUpdate": 1793984394359,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -307371,6 +307371,54 @@ window.BENCHMARK_DATA = {
             "name": "Pinpoint Sampling",
             "value": 3449.14,
             "range": "3523.99",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "36c846e0253e09b1c1a39197b1da2a811b2655e9",
+          "message": "Disable Skywalking for now to avoid failure due to download",
+          "timestamp": "2026-11-06T15:02:28+01:00",
+          "tree_id": "bb3f2a545be78a25abb69650e6437b53efb50073",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/36c846e0253e09b1c1a39197b1da2a811b2655e9"
+        },
+        "date": 1793984394313,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 36.995,
+            "range": "36.995",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Deactivated",
+            "value": 37.4981,
+            "range": "37.5072",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Basic",
+            "value": 7906.51,
+            "range": "7955.44",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Sampling",
+            "value": 3975.24,
+            "range": "3989.44",
             "unit": "ns"
           }
         ]
