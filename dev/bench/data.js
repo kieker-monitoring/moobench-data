@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793971059927,
+  "lastUpdate": 1793976659607,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -340715,6 +340715,66 @@ window.BENCHMARK_DATA = {
             "name": "Instrumentation JS with KPerf",
             "value": 8307,
             "range": "8316.16",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "36c846e0253e09b1c1a39197b1da2a811b2655e9",
+          "message": "Disable Skywalking for now to avoid failure due to download",
+          "timestamp": "2026-11-06T15:02:28+01:00",
+          "tree_id": "bb3f2a545be78a25abb69650e6437b53efb50073",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/36c846e0253e09b1c1a39197b1da2a811b2655e9"
+        },
+        "date": 1793976659560,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation Java",
+            "value": 39.476,
+            "range": "39.4814",
+            "unit": "ns"
+          },
+          {
+            "name": "Instrumentation Java with KPerf",
+            "value": 444.471,
+            "range": "444.485",
+            "unit": "ns"
+          },
+          {
+            "name": "No instrumentation Native",
+            "value": 51.6528,
+            "range": "51.6667",
+            "unit": "ns"
+          },
+          {
+            "name": "Instrumentation Native with KPerf",
+            "value": 1749.74,
+            "range": "1750.25",
+            "unit": "ns"
+          },
+          {
+            "name": "No instrumentation JS",
+            "value": 357.658,
+            "range": "357.871",
+            "unit": "ns"
+          },
+          {
+            "name": "Instrumentation JS with KPerf",
+            "value": 8379.73,
+            "range": "8387.55",
             "unit": "ns"
           }
         ]
