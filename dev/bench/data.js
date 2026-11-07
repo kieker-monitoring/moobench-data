@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793984394359,
+  "lastUpdate": 1794046794014,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -60357,6 +60357,52 @@ window.BENCHMARK_DATA = {
             "name": "Binary file",
             "value": 818.78,
             "range": "819.023",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "36c846e0253e09b1c1a39197b1da2a811b2655e9",
+          "message": "Disable Skywalking for now to avoid failure due to download",
+          "timestamp": "2026-11-06T14:02:28Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/36c846e0253e09b1c1a39197b1da2a811b2655e9"
+        },
+        "date": 1794046793957,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.7441,
+            "range": "44.7442",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 48.5775,
+            "range": "48.578",
+            "unit": "ns"
+          },
+          {
+            "name": "No collection",
+            "value": 477.645,
+            "range": "477.689",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary file",
+            "value": 945.197,
+            "range": "946.543",
             "unit": "ns"
           }
         ]
