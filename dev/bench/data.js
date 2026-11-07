@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794047737466,
+  "lastUpdate": 1794050582181,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -270145,6 +270145,58 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2090.48,
             "range": "2094.84",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "36c846e0253e09b1c1a39197b1da2a811b2655e9",
+          "message": "Disable Skywalking for now to avoid failure due to download",
+          "timestamp": "2026-11-06T14:02:28Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/36c846e0253e09b1c1a39197b1da2a811b2655e9"
+        },
+        "date": 1794050582132,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 28.9213,
+            "range": "28.9651",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 946.062,
+            "range": "949.046",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 5038.79,
+            "range": "5042.18",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 5292.64,
+            "range": "5302.14",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2215.08,
+            "range": "2216.94",
             "unit": "ns"
           }
         ]
