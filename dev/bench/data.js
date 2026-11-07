@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794054161461,
+  "lastUpdate": 1794076428923,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -60403,6 +60403,53 @@ window.BENCHMARK_DATA = {
             "name": "Binary file",
             "value": 945.197,
             "range": "946.543",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Mohnabil489@gmailcom",
+            "name": "Mohamed Khaled"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "21806ac51c11db55dfaf3af0b19e84db65d48e7c",
+          "message": "added energy measurement",
+          "timestamp": "2026-11-07T18:48:14+01:00",
+          "tree_id": "7ec340f23667cd19a5af7b6615cd23a452e65cde",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/21806ac51c11db55dfaf3af0b19e84db65d48e7c"
+        },
+        "date": 1794076428878,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 37.2151,
+            "range": "37.2152",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 40.058,
+            "range": "40.0595",
+            "unit": "ns"
+          },
+          {
+            "name": "No collection",
+            "value": 385.291,
+            "range": "385.31",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary file",
+            "value": 810.63,
+            "range": "811.26",
             "unit": "ns"
           }
         ]
