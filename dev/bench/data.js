@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794240463941,
+  "lastUpdate": 1794240650868,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -222739,6 +222739,54 @@ window.BENCHMARK_DATA = {
             "name": "Writing without sanitizing fields",
             "value": 4544.44,
             "range": "4573.13",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "321ad5b99225c05b0e8c074eee7abc7f12d190c6",
+          "message": "Also cache gradle in testCorrectness.yaml",
+          "timestamp": "2026-11-09T16:13:01+01:00",
+          "tree_id": "cae60226e453c935fb154b973de64b129320e5e8",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/321ad5b99225c05b0e8c074eee7abc7f12d190c6"
+        },
+        "date": 1794240650809,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.7629,
+            "range": "44.7631",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 134.229,
+            "range": "136.025",
+            "unit": "ns"
+          },
+          {
+            "name": "Regular Writing",
+            "value": 3435.88,
+            "range": "3541.13",
+            "unit": "ns"
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 3281.9,
+            "range": "3405.6",
             "unit": "ns"
           }
         ]
