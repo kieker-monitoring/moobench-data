@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794239718377,
+  "lastUpdate": 1794240125498,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -60543,6 +60543,54 @@ window.BENCHMARK_DATA = {
             "name": "Binary file",
             "value": 853.784,
             "range": "854.362",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "321ad5b99225c05b0e8c074eee7abc7f12d190c6",
+          "message": "Also cache gradle in testCorrectness.yaml",
+          "timestamp": "2026-11-09T16:13:01+01:00",
+          "tree_id": "cae60226e453c935fb154b973de64b129320e5e8",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/321ad5b99225c05b0e8c074eee7abc7f12d190c6"
+        },
+        "date": 1794240125436,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.8953,
+            "range": "44.9009",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 48.5225,
+            "range": "48.5231",
+            "unit": "ns"
+          },
+          {
+            "name": "No collection",
+            "value": 477.736,
+            "range": "478.468",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary file",
+            "value": 941.94,
+            "range": "942.836",
             "unit": "ns"
           }
         ]
