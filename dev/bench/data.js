@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794247085899,
+  "lastUpdate": 1794248541137,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -308622,6 +308622,54 @@ window.BENCHMARK_DATA = {
             "name": "Pinpoint Sampling",
             "value": 2858.53,
             "range": "2902.83",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "321ad5b99225c05b0e8c074eee7abc7f12d190c6",
+          "message": "Also cache gradle in testCorrectness.yaml",
+          "timestamp": "2026-11-09T16:13:01+01:00",
+          "tree_id": "cae60226e453c935fb154b973de64b129320e5e8",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/321ad5b99225c05b0e8c074eee7abc7f12d190c6"
+        },
+        "date": 1794248541064,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 47.7398,
+            "range": "47.7399",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Deactivated",
+            "value": 48.0884,
+            "range": "48.0886",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Basic",
+            "value": 10101.1,
+            "range": "10130.8",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Sampling",
+            "value": 4952.17,
+            "range": "4969.1",
             "unit": "ns"
           }
         ]
