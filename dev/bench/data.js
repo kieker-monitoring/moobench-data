@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794240125498,
+  "lastUpdate": 1794240314275,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -342293,6 +342293,66 @@ window.BENCHMARK_DATA = {
             "name": "Instrumentation JS with KPerf",
             "value": 6225.93,
             "range": "6236.77",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "321ad5b99225c05b0e8c074eee7abc7f12d190c6",
+          "message": "Also cache gradle in testCorrectness.yaml",
+          "timestamp": "2026-11-09T16:13:01+01:00",
+          "tree_id": "cae60226e453c935fb154b973de64b129320e5e8",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/321ad5b99225c05b0e8c074eee7abc7f12d190c6"
+        },
+        "date": 1794240314217,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation Java",
+            "value": 47.5943,
+            "range": "47.5963",
+            "unit": "ns"
+          },
+          {
+            "name": "Instrumentation Java with KPerf",
+            "value": 539.073,
+            "range": "539.079",
+            "unit": "ns"
+          },
+          {
+            "name": "No instrumentation Native",
+            "value": 62.8982,
+            "range": "62.9089",
+            "unit": "ns"
+          },
+          {
+            "name": "Instrumentation Native with KPerf",
+            "value": 2109.05,
+            "range": "2109.11",
+            "unit": "ns"
+          },
+          {
+            "name": "No instrumentation JS",
+            "value": 464.878,
+            "range": "465.022",
+            "unit": "ns"
+          },
+          {
+            "name": "Instrumentation JS with KPerf",
+            "value": 10548.2,
+            "range": "10550",
             "unit": "ns"
           }
         ]
