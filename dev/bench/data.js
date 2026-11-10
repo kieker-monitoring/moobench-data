@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794330301344,
+  "lastUpdate": 1794333001046,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -271660,6 +271660,60 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2061.73,
             "range": "2062.92",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a48557dd64c56c804ad0369d385a2744f9ececf0",
+          "message": "Merge pull request #79 from NeonMika/k-perf-fixes\n\nk-perf-kotlin fixes, configurable statistics, and optional outlier dropping",
+          "timestamp": "2026-11-10T17:03:41+01:00",
+          "tree_id": "3e60b8c0d5accb6e35a1e29ca4dfa54b0ede7d0e",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/a48557dd64c56c804ad0369d385a2744f9ececf0"
+        },
+        "date": 1794333000987,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.6861,
+            "range": "44.6862",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 842.516,
+            "range": "845.133",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 5012.3,
+            "range": "5013.01",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 5283.08,
+            "range": "5285.05",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2026.95,
+            "range": "2029",
             "unit": "ns"
           }
         ]
