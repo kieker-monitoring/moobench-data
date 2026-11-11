@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794406788698,
+  "lastUpdate": 1794407050411,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -115211,6 +115211,54 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2604.26,
             "range": "2605.34",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "da5c52ad988339722a1c20f7492b5af87610e4c7",
+          "message": "Remove outdated hint towards quality control - MooBench is executed\ncontinuously, not on Kieker pushes",
+          "timestamp": "2026-11-11T13:18:05+01:00",
+          "tree_id": "522e21e76441da596c40e307c5583761075f44fa",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/da5c52ad988339722a1c20f7492b5af87610e4c7"
+        },
+        "date": 1794407050379,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 32.3744,
+            "range": "32.3746",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 843.382,
+            "range": "843.89",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 1578.22,
+            "range": "1578.96",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 1397.96,
+            "range": "1398.35",
             "unit": "ns"
           }
         ]
