@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794409970052,
+  "lastUpdate": 1794410958640,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -310576,6 +310576,54 @@ window.BENCHMARK_DATA = {
             "name": "Pinpoint Sampling",
             "value": 4937.22,
             "range": "4996.66",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "b9ea6183d3dba734ed513dd5926c1f84a8054b37",
+          "message": "Fix framework list and init.sh location",
+          "timestamp": "2026-11-11T13:15:20+01:00",
+          "tree_id": "3f397bd074118fb25e1340fd2d11f25e0e3bc9a4",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/b9ea6183d3dba734ed513dd5926c1f84a8054b37"
+        },
+        "date": 1794410958603,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 34.6362,
+            "range": "34.6618",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Deactivated",
+            "value": 35.2591,
+            "range": "35.3228",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Basic",
+            "value": 6425.6,
+            "range": "6460.25",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Sampling",
+            "value": 2935,
+            "range": "2977.9",
             "unit": "ns"
           }
         ]
