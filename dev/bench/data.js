@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794405402395,
+  "lastUpdate": 1794405495497,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -272392,6 +272392,60 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 1163.97,
             "range": "1164.5",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "7712e056d739248b5992ee0b6c9f1b256f6aee61",
+          "message": "Remove 12 Thread Kieker Java variant, since it consumes a lot of\nresources and is not run regularly",
+          "timestamp": "2026-11-11T13:11:35+01:00",
+          "tree_id": "b7afb337679ffca8b081bce9dcf4e77e13521622",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/7712e056d739248b5992ee0b6c9f1b256f6aee61"
+        },
+        "date": 1794405495429,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.7809,
+            "range": "44.7811",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 854.732,
+            "range": "857.249",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 5092.47,
+            "range": "5093.17",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 5286.36,
+            "range": "5287.83",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2062.18,
+            "range": "2063.78",
             "unit": "ns"
           }
         ]
