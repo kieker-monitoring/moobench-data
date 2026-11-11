@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794407050411,
+  "lastUpdate": 1794407082976,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -310378,6 +310378,54 @@ window.BENCHMARK_DATA = {
             "name": "Pinpoint Sampling",
             "value": 5062.03,
             "range": "5116.89",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "7712e056d739248b5992ee0b6c9f1b256f6aee61",
+          "message": "Remove 12 Thread Kieker Java variant, since it consumes a lot of\nresources and is not run regularly",
+          "timestamp": "2026-11-11T13:11:35+01:00",
+          "tree_id": "b7afb337679ffca8b081bce9dcf4e77e13521622",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/7712e056d739248b5992ee0b6c9f1b256f6aee61"
+        },
+        "date": 1794407082934,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 32.2338,
+            "range": "32.2341",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Deactivated",
+            "value": 32.7164,
+            "range": "32.7328",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Basic",
+            "value": 5965.93,
+            "range": "5997.35",
+            "unit": "ns"
+          },
+          {
+            "name": "Pinpoint Sampling",
+            "value": 2836.82,
+            "range": "2912.91",
             "unit": "ns"
           }
         ]
