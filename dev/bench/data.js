@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794394817030,
+  "lastUpdate": 1794396035288,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -344157,6 +344157,64 @@ window.BENCHMARK_DATA = {
             "name": "Instrumentation JS with KPerf",
             "value": 8400.12,
             "range": "8400.7",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "a48557dd64c56c804ad0369d385a2744f9ececf0",
+          "message": "Merge pull request #79 from NeonMika/k-perf-fixes\n\nk-perf-kotlin fixes, configurable statistics, and optional outlier dropping",
+          "timestamp": "2026-11-10T16:03:41Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/a48557dd64c56c804ad0369d385a2744f9ececf0"
+        },
+        "date": 1794396035232,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation Java",
+            "value": 47.7874,
+            "range": "47.7906",
+            "unit": "ns"
+          },
+          {
+            "name": "Instrumentation Java with KPerf",
+            "value": 542.972,
+            "range": "542.979",
+            "unit": "ns"
+          },
+          {
+            "name": "No instrumentation Native",
+            "value": 63.0787,
+            "range": "63.0937",
+            "unit": "ns"
+          },
+          {
+            "name": "Instrumentation Native with KPerf",
+            "value": 2217.54,
+            "range": "2217.64",
+            "unit": "ns"
+          },
+          {
+            "name": "No instrumentation JS",
+            "value": 471.771,
+            "range": "471.957",
+            "unit": "ns"
+          },
+          {
+            "name": "Instrumentation JS with KPerf",
+            "value": 10595.4,
+            "range": "10596.5",
             "unit": "ns"
           }
         ]
