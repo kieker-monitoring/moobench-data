@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794402540317,
+  "lastUpdate": 1794402587638,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -114923,6 +114923,54 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2595.39,
             "range": "2595.83",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "1a3de9c7e0af5f9292a69ff63038f5057e406043",
+          "message": "Remove old execute scripts; unit testing is now done by\ntestCorrectness",
+          "timestamp": "2026-11-11T13:11:01+01:00",
+          "tree_id": "675516ac842df3938772c9c9d19451a834600c26",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/1a3de9c7e0af5f9292a69ff63038f5057e406043"
+        },
+        "date": 1794402587596,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 34.5912,
+            "range": "34.6057",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 929.472,
+            "range": "930.045",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 1678.92,
+            "range": "1680.04",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 1509.29,
+            "range": "1509.88",
             "unit": "ns"
           }
         ]
