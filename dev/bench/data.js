@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794401881332,
+  "lastUpdate": 1794401941462,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -60827,6 +60827,54 @@ window.BENCHMARK_DATA = {
             "name": "Binary file",
             "value": 805.318,
             "range": "805.82",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "1a3de9c7e0af5f9292a69ff63038f5057e406043",
+          "message": "Remove old execute scripts; unit testing is now done by\ntestCorrectness",
+          "timestamp": "2026-11-11T13:11:01+01:00",
+          "tree_id": "675516ac842df3938772c9c9d19451a834600c26",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/1a3de9c7e0af5f9292a69ff63038f5057e406043"
+        },
+        "date": 1794401941408,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 38.1403,
+            "range": "38.147",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 44.7697,
+            "range": "44.7806",
+            "unit": "ns"
+          },
+          {
+            "name": "No collection",
+            "value": 518.817,
+            "range": "518.967",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary file",
+            "value": 1609.1,
+            "range": "1611.1",
             "unit": "ns"
           }
         ]
