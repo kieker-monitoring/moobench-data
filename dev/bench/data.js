@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794396035288,
+  "lastUpdate": 1794398851104,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -271806,6 +271806,58 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2026.95,
             "range": "2029",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "a48557dd64c56c804ad0369d385a2744f9ececf0",
+          "message": "Merge pull request #79 from NeonMika/k-perf-fixes\n\nk-perf-kotlin fixes, configurable statistics, and optional outlier dropping",
+          "timestamp": "2026-11-10T16:03:41Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/a48557dd64c56c804ad0369d385a2744f9ececf0"
+        },
+        "date": 1794398851053,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 39.0043,
+            "range": "39.0411",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 741.385,
+            "range": "743.147",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 4513.56,
+            "range": "4514.53",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 4581.32,
+            "range": "4582.2",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 1777.23,
+            "range": "1957.29",
             "unit": "ns"
           }
         ]
