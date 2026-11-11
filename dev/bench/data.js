@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794402587638,
+  "lastUpdate": 1794402842813,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -60875,6 +60875,54 @@ window.BENCHMARK_DATA = {
             "name": "Binary file",
             "value": 1609.1,
             "range": "1611.1",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "b9ea6183d3dba734ed513dd5926c1f84a8054b37",
+          "message": "Fix framework list and init.sh location",
+          "timestamp": "2026-11-11T13:15:20+01:00",
+          "tree_id": "3f397bd074118fb25e1340fd2d11f25e0e3bc9a4",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/b9ea6183d3dba734ed513dd5926c1f84a8054b37"
+        },
+        "date": 1794402842755,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.7996,
+            "range": "44.7998",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 48.7131,
+            "range": "48.7139",
+            "unit": "ns"
+          },
+          {
+            "name": "No collection",
+            "value": 476.363,
+            "range": "476.397",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary file",
+            "value": 921.015,
+            "range": "921.385",
             "unit": "ns"
           }
         ]
