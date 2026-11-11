@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794402842813,
+  "lastUpdate": 1794403064318,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -115019,6 +115019,54 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 1509.29,
             "range": "1509.88",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "7712e056d739248b5992ee0b6c9f1b256f6aee61",
+          "message": "Remove 12 Thread Kieker Java variant, since it consumes a lot of\nresources and is not run regularly",
+          "timestamp": "2026-11-11T13:11:35+01:00",
+          "tree_id": "b7afb337679ffca8b081bce9dcf4e77e13521622",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/7712e056d739248b5992ee0b6c9f1b256f6aee61"
+        },
+        "date": 1794403064258,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.8504,
+            "range": "44.8505",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 1813.05,
+            "range": "1813.65",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 2977.9,
+            "range": "2979.38",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2610.36,
+            "range": "2610.52",
             "unit": "ns"
           }
         ]
