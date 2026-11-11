@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794398851104,
+  "lastUpdate": 1794401729046,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -344267,6 +344267,66 @@ window.BENCHMARK_DATA = {
             "name": "Instrumentation JS with KPerf",
             "value": 10595.4,
             "range": "10596.5",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "7712e056d739248b5992ee0b6c9f1b256f6aee61",
+          "message": "Remove 12 Thread Kieker Java variant, since it consumes a lot of\nresources and is not run regularly",
+          "timestamp": "2026-11-11T13:11:35+01:00",
+          "tree_id": "b7afb337679ffca8b081bce9dcf4e77e13521622",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/7712e056d739248b5992ee0b6c9f1b256f6aee61"
+        },
+        "date": 1794401729014,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation Java",
+            "value": 34.8124,
+            "range": "34.8295",
+            "unit": "ns"
+          },
+          {
+            "name": "Instrumentation Java with KPerf",
+            "value": 374.697,
+            "range": "375.45",
+            "unit": "ns"
+          },
+          {
+            "name": "No instrumentation Native",
+            "value": 40.6359,
+            "range": "40.6891",
+            "unit": "ns"
+          },
+          {
+            "name": "Instrumentation Native with KPerf",
+            "value": 1161.54,
+            "range": "1162.01",
+            "unit": "ns"
+          },
+          {
+            "name": "No instrumentation JS",
+            "value": 265.575,
+            "range": "265.747",
+            "unit": "ns"
+          },
+          {
+            "name": "Instrumentation JS with KPerf",
+            "value": 6029.68,
+            "range": "6044.93",
             "unit": "ns"
           }
         ]
