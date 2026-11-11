@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794407082976,
+  "lastUpdate": 1794407361213,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -60971,6 +60971,54 @@ window.BENCHMARK_DATA = {
             "name": "Binary file",
             "value": 1232.98,
             "range": "1234.5",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "da5c52ad988339722a1c20f7492b5af87610e4c7",
+          "message": "Remove outdated hint towards quality control - MooBench is executed\ncontinuously, not on Kieker pushes",
+          "timestamp": "2026-11-11T13:18:05+01:00",
+          "tree_id": "522e21e76441da596c40e307c5583761075f44fa",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/da5c52ad988339722a1c20f7492b5af87610e4c7"
+        },
+        "date": 1794407361146,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.7416,
+            "range": "44.7416",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 48.5275,
+            "range": "48.5277",
+            "unit": "ns"
+          },
+          {
+            "name": "No collection",
+            "value": 474.681,
+            "range": "474.731",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary file",
+            "value": 971.613,
+            "range": "971.803",
             "unit": "ns"
           }
         ]
