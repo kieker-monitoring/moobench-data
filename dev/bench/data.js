@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794404455326,
+  "lastUpdate": 1794404973012,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -272290,6 +272290,60 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 1777.23,
             "range": "1957.29",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "1a3de9c7e0af5f9292a69ff63038f5057e406043",
+          "message": "Remove old execute scripts; unit testing is now done by\ntestCorrectness",
+          "timestamp": "2026-11-11T13:11:01+01:00",
+          "tree_id": "675516ac842df3938772c9c9d19451a834600c26",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/1a3de9c7e0af5f9292a69ff63038f5057e406043"
+        },
+        "date": 1794404972975,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 34.1609,
+            "range": "34.1725",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 491.714,
+            "range": "492.516",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 3070.9,
+            "range": "3076.42",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 3137.25,
+            "range": "3142.86",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 1163.97,
+            "range": "1164.5",
             "unit": "ns"
           }
         ]
