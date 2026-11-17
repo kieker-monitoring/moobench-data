@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794931909649,
+  "lastUpdate": 1794935064503,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -273888,6 +273888,60 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 1104.52,
             "range": "1105.02",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "da720bc68159a313094b8ab8434492df39fdc19a",
+          "message": "Merge pull request #82 from shinhyungyang/Kieker-python-use-release-package\n\nUse release package of Kieker Python",
+          "timestamp": "2026-11-17T16:18:23+01:00",
+          "tree_id": "ff2fff138bf3ade446de08dc47c89904f4602e1d",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/da720bc68159a313094b8ab8434492df39fdc19a"
+        },
+        "date": 1794935064446,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.7282,
+            "range": "44.7283",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 824.429,
+            "range": "836.465",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 5047.24,
+            "range": "5048.82",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 5322.82,
+            "range": "5328.47",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2045.39,
+            "range": "2049.46",
             "unit": "ns"
           }
         ]
