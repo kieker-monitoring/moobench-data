@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1795438888038,
+  "lastUpdate": 1795440983137,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -275030,6 +275030,58 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2083.77,
             "range": "2085.97",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "da720bc68159a313094b8ab8434492df39fdc19a",
+          "message": "Merge pull request #82 from shinhyungyang/Kieker-python-use-release-package\n\nUse release package of Kieker Python",
+          "timestamp": "2026-11-17T15:18:23Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/da720bc68159a313094b8ab8434492df39fdc19a"
+        },
+        "date": 1795440983078,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.7655,
+            "range": "44.7657",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 806.701,
+            "range": "808.267",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 5015.75,
+            "range": "5017.25",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 5288.03,
+            "range": "5289.16",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2042.13,
+            "range": "2042.45",
             "unit": "ns"
           }
         ]
