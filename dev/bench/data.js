@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1795540630041,
+  "lastUpdate": 1795541060440,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -226309,6 +226309,54 @@ window.BENCHMARK_DATA = {
             "name": "Writing without sanitizing fields",
             "value": 3501.13,
             "range": "3611.13",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shinhyung.yang@email.uni-kiel.de",
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "da4d148f2185b3915ac130d632e4d181225da489",
+          "message": "Bump kieker-lang-pack-python from 0.0.3 to 0.0.10",
+          "timestamp": "2026-11-24T17:31:21+01:00",
+          "tree_id": "b9e55b8498ecff9d8f00b48568c3e12da6f270f6",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/da4d148f2185b3915ac130d632e4d181225da489"
+        },
+        "date": 1795541060396,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 36.523,
+            "range": "36.5719",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 80.7116,
+            "range": "81.4073",
+            "unit": "ns"
+          },
+          {
+            "name": "Regular Writing",
+            "value": 2945.68,
+            "range": "2963.03",
+            "unit": "ns"
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 3012.72,
+            "range": "3016.67",
             "unit": "ns"
           }
         ]
