@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1795548429167,
+  "lastUpdate": 1795610743416,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -61905,6 +61905,52 @@ window.BENCHMARK_DATA = {
             "name": "Binary file",
             "value": 1450.72,
             "range": "1453.52",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang",
+            "email": "shinhyung.yang@email.uni-kiel.de"
+          },
+          "committer": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "da4d148f2185b3915ac130d632e4d181225da489",
+          "message": "Bump kieker-lang-pack-python from 0.0.3 to 0.0.10",
+          "timestamp": "2026-11-24T09:33:56Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/da4d148f2185b3915ac130d632e4d181225da489"
+        },
+        "date": 1795610743373,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 37.2241,
+            "range": "37.2244",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 40.0111,
+            "range": "40.0115",
+            "unit": "ns"
+          },
+          {
+            "name": "No collection",
+            "value": 385.351,
+            "range": "385.367",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary file",
+            "value": 806.214,
+            "range": "806.515",
             "unit": "ns"
           }
         ]
