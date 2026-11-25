@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1795610743416,
+  "lastUpdate": 1795611303222,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -116705,6 +116705,52 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 1780.99,
             "range": "1781.17",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang",
+            "email": "shinhyung.yang@email.uni-kiel.de"
+          },
+          "committer": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "da4d148f2185b3915ac130d632e4d181225da489",
+          "message": "Bump kieker-lang-pack-python from 0.0.3 to 0.0.10",
+          "timestamp": "2026-11-24T09:33:56Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/da4d148f2185b3915ac130d632e4d181225da489"
+        },
+        "date": 1795611303167,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 44.7332,
+            "range": "44.7333",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 1829.42,
+            "range": "1833.05",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 3003.77,
+            "range": "3005.57",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 2629,
+            "range": "2630.52",
             "unit": "ns"
           }
         ]
