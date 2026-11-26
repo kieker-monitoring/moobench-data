@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1795700190421,
+  "lastUpdate": 1795701343485,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -346160,6 +346160,70 @@ window.BENCHMARK_DATA = {
             "name": "Binary TCP - B",
             "value": 54912.2,
             "range": "54924.7",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "b8d3317e3b32c1031bd1d2ecbaf4f979f8bd1ed7",
+          "message": "Update to gradlew 9.9.2",
+          "timestamp": "2026-11-25T21:35:03Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/b8d3317e3b32c1031bd1d2ecbaf4f979f8bd1ed7"
+        },
+        "date": 1795701343439,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 253.425,
+            "range": "253.568",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe - A",
+            "value": 617.641,
+            "range": "617.689",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe - B",
+            "value": 624.183,
+            "range": "624.275",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging - A",
+            "value": 20037.2,
+            "range": "20039.5",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging - B",
+            "value": 5563.89,
+            "range": "5564.54",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary TCP - A",
+            "value": 67880.2,
+            "range": "67900.5",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary TCP - B",
+            "value": 43261,
+            "range": "43288.5",
             "unit": "ns"
           }
         ]
